@@ -1,0 +1,12 @@
+<model>
+  <skeleton    src ="skeletons/player/player.csf"/>
+  <animations src ="skeletons/player/"/>
+  <mesh     src="skeletons/player/player.cmf"/>
+  <key_bones 
+    pelvis="Raijin Pelvis"
+    spine_down="Raijin Spine"
+    spine_up="Raijin Spine1"
+    neck="Raijin Neck"
+    head="Raijin Head"
+  />
+</model>
