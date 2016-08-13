@@ -14,5 +14,4 @@ max/max*
 *.VC.db
 *.orig
 *.opendb
-bin/Phys*
 bin/data/navmeshes/
