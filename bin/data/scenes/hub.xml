@@ -1,0 +1,751 @@
+<entities>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni005"/>
+<transform
+   pos="9.27955 56.6631 -17.3862"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.713726 0.988235 1.0 0.9"
+   in_radius="18.0"
+   out_radius="96.5"/>
+<name
+   name="Omni013"/>
+<transform
+   pos="29.9741 56.9098 -25.4998"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.847059 0.639216 0.831373 0.9"
+   in_radius="46.6439"
+   out_radius="96.5"/>
+<name
+   name="Omni016"/>
+<transform
+   pos="25.4809 57.1157 -19.4281"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni020"/>
+<transform
+   pos="21.6102 55.2413 -28.0003"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 1.0 1.0 0.5"
+   in_radius="18.0"
+   out_radius="96.5"/>
+<name
+   name="Omni050"/>
+<transform
+   pos="30.2588 52.8794 -25.4998"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni087"/>
+<transform
+   pos="9.27955 55.9599 -17.3862"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni088"/>
+<transform
+   pos="9.27955 55.4183 -17.3862"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni089"/>
+<transform
+   pos="13.6517 56.6631 -17.3862"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni090"/>
+<transform
+   pos="13.7259 55.9833 -17.3862"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni091"/>
+<transform
+   pos="13.7249 55.4183 -17.3862"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni092"/>
+<transform
+   pos="9.58666 56.6631 -33.6328"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni093"/>
+<transform
+   pos="9.58666 55.9599 -33.6328"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni094"/>
+<transform
+   pos="9.58666 55.4183 -33.6328"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni095"/>
+<transform
+   pos="13.7976 56.6631 -33.6328"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni096"/>
+<transform
+   pos="13.7976 55.9599 -33.6328"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.560784 0.862745 0.960784 5.0"
+   in_radius="18.0"
+   out_radius="28.5"/>
+<name
+   name="Omni097"/>
+<transform
+   pos="13.7976 55.4183 -33.6328"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni098"/>
+<transform
+   pos="21.5084 55.2413 -27.5399"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni099"/>
+<transform
+   pos="1.50509 55.2413 -23.4497"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni100"/>
+<transform
+   pos="21.6102 55.2413 -22.8652"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni101"/>
+<transform
+   pos="1.41098 55.2413 -27.4707"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni102"/>
+<transform
+   pos="1.41098 55.2413 -28.1233"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni103"/>
+<transform
+   pos="1.48282 55.2413 -22.9475"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni104"/>
+<transform
+   pos="21.5242 55.2413 -23.4787"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.847059 0.639216 0.831373 0.9"
+   in_radius="46.6439"
+   out_radius="96.5"/>
+<name
+   name="Omni105"/>
+<transform
+   pos="25.4809 57.1157 -31.5559"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.847059 0.639216 0.831373 0.9"
+   in_radius="46.6439"
+   out_radius="96.5"/>
+<name
+   name="Omni106"/>
+<transform
+   pos="-2.47332 57.1157 -19.4281"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.847059 0.639216 0.831373 0.9"
+   in_radius="46.6439"
+   out_radius="96.5"/>
+<name
+   name="Omni107"/>
+<transform
+   pos="-2.47332 57.1157 -31.4307"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.713726 0.988235 1.0 0.9"
+   in_radius="18.0"
+   out_radius="96.5"/>
+<name
+   name="Omni108"/>
+<transform
+   pos="29.9741 56.9098 -24.6767"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="0.713726 0.988235 1.0 0.9"
+   in_radius="18.0"
+   out_radius="96.5"/>
+<name
+   name="Omni109"/>
+<transform
+   pos="29.9741 56.9098 -26.2896"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni110"/>
+<transform
+   pos="15.7901 55.2413 -19.9327"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni111"/>
+<transform
+   pos="15.7901 55.2413 -31.0035"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni112"/>
+<transform
+   pos="7.25294 55.2413 -31.0035"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 0.968628 0.635294 9.09"
+   in_radius="28.7"
+   out_radius="53.5"/>
+<name
+   name="Omni113"/>
+<transform
+   pos="7.25294 55.2413 -19.9327"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="blocking_light"/>
+<transform
+   pos="13.9828 50.6611 -23.3679"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/blocking_light.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="ceiling"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/ceiling.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="reja"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/reja.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="cenefa_1"/>
+<transform
+   pos="9.54042 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/cenefa_1.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="cenefa_2"/>
+<transform
+   pos="9.54042 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/cenefa_2.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="arc_door"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/arc_door.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="window_wall"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/window_wall.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="columna_2"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/columna_2.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="door"/>
+<transform
+   pos="30.2741 50.6749 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/door.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="columna"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/columna.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="floor"/>
+<transform
+   pos="9.54042 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/floor.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="machine_table"/>
+<transform
+   pos="-2.27247 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/machine_table.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="control_panel"/>
+<transform
+   pos="25.0846 50.6621 -20.1743"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/control_panel.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="sofa"/>
+<transform
+   pos="-1.94649 50.6621 -20.0874"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/sofa.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="wall_lamp"/>
+<transform
+   pos="15.8054 55.225 -31.1158"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/wall_lamp.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="arc_door"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/arc_door.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="wall1"/>
+<transform
+   pos="11.53 50.6611 -17.241"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/wall1.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="wall2"/>
+<transform
+   pos="30.3041 54.7952 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/wall2.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="wall_3"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/wall_3.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="ceiling_tile"/>
+<transform
+   pos="11.53 62.0718 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/ceiling_tile.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+
+</entities>
