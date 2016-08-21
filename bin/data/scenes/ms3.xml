@@ -1180,23 +1180,6 @@
 <entity>
 <tags/>
 <name
-   name="maquinas_abajo"/>
-<transform
-   pos="-5.8235 -22.9851 1.74293"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/maquinas_abajo.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="marco_balcon_cuadrado_izquierdo"/>
 <transform
    pos="10.3069 -10.145 25.1489"
@@ -4372,7 +4355,7 @@
 <name
    name="turbina_"/>
 <transform
-   pos="-9.62175 -24.0178 18.016"
+   pos="-9.62175 -24.0369 18.016"
    quat="0 -0.819152 0 0.573576"
    scale="0.980927"/>
 <render_static_mesh
@@ -4392,6 +4375,21 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/estanteria_3.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="maquinas_abajo"/>
+<transform
+   pos="-27.0208 -24.0188 6.72864"
+   quat="0 0.327495 0 0.944853"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/maquinas_abajo.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
