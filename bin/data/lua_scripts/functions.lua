@@ -3,6 +3,7 @@ print('This is lua')
 SLB.using( SLB )
 
 p = Public( )
+cam = Camera()
 
 function Teleport( param )
     p:print( "Teleport: "..param.."\n" )
@@ -49,7 +50,11 @@ function SaveLevel( )
 	p:save_level()
 end
 
+g_current_level = "level_0"
 function LoadLevel( logic_level )
+g_current_level = logic_level
 	p:print("Load Level")
-	p:load_level(logic_level)
+	cam:fade_out(1)
+	p:setControlEnabled(0)
+	p:exec_command("p:load_level(\""..logic_level.."\")", 1)
 end

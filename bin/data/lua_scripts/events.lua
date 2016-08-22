@@ -4,6 +4,7 @@ SLB.using( SLB )
 
 p = Public( )
 h = Handle()
+pl = Player()
 cam = Camera()
 
 function CallFunction(func)
@@ -57,7 +58,9 @@ end
 
 function OnGameStart( param )
 	p:print( "OnGameStart: "..param.."\n" )
-	p:load_level("level_0")
+	p:load_entities("init")
+	p:exec_command("p:load_level(\"level_0\")", 2)
+	--p:load_entities("title")
 	CallFunction("test_dbg")
 end
 
@@ -67,7 +70,8 @@ end
 
 function OnGuardAttack( reaction_time )
 	p:print( "OnGuardAttack: "..reaction_time.."\n" )
-	p:play_voice("event:/OnGuardAttack")
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnGuardAttack", pl:get_x(), pl:get_y(), pl:get_z(), h:get_x(), h:get_y(), h:get_z())
 end
 
 function OnGuardAttackEnd( reaction_time )
@@ -223,8 +227,8 @@ end
 
 function OnDetected( distance, posx, posy, posz )
 	p:print( "OnDetected: "..distance.." "..posx.." "..posy.." "..posz.."\n" )
-	p:play_sound("event:/OnDetected")
-	h:getHandleCaller()
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnDetected", pl:get_x(), pl:get_y(), pl:get_z(), h:get_x(), h:get_y(), h:get_z())
 	name_guard = h:get_name()
 	CallFunction("OnDetected_"..name_guard)
 	--p:character_globe("Intruder detected!", distance, posx, posy, posz)
@@ -326,9 +330,7 @@ end
 ---------------------------------------------------
 function OnRestartLevel( logic_level, real_level )
 	p:print( "OnRestartLevel\n")
-	cam:fade_out(1)
-	p:setControlEnabled(0)
-	p:exec_command("LoadLevel(\""..logic_level.."\");", 1) -- Defined in functions.lua
+	LoadLevel(logic_level) -- Defined in functions.lua
 end
 
 --Levels
@@ -357,4 +359,16 @@ end
 function OnVictory( )
 	p:print( "OnVictory\n")
 	launchVictoryState();
+end
+
+-- GUI
+---------------------------------------------------
+function OnClicked( param )
+	p:print("OnClicked")
+	CallFunction("OnClicked_"..param)
+end
+
+function OnPause( )
+	p:print("OnPause")
+	p:load_entities("menu")
 end
