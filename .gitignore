@@ -11,6 +11,8 @@ bin/Settings.cap
 bin/results.cpuprofile
 bin/Engined.exp
 bin/log.txt
+bin/*.map
+bin/*.pdb
 max/max*
 *.VC.db
 *.orig

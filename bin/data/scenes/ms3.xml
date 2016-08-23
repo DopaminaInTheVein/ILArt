@@ -14,21 +14,6 @@
 <entity>
 <tags/>
 <name
-   name="alarma"/>
-<transform
-   pos="-67.2547 17.6254 18.7389"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/alarma.static_mesh"/>
-<abs_aabb/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="alarma_mapeada"/>
 <transform
    pos="-93.4887 0.0968893 -4.23804"
@@ -148,137 +133,6 @@
 <entity>
 <tags/>
 <name
-   name="barandilla_mapeaaado"/>
-<transform
-   pos="-89.2474 -0.82739 -9.23426"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla_mapeaaado.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandilla4"/>
-<transform
-   pos="-66.8816 16.2484 18.6188"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla4.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandilla005"/>
-<transform
-   pos="-67.671 16.2484 16.9526"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla005.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"
-   type_shape="convex"
-   mass="5"/>
-<local_aabb/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandilla006"/>
-<transform
-   pos="-64.6155 16.2722 14.3309"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla006.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"
-   type_shape="convex"
-   mass="5"/>
-<local_aabb/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandilla007"/>
-<transform
-   pos="-66.2139 16.2722 13.8865"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla007.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"
-   type_shape="convex"
-   mass="5"/>
-<local_aabb/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandilla008"/>
-<transform
-   pos="-63.8707 16.2722 15.6266"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla008.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"
-   type_shape="convex"
-   mass="5"/>
-<local_aabb/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandillas2"/>
-<transform
-   pos="-86.6447 -0.842288 4.75572"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandillas2.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="barrotes_balcon_arriba"/>
 <transform
    pos="-34.9403 -0.685649 -1.29331"
@@ -388,40 +242,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/biombo_mapeadoabajo.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="bookcase_door2_LP002"/>
-<transform
-   pos="-80.4115 -0.391431 8.25591"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/bookcase_door2_LP002.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="bookcaseLP002"/>
-<transform
-   pos="-105.471 -0.679752 -7.85363"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/bookcaseLP002.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -1139,40 +959,6 @@
 <entity>
 <tags/>
 <name
-   name="escritorio_1"/>
-<transform
-   pos="-84.0394 -1.29169 -5.7843"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/escritorio_1.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="extintor"/>
-<transform
-   pos="-67.6755 18.7784 19.3041"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/extintor.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="extintor_mapeado"/>
 <transform
    pos="-93.0386 8.8715 -3.41037"
@@ -1202,23 +988,6 @@
    type_collision="static"/>
 <room
    name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="fotocopiadora"/>
-<transform
-   pos="-74.5125 -0.765186 6.41702"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/fotocopiadora.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
 
 </entity>
 <entity>
@@ -1333,23 +1102,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/lampara001.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="lamparas_derecha"/>
-<transform
-   pos="21.0467 -18.9816 24.4611"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/lamparas_derecha.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -1649,443 +1401,6 @@
 <entity>
 <tags/>
 <name
-   name="nivel001"/>
-<transform
-   pos="-2.6115 -6.89124 0.152153"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/nivel001.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni001"/>
-<transform
-   pos="-88.4677 0.951569 21.5601"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni003"/>
-<transform
-   pos="-89.9982 2.064 16.6065"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni004"/>
-<transform
-   pos="-91.0556 4.82803 2.45131"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni005"/>
-<transform
-   pos="-91.8613 4.82803 -10.0189"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni007"/>
-<transform
-   pos="-76.9082 4.82803 2.45131"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni008"/>
-<transform
-   pos="-77.2906 4.82803 -14.8931"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni009"/>
-<transform
-   pos="-70.3717 4.82803 -6.88677"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni010"/>
-<transform
-   pos="-79.8062 4.82803 -25.7337"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni011"/>
-<transform
-   pos="-86.5671 4.82803 -25.7337"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni012"/>
-<transform
-   pos="-92.3876 5.26333 -17.8474"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni013"/>
-<transform
-   pos="-99.9072 4.82803 -10.0189"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni014"/>
-<transform
-   pos="-69.5727 5.10345 7.90419"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni015"/>
-<transform
-   pos="-64.737 5.10345 16.7377"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni016"/>
-<transform
-   pos="-65.5972 18.5703 17.9763"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni017"/>
-<transform
-   pos="-65.5972 18.5703 13.2047"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni018"/>
-<transform
-   pos="-65.7584 17.7416 8.94429"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni019"/>
-<transform
-   pos="-108.437 1.81828 -10.0189"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni020"/>
-<transform
-   pos="-122.191 1.63284 -10.0189"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni021"/>
-<transform
-   pos="-82.7751 4.82803 -38.4444"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni022"/>
-<transform
-   pos="-76.1604 4.82803 -42.2205"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni023"/>
-<transform
-   pos="-9.26134 -3.17584 -1.27001"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni024"/>
-<transform
-   pos="-4.71288 -6.58136 0.921652"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni025"/>
-<transform
-   pos="-6.61168 -6.48627 -5.32213"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni026"/>
-<transform
-   pos="-12.9618 -6.48627 -4.85997"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni027"/>
-<transform
-   pos="-14.7108 -6.48627 -0.0966661"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni028"/>
-<transform
-   pos="-10.0603 -6.31574 4.37965"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni029"/>
-<transform
-   pos="0.452164 -18.5472 24.2437"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni030"/>
-<transform
-   pos="0.189438 -18.5472 -24.2676"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni031"/>
-<transform
-   pos="27.032 -18.5472 -1.55589"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<light_point
-   color="0.694118 0.560784 0.415686 0.2"
-   in_radius="7.0"
-   out_radius="55.0"/>
-<name
-   name="Omni032"/>
-<transform
-   pos="-115.831 1.81828 -10.0189"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="panel_mapeado"/>
 <transform
    pos="-85.7992 8.65631 -0.144349"
@@ -2144,23 +1459,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/panel_seguridad_mapeado004.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="paneles_seguridad"/>
-<transform
-   pos="-72.6722 8.69011 1.9557"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/paneles_seguridad.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -2681,40 +1979,6 @@
 <entity>
 <tags/>
 <name
-   name="plafones"/>
-<transform
-   pos="-73.0147 18.9882 18.6652"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/plafones.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="plataforma_balcon_cuadrado_izquierdo"/>
-<transform
-   pos="10.1696 -11.9814 21.9434"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/plataforma_balcon_cuadrado_izquierdo.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="plataforma_balcon_cuadrado_izquierdo001"/>
 <transform
    pos="-15.0113 -3.08759 -23.495"
@@ -2814,23 +2078,6 @@
 <entity>
 <tags/>
 <name
-   name="puerta_balcon_cuadrado_izquierdo"/>
-<transform
-   pos="10.2901 -10.2875 25.095"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/puerta_balcon_cuadrado_izquierdo.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="puerta_cerrada_mapeada"/>
 <transform
    pos="-68.361 8.53101 -2.83843"
@@ -2911,40 +2158,6 @@
    type_collision="static"/>
 <room
    name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="rejilla_de_ventilacion"/>
-<transform
-   pos="-75.129 16.8279 19.4169"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/rejilla_de_ventilacion.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="rejilla_grande"/>
-<transform
-   pos="-68.4537 18.8142 16.6043"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/rejilla_grande.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
 
 </entity>
 <entity>
@@ -3218,21 +2431,6 @@
 <entity>
 <tags/>
 <name
-   name="suelo_2"/>
-<transform
-   pos="-97.2604 -0.600098 -16.655"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/office/nivel.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="suelo_003"/>
 <transform
    pos="-83.0827 -1.31786 -9.24089"
@@ -3294,23 +2492,6 @@
    type_collision="static"/>
 <room
    name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="techo_caseto"/>
-<transform
-   pos="-81.3962 4.1466 -7.86746"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/techo_caseto.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
 
 </entity>
 <entity>
@@ -3487,23 +2668,6 @@
 <entity>
 <tags/>
 <name
-   name="trozo_plataforma_2"/>
-<transform
-   pos="3.01385 -20.9314 -15.6435"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/trozo_plataforma_2.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="trozos_columnas_rotas"/>
 <transform
    pos="-20.2575 -23.6701 2.46468"
@@ -3550,43 +2714,6 @@
    type_collision="static"/>
 <room
    name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="valla_arriba_1"/>
-<transform
-   pos="-63.9431 16.2484 18.6188"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/valla_arriba_1.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"
-   type_shape="convex"
-   mass="5"/>
-<local_aabb/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="ventilador"/>
-<transform
-   pos="-76.8743 14.206 4.90643"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/ventilador.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
 
 </entity>
 <entity>
@@ -3927,36 +3054,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/puertas_milestone.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandilla_2"/>
-<transform
-   pos="-89.2474 -0.82739 -9.23426"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla_2.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="barandilla_5"/>
-<transform
-   pos="-89.2474 -0.82739 -9.23426"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/barandilla_5.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
