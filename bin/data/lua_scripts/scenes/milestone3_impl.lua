@@ -21,13 +21,12 @@ function auxiliarMusic()
 end
 
 function OnStart_ms3()
-  p:print("OnLoaded Scene MS3")
+  p:print("OnStarted Scene MS3")
   isDoorOpen = false
   alert = false
   stateElevator = 1 -- 1= up , 0 = down
   cp_elevator = false
   cp_door_opened = false
-  p:play_video("data\\videos\\intro.avi")
   p:exec_command("auxiliarMusic();",14)
   --triggerGuardFormation();
   --p:exec_command( "triggerGuardFormation();", 15 )
@@ -69,6 +68,15 @@ function OnLeave_tElevator( )
   --Nothing to do
   --p:player_talks_color("I'm out of an elevator! \nI'm not so cool!!! \nI wanna die my hair black!","scientific.dds","SCI", "#FF2222FF","#22FF22FF")
 end
+
+-- Creating Bomb
+---------------------------------------------------------------------------------------------
+
+function OnCreateBomb_ms3( )
+	p:complete_tasklist(11)
+end
+
+
 
 -- Pila --
 --------------------------------------------------------------------------------------------
@@ -198,6 +206,10 @@ function OnPutPila_enchufe()
 		openDoorPila()
 	end
   end
+end
+
+function OnPutPila_cargador_bateria()
+  p:complete_tasklist(6)
 end
 
 function cineDoor( )

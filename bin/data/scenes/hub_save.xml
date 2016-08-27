@@ -1,0 +1,206 @@
+<entities
+>
+<entity
+	id="6"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	anim="sleep"
+	model="skeletons/scientist/scientist.skeleton"
+	/>
+<skeleton_ik
+	/>
+<name
+	name="_scientist_1"
+	/>
+<transform
+	pos="-1.703250 51.415901 -30.717501"
+	quat="0.000000 0.401707 0.000000 0.915768"
+	scale="0.009299 0.009299 0.009299"
+	/>
+<render_static_mesh
+	name="skeletons/scientist/scientist.static_mesh"
+	/>
+<tags
+	tags="end_hub               "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	smooth="0"
+	type_collision="static"
+	type_shape="mesh"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<player
+	/>
+<skeleton
+	model="skeletons/player/player.skeleton"
+	/>
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_player
+	/>
+<name
+	name="player_1"
+	/>
+<transform
+	pos="-2.496943 53.674488 -24.623638"
+	quat="-0.000000 -0.999956 0.000000 0.009325"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/player/player.static_mesh"
+	/>
+<life
+	points="148.079"
+	/>
+<tags
+	tags="player raijin              "
+	/>
+<character_controller
+	height="0.7"
+	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="1"
+	reload="1"
+>
+<culling
+	/>
+<name
+	name="camController_1"
+	/>
+<transform
+	pos="-2.534636 54.699615 -26.623123"
+	quat="0.006283 0.009424 -0.000059 0.999936"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<camera_main
+	/>
+<controller_3rd_person
+	/>
+<tags
+	tags="camera_main               "
+	/>
+<render_glow
+	/>
+<FX_fade_screen
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="dream"
+	actived="0"
+	/>
+<name
+	name="thub_mole"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.946490 51.644199 -20.087400"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="trigger               "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="0.937023 0.491037 1.437020"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="dream"
+	actived="1"
+	/>
+<name
+	name="thub_sci"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.789580 51.644199 -30.809500"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="trigger               "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="0.937023 0.491037 1.437020"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+	/>
+</entity>
+<entity
+	id="5"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	anim="sleep"
+	model="skeletons/mole/mole.skeleton"
+	/>
+<skeleton_ik
+	/>
+<name
+	name="_mole_slept"
+	/>
+<transform
+	pos="-1.946490 51.386902 -20.087400"
+	quat="0.000000 0.960939 0.000000 0.276759"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/mole/mole.static_mesh"
+	/>
+<tags
+	tags=""
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	smooth="0"
+	type_collision="static"
+	type_shape="mesh"
+	/>
+</entity>
+</entities>

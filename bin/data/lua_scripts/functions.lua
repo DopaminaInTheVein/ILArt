@@ -5,6 +5,10 @@ SLB.using( SLB )
 p = Public( )
 cam = Camera()
 
+function nothing( )
+	--Default function doesnt do anything
+end
+
 function Teleport( param )
     p:print( "Teleport: "..param.."\n" )
 end
@@ -57,4 +61,12 @@ g_current_level = logic_level
 	cam:fade_out(1)
 	p:setControlEnabled(0)
 	p:exec_command("p:load_level(\""..logic_level.."\")", 1)
+end
+function LoadLevelSaving( logic_level )
+g_current_level = logic_level
+	p:print("Load Level")
+	cam:fade_out(1)
+	p:setControlEnabled(0)
+	p:exec_command("SaveLevel()", 1)
+	p:exec_command("p:load_level(\""..logic_level.."\")", 1.2)
 end
