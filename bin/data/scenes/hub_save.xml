@@ -27,7 +27,7 @@
 	name="skeletons/scientist/scientist.static_mesh"
 	/>
 <tags
-	tags="end_hub               "
+	tags=""
 	/>
 <rigidbody
 	kinematic="0"
@@ -60,15 +60,15 @@
 	name="player_1"
 	/>
 <transform
-	pos="-2.496943 53.674488 -24.623638"
-	quat="-0.000000 -0.999956 0.000000 0.009325"
+	pos="-0.577428 51.458328 -30.243128"
+	quat="-0.000000 -0.788225 0.000000 0.615387"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="148.079"
+	points="146.573"
 	/>
 <tags
 	tags="player raijin              "
@@ -88,8 +88,8 @@
 	name="camController_1"
 	/>
 <transform
-	pos="-2.534636 54.699615 -26.623123"
-	quat="0.006283 0.009424 -0.000059 0.999936"
+	pos="1.362212 52.508583 -29.758083"
+	quat="-0.007733 0.788163 -0.009905 -0.615338"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <camera_main
@@ -110,7 +110,7 @@
 >
 <trigger_lua
 	action="dream"
-	actived="0"
+	actived="1"
 	/>
 <name
 	name="thub_mole"
@@ -129,7 +129,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.937023 0.491037 1.437020"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -141,7 +141,7 @@
 >
 <trigger_lua
 	action="dream"
-	actived="1"
+	actived="0"
 	/>
 <name
 	name="thub_sci"
@@ -160,10 +160,23 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.937023 0.491037 1.437020"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="thub_end"
+	/>
+<snoozer
+	/>
+<tags
+	tags="end_hub end_hub trigger             "
 	/>
 </entity>
 <entity

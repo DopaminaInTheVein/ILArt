@@ -59,7 +59,7 @@ end
 function OnGameStart( param )
 	p:print( "OnGameStart: "..param.."\n" )
 	p:load_entities("init")
-	p:exec_command("p:load_level(\"level_0\")", 2)
+	p:exec_command("LoadLevel(\"level_0\")", 2)
 	--p:load_entities("title")
 	CallFunction("test_dbg")
 end
@@ -238,13 +238,13 @@ function OnDoubleJump( param )
 	p:play_sound("event:/OnDoubleJump")
 end
 
-function OnDetected( distance, posx, posy, posz )
-	p:print( "OnDetected: "..distance.." "..posx.." "..posy.." "..posz.."\n" )
+function OnDetected( distance )
+	p:print( "OnDetected: "..distance.."\n" )
 	h:getHandleCaller()	
 	p:play_3d_sound("event:/OnDetected", pl:get_x(), pl:get_y(), pl:get_z(), h:get_x(), h:get_y(), h:get_z())
 	name_guard = h:get_name()
 	CallFunction("OnDetected_"..name_guard)
-	--p:character_globe("Intruder detected!", distance, posx, posy, posz)
+	p:character_globe(distance, h:get_x(), h:get_y(), h:get_z())
 end
 
 function OnNextPatrol( guard_name )
@@ -352,6 +352,9 @@ function OnLevelStart( logic_level, real_level )
 	p:print("OnLevelStart\n")
 	p:exec_command("cam:fade_in(1)", 1)
 	p:exec_command("p:setControlEnabled(1);", 1)
+	if not g_is_menu then
+		p:load_entities("player_hud")
+	end
 	CallFunction("OnStart_"..real_level)
 end
 
@@ -374,8 +377,28 @@ function OnVictory( )
 	launchVictoryState();
 end
 
+function OnDead( )
+	p:print( "OnDead\n")
+	p:load_entities("dead_menu")
+end
+
 -- GUI
 ---------------------------------------------------
+function OnMouseOver( param )
+	p:print("OnMouseOver")
+	CallFunction("OnMouseOver_"..param)
+end
+
+function OnMouseUnover( param )
+	p:print("OnMouseUnover")
+	CallFunction("OnMouseUnover_"..param)
+end
+
+function OnPressed( param )
+	p:print("OnPressed")
+	CallFunction("OnPressed_"..param)
+end
+
 function OnClicked( param )
 	p:print("OnClicked")
 	CallFunction("OnClicked_"..param)
