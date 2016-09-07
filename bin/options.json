@@ -1,15 +1,15 @@
 {
   "scenes": {
     "level_0": "title",
-    "level_1": "ms3",
-    "level_2": "tuto_sci",
+    "level_1": "hub",
+    "level_2": "tuto_mole",
     "level_3": "tuto_sci",
 	"level_4": "ms3"
   },
   "screen": {
     "xres": 960,
     "yres": 540,
-    "full_screen": 1
+    "full_screen": 0
   },
   "controls": {
     "y-axis_inverted": 1,

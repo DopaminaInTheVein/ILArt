@@ -101,7 +101,7 @@
 	name="2"
 	/>
 <transform
-	pos="-65.349800 15.808000 20.828899"
+	pos="-65.349800 -1.306200 20.828899"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -114,7 +114,7 @@
 <elevator
 	speedDown="27"
 	speedUp="27"
-	state="0"
+	state="2"
 	target_down="-65.349800 -1.306200 20.828899"
 	target_up="-65.349800 15.808000 20.828899"
 	/>
@@ -228,38 +228,6 @@
 	/>
 </entity>
 <entity
-	id="302"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<name
-	name="pared_rompible"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-87.184700 0.893398 -7.839210"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/ms3/pared_rompible.static_mesh"
-	/>
-<tags
-	tags="interactive               "
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="static"
-	type_shape="mesh"
-	/>
-</entity>
-<entity
 	id="306"
 	permanent="0"
 	reload="1"
@@ -275,7 +243,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.010002 -0.203600 19.675100"
+	pos="-66.748001 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -290,11 +258,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.748001 -0.203600 19.675100"
+	target="-66.010002 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -320,7 +288,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.896797 16.879801 19.739000"
+	pos="-66.078102 16.879801 19.739000"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -335,11 +303,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.078102 16.879801 19.739000"
+	target="-66.896797 16.879801 19.739000"
 	/>
 <rigidbody
 	kinematic="0"
@@ -365,7 +333,7 @@
 	name="2"
 	/>
 <transform
-	pos="-64.710701 -0.203600 19.675100"
+	pos="-64.059502 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -380,11 +348,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-64.059502 -0.203600 19.675100"
+	target="-64.710701 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -410,7 +378,7 @@
 	name="2"
 	/>
 <transform
-	pos="-63.948799 16.879801 19.724001"
+	pos="-64.744102 16.879801 19.724001"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -425,11 +393,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-64.744102 16.879801 19.724001"
+	target="-63.948799 16.879801 19.724001"
 	/>
 <rigidbody
 	kinematic="0"
@@ -437,58 +405,6 @@
 	smooth="0"
 	type_collision="dynamic"
 	type_shape="convex"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_abajo"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_arriba"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_derec"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_iz"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
 	/>
 </entity>
 <entity
@@ -514,21 +430,21 @@
 	name="__player_1"
 	/>
 <room
-	name="1"
+	name="2"
 	/>
 <transform
-	pos="-49.964149 -1.303517 -1.571131"
-	quat="0.000000 0.839258 0.000000 0.543733"
+	pos="0.000000 200.000000 0.000000"
+	quat="0.000000 0.960011 0.000000 0.279961"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="82.4702"
+	points="96.382"
 	/>
 <tags
-	tags="player raijin              "
+	tags="raijin               "
 	/>
 <character_controller
 	height="0.7"
@@ -623,7 +539,7 @@
 	name="2"
 	/>
 <transform
-	pos="-122.074600 -1.309580 -10.584788"
+	pos="-122.072403 -1.309602 -10.586266"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -666,8 +582,8 @@
 	name="1"
 	/>
 <transform
-	pos="23.293150 -24.020000 -1.115999"
-	quat="-0.000000 -0.298746 0.000000 0.954333"
+	pos="11.186275 -24.020000 -7.448004"
+	quat="0.000000 0.021778 0.000000 0.999763"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -725,8 +641,8 @@
 	name="1"
 	/>
 <transform
-	pos="-0.286687 -24.020000 8.901804"
-	quat="0.000000 0.111666 0.000000 0.993746"
+	pos="1.911227 -24.020000 0.564652"
+	quat="0.000000 0.298874 0.000000 0.954293"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -781,8 +697,8 @@
 	name="2"
 	/>
 <transform
-	pos="-84.242073 -1.303518 -28.395636"
-	quat="-0.000000 -0.133893 0.000000 0.990996"
+	pos="-84.270523 -1.303518 -28.320793"
+	quat="-0.000000 -0.103461 0.000000 0.994633"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -856,7 +772,6 @@
 	kpt1_type="seek"
 	kpt1_wait="2"
 	kpt_size="2"
-	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -887,8 +802,8 @@
 	name="2"
 	/>
 <transform
-	pos="-97.350166 -1.303517 -14.150857"
-	quat="0.000000 0.723795 0.000000 0.690015"
+	pos="-80.319763 -1.303517 -14.812714"
+	quat="0.000000 0.720229 0.000000 0.693737"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -952,8 +867,8 @@
 	name="2"
 	/>
 <transform
-	pos="-88.412651 -1.303516 1.830960"
-	quat="0.000000 0.554715 0.000000 0.832040"
+	pos="-67.166862 -1.303516 11.333094"
+	quat="0.000000 0.233623 0.000000 0.972327"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1008,7 +923,7 @@
 	name="1"
 	/>
 <transform
-	pos="16.684305 -11.795741 -11.531248"
+	pos="6.584714 -11.800223 -11.529906"
 	quat="0.000000 0.708986 0.000000 0.705223"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1054,7 +969,7 @@
 	name="1"
 	/>
 <transform
-	pos="3.360993 -11.806196 -2.788327"
+	pos="13.850530 -11.800391 -2.787082"
 	quat="0.000000 -0.707107 0.000000 0.707107"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1100,7 +1015,7 @@
 	name="1"
 	/>
 <transform
-	pos="16.682766 -11.800095 5.149901"
+	pos="4.873172 -11.800961 5.150234"
 	quat="0.000000 0.708986 0.000000 0.705223"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1146,7 +1061,7 @@
 	name="1"
 	/>
 <transform
-	pos="3.360611 -11.806225 14.067202"
+	pos="13.847160 -11.800444 14.066238"
 	quat="0.000000 -0.707107 0.000000 0.707107"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1234,7 +1149,7 @@
 	name="1"
 	/>
 <transform
-	pos="-3.135828 -3.089948 21.391172"
+	pos="5.922712 -4.508077 21.376894"
 	quat="0.000000 1.000000 0.000000 0.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1280,7 +1195,7 @@
 	name="1"
 	/>
 <transform
-	pos="-30.902576 4.320608 22.162161"
+	pos="-21.594099 2.304405 21.880646"
 	quat="0.000000 1.000000 0.000000 0.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1326,7 +1241,7 @@
 	name="1"
 	/>
 <transform
-	pos="-34.411606 4.272854 22.170744"
+	pos="-34.445904 3.372807 16.192238"
 	quat="0.000000 -0.701693 0.000000 0.712479"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1423,8 +1338,8 @@
 	name="1"
 	/>
 <transform
-	pos="33.124485 -24.020000 -8.774760"
-	quat="-0.000000 -0.151496 0.000000 0.988458"
+	pos="32.948570 -24.020000 -8.025775"
+	quat="0.000000 0.999781 0.000000 -0.020924"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1434,7 +1349,7 @@
 	tags="AI AI_mole AI_poss             "
 	/>
 <bt_mole
-	state="followPathToWpt"
+	state="reachedPoint"
 	wpt0_pos="32.941601 -23.858999 -8.192150"
 	wpt1_pos="32.941601 -23.858999 12.267200"
 	wpt2_pos="27.273600 -23.858999 12.267200"
@@ -1692,6 +1607,7 @@
 <local_aabb
 	/>
 <player_cientifico
+	possessed="1"
 	/>
 <skeleton
 	model="skeletons/scientist/scientist.skeleton"
@@ -1707,19 +1623,20 @@
 	name="2"
 	/>
 <transform
-	pos="-66.733521 15.803700 16.789129"
-	quat="-0.000000 -0.768847 0.000000 0.639433"
+	pos="-65.352661 15.803701 20.805397"
+	quat="0.000000 0.999964 0.000000 0.008462"
 	scale="0.009299 0.009299 0.009299"
 	/>
 <render_static_mesh
 	name="skeletons/scientist/scientist.static_mesh"
 	/>
 <tags
-	tags="AI AI_cientifico AI_poss interactive            "
+	tags="AI AI_cientifico AI_poss interactive player           "
 	/>
 <bt_scientist
 	kpt_size="0"
-	state="waitinworkstation"
+	possessed="1"
+	state="posessed"
 	zmax="0.1"
 	zmin="100"
 	/>
@@ -2417,7 +2334,7 @@
 	visited5="0"
 	visited6="0"
 	visited7="0"
-	visited8="0"
+	visited8="1"
 	visited9="0"
 	/>
 </entity>
