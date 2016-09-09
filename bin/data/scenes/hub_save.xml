@@ -1,43 +1,6 @@
 <entities
 >
 <entity
-	id="6"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<skeleton
-	anim="sleep"
-	model="skeletons/scientist/scientist.skeleton"
-	/>
-<skeleton_ik
-	/>
-<name
-	name="_scientist_1"
-	/>
-<transform
-	pos="-1.703250 51.415901 -30.717501"
-	quat="0.000000 0.401707 0.000000 0.915768"
-	scale="0.009299 0.009299 0.009299"
-	/>
-<render_static_mesh
-	name="skeletons/scientist/scientist.static_mesh"
-	/>
-<tags
-	tags=""
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="static"
-	type_shape="mesh"
-	/>
-</entity>
-<entity
 	permanent="0"
 	reload="1"
 >
@@ -60,15 +23,15 @@
 	name="player_1"
 	/>
 <transform
-	pos="-0.577428 51.458328 -30.243128"
-	quat="-0.000000 -0.788225 0.000000 0.615387"
+	pos="-1.411802 51.365044 -30.907387"
+	quat="0.000000 0.289120 0.000000 0.957293"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="146.573"
+	points="49.7606"
 	/>
 <tags
 	tags="player raijin              "
@@ -76,32 +39,6 @@
 <character_controller
 	height="0.7"
 	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="1"
-	reload="1"
->
-<culling
-	/>
-<name
-	name="camController_1"
-	/>
-<transform
-	pos="1.362212 52.508583 -29.758083"
-	quat="-0.007733 0.788163 -0.009905 -0.615338"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<camera_main
-	/>
-<controller_3rd_person
-	/>
-<tags
-	tags="camera_main               "
-	/>
-<render_glow
-	/>
-<FX_fade_screen
 	/>
 </entity>
 <entity
@@ -141,7 +78,7 @@
 >
 <trigger_lua
 	action="dream"
-	actived="0"
+	actived="1"
 	/>
 <name
 	name="thub_sci"
@@ -164,19 +101,6 @@
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="thub_end"
-	/>
-<snoozer
-	/>
-<tags
-	tags="end_hub end_hub trigger             "
 	/>
 </entity>
 <entity
@@ -208,12 +132,69 @@
 <tags
 	tags=""
 	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="static"
-	type_shape="mesh"
+</entity>
+<entity
+	id="6"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	anim="sleep"
+	model="skeletons/scientist/scientist.skeleton"
+	/>
+<skeleton_ik
+	/>
+<name
+	name="_scientist_1"
+	/>
+<transform
+	pos="-1.703250 51.415901 -30.717501"
+	quat="0.000000 0.401707 0.000000 0.915768"
+	scale="0.009299 0.009299 0.009299"
+	/>
+<render_static_mesh
+	name="skeletons/scientist/scientist.static_mesh"
+	/>
+<tags
+	tags=""
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="tasklist"
+	/>
+<room
+	name="99999999"
+	/>
+<transform
+	pos="-1.946490 51.386902 -20.087400"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test/baliza.static_mesh"
+	/>
+<tags
+	tags="tasklist               "
+	/>
+<tasklist
+	points_size="3"
+	pos0="-1.946490 51.386902 -20.087400"
+	pos1="-1.946490 51.386902 -30.767599"
+	pos2="-1.946490 51.386902 -25.612900"
+	room0="-1"
+	room1="-1"
+	room2="-1"
+	visited0="0"
+	visited1="0"
+	visited2="0"
 	/>
 </entity>
 </entities>
