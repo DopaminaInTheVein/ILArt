@@ -2,7 +2,10 @@
 <entity>
 <tags
    tags="gui gui_button clickable"/>
-<gui/>
+<gui
+   menu_name="title"
+   row="0"
+   col="0"/>
 <gui_button
    width="0.652746"
    height="0.367172"/>
@@ -20,8 +23,10 @@
 <entity>
 <tags
    tags="gui gui_cursor"/>
-<gui/>
-<gui_cursor/>
+<gui
+   menu_name="title"/>
+<gui_cursor
+   menu_name="title"/>
 <name
    name="cursor"/>
 <transform
@@ -36,7 +41,10 @@
 <entity>
 <tags
    tags="gui gui_button clickable"/>
-<gui/>
+<gui
+   menu_name="title"
+   row="1"
+   col="0"/>
 <gui_button
    width="0.652746"
    height="0.367172"/>
@@ -48,6 +56,21 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ui/menu/button_start.static_mesh"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="gui"/>
+<gui/>
+<name
+   name="test_font"/>
+<transform
+   pos="5.00081 -95.2788 8.63526"
+   quat="0.707107 0 0 0.707107"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/test/test_font.static_mesh"/>
 <abs_aabb/>
 
 </entity>

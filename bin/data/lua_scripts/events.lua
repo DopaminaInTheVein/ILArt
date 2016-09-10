@@ -1,4 +1,5 @@
 print('This is lua')
+print('This is lua')
 
 SLB.using( SLB )
 
@@ -350,12 +351,8 @@ end
 ---------------------------------------------------
 function OnLevelStart( logic_level, real_level )
 	p:print("OnLevelStart\n")
-	p:exec_command("cam:fade_in(1)", 1)
-	p:exec_command("p:setControlEnabled(1);", 1)
-	if not g_is_menu then
-		p:load_entities("player_hud")
-	end
-	CallFunction("OnStart_"..real_level)
+	InitScene()
+	p:exec_command("CallFunction(\"OnStart_"..real_level.."\");", 1.1)
 end
 
 function OnSavedLevel( logic_level, real_level )
@@ -365,9 +362,19 @@ end
 
 function OnLoadedLevel( logic_level, real_level )
 	p:print("OnLoadedLevel")
+	InitScene()
+	p:exec_command("CallFunction(\"OnLoad_"..real_level.."\");", 1.1)
+end
+
+function InitScene()
+	--p:reset_camera() <--Implementar!
 	p:exec_command("cam:fade_in(1)", 1)
-	p:exec_command("p:setControlEnabled(1);", 1)
-	CallFunction("OnLoad_"..real_level)
+	if not real_level == "hub" then
+		p:exec_command("p:setControlEnabled(1);", 1)
+	end
+	if not g_is_menu then
+		p:load_entities("player_hud")
+	end
 end
 
 --Game Ending
