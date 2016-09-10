@@ -1554,23 +1554,6 @@
 <entity>
 <tags/>
 <name
-   name="pared_balcon_redondo_arriba001"/>
-<transform
-   pos="-2.38253 -22.3579 0.0879941"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/pared_balcon_redondo_arriba001.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="pared_balcon_redondo_arriba002"/>
 <transform
    pos="10.0867 2.65664 25.3438"
@@ -1695,23 +1678,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/paredes_nivel_bajo001.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="paredes_nivel_bajo002"/>
-<transform
-   pos="-10.3488 -21.4888 0"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/paredes_nivel_bajo002.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -2585,40 +2551,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/trozos_columnas_rotas.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="tuberia"/>
-<transform
-   pos="1.70612 -16.3491 2.51665"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/tuberia.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="tuberia_turbina"/>
-<transform
-   pos="-6.82406 -23.498 -3.74186"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/tuberia_turbina.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -4296,7 +4228,7 @@
 <name
    name="maquinas_abajo"/>
 <transform
-   pos="-27.0208 -24.0188 6.72864"
+   pos="-24.492 -24.0188 11.4504"
    quat="0 0.327495 0 0.944853"
    scale="1.0"/>
 <render_static_mesh
@@ -4456,6 +4388,36 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/cristal.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="prensa"/>
+<transform
+   pos="-26.4399 -19.7837 -21.4086"
+   quat="0 0 -0.588904 0.808203"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/prensa.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias"/>
+<transform
+   pos="-38.7438 -23.9616 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
