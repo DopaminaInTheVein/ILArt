@@ -1,0 +1,47 @@
+<entities>
+<entity>
+<tags/>
+<name
+   name="sueloprueba"/>
+<transform
+   pos="0 0 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/prueba_grua/sueloprueba.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="grua"/>
+<transform
+   pos="17.4802 1.32198 0"
+   quat="0 0 0 1.0"
+   scale="0.131243"/>
+<render_static_mesh
+   name="static_meshes/prueba_grua/grua.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<light_point
+   color="1.0 1.0 1.0 1.0"
+   in_radius="80.0"
+   out_radius="200.0"/>
+<name
+   name="Omni001"/>
+<transform
+   pos="13.891 17.7257 0.758762"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+
+</entities>

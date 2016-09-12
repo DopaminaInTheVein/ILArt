@@ -1,0 +1,4 @@
+<material tech="deferred.tech">
+<texture slot="diffuse" name="textures/grua_difuso.dds"/>
+<texture slot="normalmap" name="textures/grua_normals.dds"/>
+</material>

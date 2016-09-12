@@ -1,0 +1,2 @@
+<static_mesh>
+  <slot mesh="meshes/ms3/tuberias.mesh" material="materials/Tuberias.material" mesh_idx="0"/>
