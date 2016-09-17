@@ -82,15 +82,15 @@ function OnAction___pila( )
   pila:getHandleCaller()
   
   if pila:is_charged() then
-	p:player_talks("Where can I use this cell?", "scientific.dds", "SCI")
+	p:player_talks(p:get_text("ms3","pila_1"), "scientific.dds", "SCI")
   else
-    p:player_talks("This object contained energy in the past...", "scientific.dds", "SCI")
+    p:player_talks(p:get_text("ms3","pila_2"), "scientific.dds", "SCI")
   end
   p:exec_command("pila:setActionable(1);", 4.5)
 end
 
 function OnActionSci___pila( )
-  p:player_talks("This cell is exhausted. And too heavy for me...", "scientific.dds", "SCI")
+  p:player_talks(p:get_text("ms3","sci_pila"), "scientific.dds", "SCI")
 end
 
 -- Cargador --
@@ -104,13 +104,13 @@ function activateCargadorPlayer()
 
   if hCargador:has_pila() then
     if hCargador:has_pila_charged() then
-		p:player_talks("The cell is full of energy now.", "scientific.dds", "SCI")
+		p:player_talks(p:get_text("ms3","cargador_player_1"), "scientific.dds", "SCI")
 	else
-		p:player_talks("The cell fits perfectly.\nI don't know how this machine works though...", "scientific.dds", "SCI")
+		p:player_talks(p:get_text("ms3","cargador_player_2"), "scientific.dds", "SCI")
 		
 	end
   else
-	p:player_talks("I can feel a lot of energy inside this.", "scientific.dds", "SCI")
+	p:player_talks(p:get_text("ms3","cargador_player_3"), "scientific.dds", "SCI")
   end
   
   triggerCargador:getHandleCaller()
@@ -122,17 +122,17 @@ function activateCargadorSci()
   hCargador:get_handle_by_id(idCargador)
   if hCargador:has_pila() then
     if hCargador:has_pila_charged() then
-		p:player_talks("The cell has power and is working now!", "scientific.dds", "SCI")
+		p:player_talks(p:get_text("ms3","cargador_sci_1"), "scientific.dds", "SCI")
 	else
 		hCargadorTarget:get_handle_by_name_tag("cargador_bateria_pAction", "target")
-		p:player_talks("Here we go!", "scientific.dds", "SCI")
+		p:player_talks(p:get_text("ms3","cargador_sci_2"), "scientific.dds", "SCI")
 	    sci = Handle()
 		sci:get_player()
 		sci:go_and_look_as(hCargadorTarget, "rechargeCell();")
 		p:complete_tasklist(9)
 	end
   else
-	p:player_talks("There is nothing to charge.", "scientific.dds", "SCI")
+	p:player_talks(p:get_text("ms3","cargador_sci_3"), "scientific.dds", "SCI")
   end
 
   triggerCargador:getHandleCaller()
@@ -140,7 +140,7 @@ function activateCargadorSci()
 end
 
 function rechargeCell()
-  p:player_talks("The battery is now full of power!", "scientific.dds", "SCI")
+  p:player_talks(p:get_text("ms3","recharge_cell"), "scientific.dds", "SCI")
   hCargador:set_charged(1)
 end
 
@@ -157,12 +157,12 @@ function activateEnchufePlayer()
 
 	if hEnchufe:has_pila() then
 		if hEnchufe:has_pila_charged() then
-			p:player_talks("I did it! The door is open now!", "scientific.dds", "SCI")
+			p:player_talks(p:get_text("ms3","enchufe_player_1"), "scientific.dds", "SCI")
 		else
-			p:player_talks("The object on it has no energy...", "scientific.dds", "SCI")
+			p:player_talks(p:get_text("ms3","enchufe_player_2"), "scientific.dds", "SCI")
 		end
 	else
-		p:player_talks("This needs energy to work.", "scientific.dds", "SCI")
+		p:player_talks(p:get_text("ms3","enchufe_player_3"), "scientific.dds", "SCI")
 	end
 	  
 	triggerEnchufe:getHandleCaller()
@@ -175,12 +175,12 @@ function activateEnchufeSci()
 
   if hEnchufe:has_pila() then
     if hEnchufe:has_pila_charged() then
-		p:player_talks("I don't like to brag, but THIS is a good work", "scientific.dds", "SCI")
+		p:player_talks(p:get_text("ms3","enchufe_sci_1"), "scientific.dds", "SCI")
 	else
-		p:player_talks("The cell is empty, and too heavy for me...", "scientific.dds", "SCI")
+		p:player_talks(p:get_text("ms3","enchufe_sci_2"), "scientific.dds", "SCI")
 	end
   else
-	p:player_talks("This needs a cell to work.", "scientific.dds", "SCI")
+	p:player_talks(p:get_text("ms3","enchufe_sci_3"), "scientific.dds", "SCI")
   end
   
   triggerEnchufe:getHandleCaller()
@@ -211,10 +211,10 @@ end
 
 function cineDoor( )
   cam:run_cinematic("CineEnchufeDoor", 10)
-  p:exec_command( "cam:fade_out(1);", 0.1)
-  p:exec_command( "cam:fade_in(1);", 3)
-  p:exec_command( "cam:fade_out(1);", 7)
-  p:exec_command( "cam:fade_in(1);", 11)
+  p:exec_command( "ui_cam:fade_out(1);", 0.1)
+  p:exec_command( "ui_cam:fade_in(1);", 3)
+  p:exec_command( "ui_cam:fade_out(1);", 7)
+  p:exec_command( "ui_cam:fade_in(1);", 11)
 end
 
 function openDoorPila( )
@@ -378,9 +378,9 @@ function moveElevator( )
   stateElevator = 1 - stateElevator
   
   p:exec_command("h:activate();", 2)
-  p:exec_command("cam:fade_out(1);", 2.5)
+  p:exec_command("ui_cam:fade_out(1);", 2.5)
   p:exec_command("triggerElevator:setActionable(1);", 4 )
-  p:exec_command("cam:fade_in(1);", 7.0)
+  p:exec_command("ui_cam:fade_in(1);", 7.0)
   p:complete_tasklist(8)
   p:exec_command( "p:setControlEnabled(1);", 9 )
   --cambio  cientifico
@@ -400,7 +400,7 @@ end
 
 function activateElevatorPlayer( )
   triggerElevator:getHandleCaller()
-  p:player_talks("I don't know how this mechanism works\n\n","scientific.dds","SCI")
+  p:player_talks(p:get_text("ms3","elevator_player"),"scientific.dds","SCI")
   p:exec_command( "triggerElevator:setActionable(1);", 2 )
 end
 --------------------------------------------------
@@ -455,7 +455,7 @@ actionWallTarget = Handle()
 function lookWall( )
   p:print("Look Wall\n")
   triggerWall_1:getHandleCaller()
-  p:player_talks("This wall seems weak, I wonder if there is something behind...","scientific.dds","SCI")
+  p:player_talks(p:get_text("ms3","look_wall"),"scientific.dds","SCI")
   p:exec_command( "triggerWall_1:setActionable(1);", 2 )
 end
 
@@ -545,8 +545,8 @@ function wireGoUp( )
   p:complete_tasklist(7)
   p:exec_command( "player:set_position(0,-1000,0);", 2 )
   p:exec_command( "wireParticlesUp();", 1.5 / factorWireGoUp )
-  p:exec_command( "cam:fade_out(0.5);", 7.5)
-  p:exec_command( "cam:fade_in(0.5);", 9.5)
+  p:exec_command( "ui_cam:fade_out(0.5);", 7.5)
+  p:exec_command( "ui_cam:fade_in(0.5);", 9.5)
   p:exec_command( "triggerWire_1:setActionable(1);", 3)
   p:exec_command( cmd_teleport, 7.5 )
 end
@@ -563,8 +563,8 @@ function wireGoDown( )
   p:exec_command( cmd_teleport, 1.9 )
   p:exec_command( "player:set_position(0,-1000,0);", 5.0 )
   --p:exec_command( "wireParticlesUp();", 2.5 / factorWireGoDown )
-  cam:fade_out(0.2)
-  p:exec_command( "cam:fade_in(1);", 3.0)
+  ui_cam:fade_out(0.2)
+  p:exec_command( "ui_cam:fade_in(1);", 3.0)
   p:exec_command( "triggerWire_2:setActionable(1);", 3)
   p:exec_command( cmd_teleport, 9.5 )
 end

@@ -7,9 +7,17 @@ p = Public( )
 h = Handle()
 pl = Player()
 cam = Camera()
+ui_cam = UiCamera()
 
 function CallFunction(func)
 	if _G[func] then _G[func]()
+	else
+		p:print("function "..func.." does not exist!\n")
+	end
+end
+
+function CallFunctionParam(func, param)
+	if _G[func] then _G[func](param)
 	else
 		p:print("function "..func.." does not exist!\n")
 	end
@@ -367,14 +375,19 @@ function OnLoadedLevel( logic_level, real_level )
 end
 
 function InitScene()
-	--p:reset_camera() <--Implementar!
-	p:exec_command("cam:fade_in(1)", 1)
+	cam:reset_camera()
+	p:exec_command("ui_cam:fade_in(1)", 1)
 	if not real_level == "hub" then
 		p:exec_command("p:setControlEnabled(1);", 1)
 	end
 	if not g_is_menu then
 		p:load_entities("player_hud")
 	end
+end
+
+function OnLoadingLevel()
+	p:print("OnLoadingLevel")
+	p:show_loading_screen()
 end
 
 --Game Ending
@@ -389,8 +402,33 @@ function OnDead( )
 	p:load_entities("dead_menu")
 end
 
+-- Others
+-------------------------------------------
+function OnStepGuard( )
+	--p:print("StepGuard")
+end
+function OnStepMole( )
+	--p:print("StepMole")
+end
+function OnStepScientist( )
+	--p:print("StepScientist")
+end
+function OnStepOutGuard( )
+	-- p:print("StepOutGuard")
+end
+function OnStepOutMole( )
+	-- p:print("StepOutMole")
+end
+function OnStepOutScientist( )
+	-- p:print("StepOutScientist")
+end
+
 -- GUI
 ---------------------------------------------------
+function OnCreateGui( param )
+	p:print("OnCreateGui: "..param)
+	CallFunction("OnCreateGui_"..param)
+end
 function OnMouseOver( param )
 	p:print("OnMouseOver")
 	CallFunction("OnMouseOver_"..param)
@@ -409,6 +447,11 @@ end
 function OnClicked( param )
 	p:print("OnClicked")
 	CallFunction("OnClicked_"..param)
+end
+
+function OnChoose( name, option )
+	p:print("OnChoose: "..name.." "..option)
+	CallFunctionParam("OnChoose_"..name, option)
 end
 
 function OnPause( )
