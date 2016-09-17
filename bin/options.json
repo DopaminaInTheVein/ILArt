@@ -1,7 +1,7 @@
 {
   "scenes": {
     "level_0": "title",
-    "level_1": "hub",
+    "level_1": "ms3",
     "level_2": "tuto_mole",
     "level_3": "tuto_sci",
 	"level_4": "ms3"
@@ -14,5 +14,8 @@
   "controls": {
     "y-axis_inverted": 1,
     "x-axis_inverted": 1
+  },
+  "language" : {
+	"lang": "CAT"
   }
 }
