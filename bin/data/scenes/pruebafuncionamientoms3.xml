@@ -424,11 +424,11 @@
 <name
    name="cajas_de_herramientas_ms1"/>
 <transform
-   pos="-4.54254 -20.144 -6.03417"
+   pos="-2.94468 -20.144 -5.12957"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/cajas_de_herramientas_ms1.static_mesh"/>
+   name="static_meshes//cajas_de_herramientas_ms1.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -700,7 +700,7 @@
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/columnas_caida.static_mesh"/>
+   name="static_meshes//columnas_caida.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -2376,11 +2376,11 @@
 <name
    name="tabla_arriba"/>
 <transform
-   pos="-3.9234 -16.4837 -1.36173"
+   pos="-2.92612 -16.4837 -1.36173"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/tabla_arriba.static_mesh"/>
+   name="static_meshes//tabla_arriba.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -2493,11 +2493,11 @@
 <name
    name="trozos_columnas_rotas"/>
 <transform
-   pos="-20.2575 -23.6701 4.53316"
+   pos="-19.2161 -23.6701 8.72521"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/trozos_columnas_rotas.static_mesh"/>
+   name="static_meshes//trozos_columnas_rotas.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -4410,21 +4410,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes//prensa.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="tuberias"/>
-<transform
-   pos="-38.7438 -23.9719 5.03089"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/tuberias.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
