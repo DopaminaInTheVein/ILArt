@@ -4422,13 +4422,13 @@
 <entity>
 <tags/>
 <name
-   name="cinta_t_enlace_puertas_c_container_soportes_ct__cinta_t_soportes_enlace_pared_containers001"/>
+   name="cinta_t_"/>
 <transform
    pos="18.964 -8.58662 -23.0446"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/cinta_t_enlace_puertas_c_container_soportes_ct__cinta_t_soportes_enlace_pared_containers001.static_mesh"/>
+   name="static_meshes/ms3/cinta_t_.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -4452,26 +4452,14 @@
 <entity>
 <tags/>
 <name
-   name="container_002"/>
+   name="container_2"/>
 <transform
    pos="18.964 -8.58662 -23.0446"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/container_002.static_mesh"/>
+   name="static_meshes/ms3/container_2.static_mesh"/>
 <abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="scrap_cube_cinta"/>
-<transform
-   pos="18.964 -8.58662 -23.0446"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
 <rigidbody
    type_collision="static"/>
 
@@ -4502,18 +4490,6 @@
 <render_static_mesh
    name="static_meshes/ms3/compuerta_prensa.static_mesh"/>
 <abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="ms3/scrap_cube_cinta__cinta_t_soportes_enlace_pared_containers001"/>
-<transform
-   pos="18.964 -8.58662 -23.0446"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
 <rigidbody
    type_collision="static"/>
 

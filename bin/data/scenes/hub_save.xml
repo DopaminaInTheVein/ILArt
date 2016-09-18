@@ -23,15 +23,15 @@
 	name="player_1"
 	/>
 <transform
-	pos="-0.938364 50.661098 -30.244974"
-	quat="-0.000000 -0.799684 0.000000 0.600422"
+	pos="-1.972843 51.365040 -30.392954"
+	quat="-0.000000 -0.866933 0.000000 0.498425"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="123.462"
+	points="116.311"
 	/>
 <tags
 	tags="player raijin              "
@@ -61,7 +61,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger raijin              "
 	/>
 <rigidbody
 	kinematic="0"
@@ -195,6 +195,28 @@
 	visited0="0"
 	visited1="0"
 	visited2="0"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="1"
+	/>
+<room
+	name="99999999"
+	/>
+<transform
+	pos="-1.946490 51.386902 -25.612900"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test/baliza.static_mesh"
+	/>
+<tags
+	tags="tasklistend               "
 	/>
 </entity>
 </entities>
