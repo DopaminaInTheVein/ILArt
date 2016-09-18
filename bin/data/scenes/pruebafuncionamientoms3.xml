@@ -4418,6 +4418,21 @@
 <entity>
 <tags/>
 <name
+   name="tuberias"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
    name="scrap_cube_cinta"/>
 <transform
    pos="-23.7545 -1.67688 -23.0446"
@@ -4500,6 +4515,156 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/compuerta_prensa.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_2"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_2.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_3"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_3.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_4"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_4.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_5"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_5.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_6"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_6.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_7"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_7.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_8"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_8.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_9"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_9.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_A"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_A.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="tuberias_B"/>
+<transform
+   pos="-38.7438 -23.9719 5.03089"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/tuberias_B.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
