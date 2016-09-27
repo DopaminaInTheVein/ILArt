@@ -61,7 +61,7 @@
 	/>
 <transform
 	pos="-121.537003 -0.242203 -5.416840"
-	quat="-0.000000 -0.019710 0.000000 0.999806"
+	quat="-0.000000 -0.019711 0.000000 0.999806"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -70,7 +70,7 @@
 <bone_tracker
 	/>
 <tags
-	tags="platform pila interactive clickable            "
+	tags="platform pila interactive             "
 	/>
 <pila
 	action="examinate"
@@ -109,7 +109,7 @@
 	name="static_meshes/ms3/elevator.static_mesh"
 	/>
 <tags
-	tags="elevator interactive gui_button clickable            "
+	tags="elevator interactive              "
 	/>
 <elevator
 	speedDown="27"
@@ -121,7 +121,7 @@
 <rigidbody
 	kinematic="1"
 	mass="5"
-	size="1.157475 0.037500 0.814313"
+	size="2.314950 0.075000 1.628625"
 	smooth="0"
 	type_collision="dynamic"
 	type_shape="box"
@@ -182,7 +182,7 @@
 	name="static_meshes/ms3/mesa_cientifico_up_mapeado.static_mesh"
 	/>
 <tags
-	tags="workbench interactive gui_button clickable            "
+	tags="workbench interactive              "
 	/>
 <workbench
 	/>
@@ -249,7 +249,7 @@
 	name="static_meshes/ms3/pared_rompible.static_mesh"
 	/>
 <tags
-	tags="interactive gui              "
+	tags="interactive               "
 	/>
 <rigidbody
 	kinematic="0"
@@ -517,15 +517,15 @@
 	name="1"
 	/>
 <transform
-	pos="-49.908443 -1.303516 -1.407214"
-	quat="-0.000000 -0.723568 0.000000 0.690253"
+	pos="-49.713455 -1.303517 -1.803008"
+	quat="-0.000000 -0.779059 0.000000 0.626951"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="142.539"
+	points="137.215"
 	/>
 <tags
 	tags="player raijin              "
@@ -556,12 +556,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.761520 0.218750 0.479325"
+	size="1.523040 0.437500 0.958650"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -588,12 +588,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.451858 0.218750 0.320370"
+	size="0.903715 0.437500 0.640740"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -623,7 +623,7 @@
 	name="2"
 	/>
 <transform
-	pos="-122.072716 -1.309599 -10.586052"
+	pos="-122.075378 -1.309573 -10.584266"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -634,6 +634,7 @@
 	tags="AI AI_mole AI_poss             "
 	/>
 <bt_mole
+	state="reachedPoint"
 	wpts_size="0"
 	/>
 <character_controller
@@ -665,8 +666,8 @@
 	name="1"
 	/>
 <transform
-	pos="13.107307 -24.020000 16.092236"
-	quat="-0.000000 -0.931793 0.000000 0.362990"
+	pos="24.216406 -24.020000 15.468857"
+	quat="-0.000000 -0.532008 0.000000 0.846739"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -724,8 +725,8 @@
 	name="1"
 	/>
 <transform
-	pos="8.804026 -24.020000 -8.597267"
-	quat="-0.000000 -0.993306 0.000000 0.115516"
+	pos="19.583708 -23.430748 15.531205"
+	quat="-0.000000 -0.989318 0.000000 0.145775"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -780,8 +781,8 @@
 	name="2"
 	/>
 <transform
-	pos="-84.147125 -1.303518 -28.490765"
-	quat="0.000000 0.000000 0.000000 1.000000"
+	pos="-84.200241 -1.303518 -28.472303"
+	quat="-0.000000 -0.546335 0.000000 0.837567"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -802,6 +803,7 @@
 	kpt1_type="seek"
 	kpt1_wait="2"
 	kpt_size="2"
+	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -854,6 +856,7 @@
 	kpt1_type="seek"
 	kpt1_wait="2"
 	kpt_size="2"
+	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -884,15 +887,15 @@
 	name="2"
 	/>
 <transform
-	pos="-96.784500 -1.303517 -10.605000"
-	quat="0.000000 0.000000 0.000000 1.000000"
+	pos="-99.148895 -1.303517 -14.327662"
+	quat="0.000000 0.731034 0.000000 0.682341"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/guard/guard.static_mesh"
 	/>
 <tags
-	tags="AI AI_guard AI_poss interactive            "
+	tags="AI AI_guard              "
 	/>
 <bt_guard
 	formation_dir="-98.822304 -1.267510 -12.318200"
@@ -918,6 +921,7 @@
 	kpt5_type="look"
 	kpt5_wait="2"
 	kpt_size="6"
+	state="seekwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -948,8 +952,8 @@
 	name="2"
 	/>
 <transform
-	pos="-66.913902 -1.303516 7.813280"
-	quat="0.000000 0.000000 0.000000 1.000000"
+	pos="-65.635025 -1.303516 5.891587"
+	quat="0.000000 0.991621 0.000000 0.129182"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -982,6 +986,7 @@
 	kpt5_type="look"
 	kpt5_wait="2"
 	kpt_size="6"
+	state="seekwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -1003,7 +1008,7 @@
 	name="1"
 	/>
 <transform
-	pos="6.232635 -11.800415 -11.529836"
+	pos="16.100927 -11.749342 -11.545349"
 	quat="0.000000 0.708986 0.000000 0.705223"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1049,7 +1054,7 @@
 	name="1"
 	/>
 <transform
-	pos="13.611126 -11.800034 -2.787005"
+	pos="3.944997 -11.760855 -2.778607"
 	quat="0.000000 -0.707107 0.000000 0.707107"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1095,7 +1100,7 @@
 	name="1"
 	/>
 <transform
-	pos="5.513251 -11.800532 5.150071"
+	pos="16.263205 -11.766329 5.136960"
 	quat="0.000000 0.708986 0.000000 0.705223"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1141,7 +1146,7 @@
 	name="1"
 	/>
 <transform
-	pos="13.605374 -11.800131 14.066157"
+	pos="3.942631 -11.761011 14.059531"
 	quat="0.000000 -0.707107 0.000000 0.707107"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1153,7 +1158,7 @@
 	pol="plus"
 	/>
 <tags
-	tags="drone platform AI_poss interactive            "
+	tags="drone platform              "
 	/>
 <drone
 	textureBack=""
@@ -1229,7 +1234,7 @@
 	name="1"
 	/>
 <transform
-	pos="6.436960 -4.589028 21.376286"
+	pos="-2.490783 -3.132071 21.363480"
 	quat="0.000000 1.000000 0.000000 0.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1241,7 +1246,7 @@
 	pol="plus"
 	/>
 <tags
-	tags="drone platform AI_poss interactive            "
+	tags="drone platform              "
 	/>
 <drone
 	textureBack=""
@@ -1275,7 +1280,7 @@
 	name="1"
 	/>
 <transform
-	pos="-19.092785 -1.571339 14.524807"
+	pos="-26.969551 1.420083 5.736446"
 	quat="0.000000 0.908985 0.000000 0.416829"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1321,7 +1326,7 @@
 	name="1"
 	/>
 <transform
-	pos="-34.460060 2.985239 13.625779"
+	pos="-34.467598 4.195458 20.985262"
 	quat="0.000000 -0.701693 0.000000 0.712479"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1367,7 +1372,7 @@
 	name="1"
 	/>
 <transform
-	pos="27.404222 -23.267971 -14.433705"
+	pos="27.404219 -23.267971 -14.433702"
 	quat="0.000006 -0.000001 -0.000007 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1418,8 +1423,8 @@
 	name="1"
 	/>
 <transform
-	pos="31.594513 -24.020000 3.891042"
-	quat="0.000000 -0.999326 -0.000000 -0.036703"
+	pos="32.826412 -24.020000 -5.570373"
+	quat="-0.000000 -0.032901 0.000000 0.999459"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1463,12 +1468,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger AI_cientifico AI_poss interactive            "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.601348 0.046250 0.961272"
+	size="1.202695 0.092500 1.922545"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -1529,12 +1534,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.544627 0.292875 0.602387"
+	size="1.089255 0.585750 1.204775"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -1561,12 +1566,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.364900 0.292875 0.372757"
+	size="0.729800 0.585750 0.745515"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -1592,12 +1597,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.270605 0.046250 0.961272"
+	size="0.541210 0.092500 1.922545"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -1702,8 +1707,8 @@
 	name="2"
 	/>
 <transform
-	pos="-66.218399 15.803700 12.551200"
-	quat="0.000000 0.000000 0.000000 1.000000"
+	pos="-66.711395 15.803701 16.632891"
+	quat="-0.000000 -0.069428 0.000000 0.997587"
 	scale="0.009299 0.009299 0.009299"
 	/>
 <render_static_mesh
@@ -1714,6 +1719,7 @@
 	/>
 <bt_scientist
 	kpt_size="0"
+	state="waitinworkstation"
 	zmax="0.1"
 	zmin="100"
 	/>
@@ -1738,7 +1744,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation generator              "
+	tags="workstation               "
 	/>
 <workstation
 	animation="idle"
@@ -1762,7 +1768,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation generator              "
+	tags="workstation               "
 	/>
 <workstation
 	animation="idle"
@@ -1786,7 +1792,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation generator              "
+	tags="workstation               "
 	/>
 <workstation
 	animation="idle"
@@ -1993,7 +1999,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.178573 0.181250 0.230705"
+	size="0.357145 0.362500 0.461411"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2021,7 +2027,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.750000 1.000000 0.025000"
+	size="1.500000 2.000000 0.050000"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2047,7 +2053,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.025000 1.000000 3.000000"
+	size="0.050000 2.000000 6.000000"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2069,7 +2075,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation gui              "
+	tags="workstation               "
 	/>
 <workstation
 	animation="idle"
@@ -2093,7 +2099,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation gui gui_button clickable            "
+	tags="workstation               "
 	/>
 <workstation
 	animation="idle"
@@ -2117,7 +2123,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation gui              "
+	tags="workstation               "
 	/>
 <workstation
 	animation="idle"
@@ -2141,7 +2147,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation gui gui_button clickable            "
+	tags="workstation               "
 	/>
 <workstation
 	animation="idle"
@@ -2162,7 +2168,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera gui gui_button clickable            "
+	tags="guided_camera               "
 	/>
 <guided_camera
 	default_dirs="0"
@@ -2195,7 +2201,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera gui              "
+	tags="guided_camera               "
 	/>
 <guided_camera
 	default_dirs="0"
@@ -2238,7 +2244,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera gui gui_button clickable            "
+	tags="guided_camera               "
 	/>
 <guided_camera
 	default_dirs="0"
@@ -2283,12 +2289,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger gui              "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.903765 0.912787 0.407580"
+	size="1.807530 1.825575 0.815160"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2313,12 +2319,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger gui gui_button clickable            "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="3.904250 0.491037 1.662640"
+	size="7.808500 0.982075 3.325280"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2340,12 +2346,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger gui gui_button clickable            "
+	tags="trigger               "
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.052500 1.000000 1.125000"
+	size="0.105000 2.000000 2.250000"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2362,7 +2368,7 @@
 	name="99999999"
 	/>
 <transform
-	pos="27.754900 -23.840700 -14.772500"
+	pos="-121.471001 -1.304540 -5.789930"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -2370,7 +2376,7 @@
 	name="static_meshes/test/baliza.static_mesh"
 	/>
 <tags
-	tags="tasklist gui              "
+	tags="tasklist               "
 	/>
 <tasklist
 	points_size="13"
@@ -2400,13 +2406,13 @@
 	room7="-1"
 	room8="-1"
 	room9="-1"
-	visited0="0"
+	visited0="1"
 	visited1="1"
 	visited10="0"
 	visited11="0"
 	visited12="0"
-	visited2="0"
-	visited3="0"
+	visited2="1"
+	visited3="1"
 	visited4="1"
 	visited5="0"
 	visited6="0"
