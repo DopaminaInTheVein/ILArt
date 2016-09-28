@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 <material tech="deferred.tech">
 <texture slot="diffuse" name="textures/columna_1_albedo (1).dds"/>
 <texture slot="normalmap" name="textures/columna_1_normals (1).dds"/>
 </material>
-=======
-<material tech="deferred.tech">
-<texture slot="diffuse" name="textures/columna_1_albedo (1).dds"/>
-<texture slot="normalmap" name="textures/columna_1_normals (1).dds"/>
-</material>
->>>>>>> art

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 <material tech="deferred.tech">
 <texture slot="diffuse" name="textures/columna_rota_difuso.dds"/>
 </material>
-=======
-<material tech="deferred.tech">
-<texture slot="diffuse" name="textures/columna_rota_difuso.dds"/>
-</material>
->>>>>>> art
