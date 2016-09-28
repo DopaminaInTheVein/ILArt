@@ -1,0 +1,6 @@
+<material tech="deferred.tech">
+<texture slot="diffuse" name="textures/hub/contol_panel_v1_difuso.dds"/>
+<texture slot="specular" name="textures/hub/contol_panel_v1_specular+gloss.dds"/>
+<texture slot="selfilum" name="textures/hub/machine_2_control_panel_emissive_var1.dds"/>
+<texture slot="normalmap" name="textures/hub/contol_panel_v1_normal.dds"/>
+</material>
