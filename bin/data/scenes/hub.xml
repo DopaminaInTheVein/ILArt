@@ -196,6 +196,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound21"/>
 <transform
@@ -207,6 +210,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound01"/>
 <transform
@@ -218,6 +224,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound02"/>
 <transform
@@ -229,6 +238,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound03"/>
 <transform
@@ -240,6 +252,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound04"/>
 <transform
@@ -251,6 +266,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound05"/>
 <transform
@@ -262,6 +280,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound06"/>
 <transform
@@ -273,6 +294,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound07"/>
 <transform
@@ -284,6 +308,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound08"/>
 <transform
@@ -295,6 +322,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound09"/>
 <transform
@@ -306,6 +336,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound10"/>
 <transform
@@ -317,6 +350,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound11"/>
 <transform
@@ -328,6 +364,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound12"/>
 <transform
@@ -339,6 +378,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound13"/>
 <transform
@@ -350,6 +392,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound14"/>
 <transform
@@ -361,6 +406,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound15"/>
 <transform
@@ -372,6 +420,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound16"/>
 <transform
@@ -383,6 +434,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound17"/>
 <transform
@@ -394,6 +448,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound18"/>
 <transform
@@ -405,6 +462,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound19"/>
 <transform
@@ -416,6 +476,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="wall_lamp_sound20"/>
 <transform
