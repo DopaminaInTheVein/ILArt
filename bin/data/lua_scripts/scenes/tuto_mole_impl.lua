@@ -20,6 +20,11 @@ portal_done = false
 --===========================================
 -- Events
 --===========================================
+function OnDead_tuto_mole( )
+	dead_on_dream = true
+	LoadLevel("level_1")
+end
+
 function OnStart_tuto_mole( )
 	poss_done = false
 	box_moved_done = false
@@ -105,7 +110,7 @@ function tutomole_destroyWallEffect()
   h:destroy()
   
   --Reproducimos sonido
-  	p:play_sound("event:/OnBreakWall")
+  	p:play_sound("event:/OnBreakWall", 1.0, false)
   
   --Activamos fragmentos pared
   all_fragments1:get_handles_by_tag(tagWallFragment1)
