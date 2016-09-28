@@ -1,48 +1,8 @@
-function OnAction__tWall( )
-tutomole_lookWall()
+function OnEnter_ttuto_sci_reach( )
+tutosci_reach()
 end
 
-function OnActionMole__tWall( )
-tutomole_destroyWall()
-end
-
-function OnEnter__tCrossWall( )
-tutomole_wall_crossed()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
+function OnEnter_ttuto_sci_end( )
+tutosci_end()
 end
 
