@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 <material tech="deferred.tech">
 <texture slot="diffuse" name="textures/pared_3_albedo.dds"/>
 <texture slot="normalmap" name="textures/pared_3_albedo_NRM.dds"/>
 </material>
+=======
+<material tech="deferred.tech">
+<texture slot="diffuse" name="textures/pared_3_albedo.dds"/>
+<texture slot="normalmap" name="textures/pared_3_albedo_NRM.dds"/>
+</material>
+>>>>>>> art

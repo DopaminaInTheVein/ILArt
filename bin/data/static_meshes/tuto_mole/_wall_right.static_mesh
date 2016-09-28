@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 <static_mesh>
   <slot mesh="meshes/tuto_mole/_wall_right.mesh" material="materials/techo.material" mesh_idx="0"/>
 </static_mesh>
+=======
+<static_mesh>
+  <slot mesh="meshes/tuto_mole/_wall_right.mesh" material="materials/techo.material" mesh_idx="0"/>
+</static_mesh>
+>>>>>>> art

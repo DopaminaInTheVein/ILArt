@@ -24,14 +24,14 @@
 	/>
 <transform
 	pos="0.000000 200.000000 0.000000"
-	quat="-0.000000 -0.994439 0.000000 0.105318"
+	quat="-0.000000 -0.804413 0.000000 0.594071"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="148.592"
+	points="149.15"
 	/>
 <tags
 	tags="raijin               "
@@ -63,8 +63,8 @@
 	name="_mole_1"
 	/>
 <transform
-	pos="1028.383057 64.187798 -26.836338"
-	quat="-0.000000 -0.557337 0.000000 0.830286"
+	pos="1037.240967 64.187790 -26.390900"
+	quat="0.000000 0.993890 0.000000 0.110377"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -104,7 +104,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger platform removable interactive            "
+	tags="trigger Text_Message_Letter_action_text              "
 	/>
 <rigidbody
 	kinematic="0"
@@ -113,6 +113,102 @@
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="_wall_down"
+	/>
+<transform
+	pos="1037.043213 34.429363 -27.206619"
+	quat="-0.974960 -0.192910 -0.092988 0.059940"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test_tuto_mole/_wall_down.static_mesh"
+	/>
+<tags
+	tags="fragment wall1_fragment              "
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="_wall_up"
+	/>
+<transform
+	pos="1033.982300 64.280518 -25.699884"
+	quat="0.602770 -0.618836 -0.346546 0.365536"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test_tuto_mole/_wall_up.static_mesh"
+	/>
+<tags
+	tags="fragment wall1_fragment              "
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="_wall_right"
+	/>
+<transform
+	pos="1033.743530 64.302284 -26.767378"
+	quat="0.580181 -0.563515 -0.341774 0.478572"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test_tuto_mole/_wall_right.static_mesh"
+	/>
+<tags
+	tags="fragment wall1_fragment              "
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="_wall_left"
+	/>
+<transform
+	pos="1033.502808 64.272728 -24.718451"
+	quat="-0.072635 -0.079873 0.690451 0.715278"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test_tuto_mole/_wall_left.static_mesh"
+	/>
+<tags
+	tags="fragment wall1_fragment              "
 	/>
 </entity>
 <entity
@@ -128,11 +224,11 @@
 	/>
 <transform
 	pos="1016.530029 64.939812 -32.239796"
-	quat="-0.000000 0.000001 -0.000002 1.000000"
+	quat="0.000000 0.000001 -0.000001 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
-	name="static_meshes/obj/box2.static_mesh"
+	name="static_meshes/test_mole/_Box_1.static_mesh"
 	/>
 <bone_tracker
 	/>
@@ -163,10 +259,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="box_placer gui_button clickable             "
+	tags="box_placer gui gui_button clickable            "
 	/>
 <box_placer
-	event="tutomole_box_placed"
+	event_in="tutomole_box_placed"
+	event_out=""
+	radius="4"
 	/>
 </entity>
 <entity
@@ -185,7 +283,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger gui_button clickable             "
+	tags="trigger gui              "
 	/>
 <rigidbody
 	kinematic="0"
@@ -212,7 +310,7 @@
 	scale="1.177110 1.177110 1.177110"
 	/>
 <tags
-	tags="trigger gui_button clickable             "
+	tags="trigger gui gui_button clickable            "
 	/>
 <rigidbody
 	kinematic="0"
@@ -221,6 +319,67 @@
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="tasklist"
+	/>
+<room
+	name="99999999"
+	/>
+<transform
+	pos="1016.400024 64.061600 -32.241001"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test/baliza.static_mesh"
+	/>
+<tags
+	tags="tasklist gui gui_button clickable            "
+	/>
+<tasklist
+	points_size="5"
+	pos0="1035.930054 64.061600 -25.722500"
+	pos1="1033.910034 64.061600 -26.051800"
+	pos2="1016.400024 64.061600 -32.241001"
+	pos3="1020.369995 64.061600 -25.853500"
+	pos4="1028.199951 71.512398 -24.993900"
+	room0="-1"
+	room1="-1"
+	room2="-1"
+	room3="-1"
+	room4="-1"
+	visited0="1"
+	visited1="1"
+	visited2="0"
+	visited3="0"
+	visited4="0"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="_box_origin"
+	/>
+<transform
+	pos="1016.530029 65.043198 -32.239799"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="box_placer gui gui_button clickable            "
+	/>
+<box_placer
+	event_in=""
+	event_out="tutomole_box_moved"
+	radius="0.5"
 	/>
 </entity>
 </entities>

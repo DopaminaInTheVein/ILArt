@@ -28,7 +28,7 @@
 	pol="neutral"
 	/>
 <tags
-	tags="doorExit door              "
+	tags="doorExit door interactive             "
 	/>
 <magnet_door
 	locked="1"
@@ -61,7 +61,11 @@
 	/>
 <transform
 	pos="-121.537003 -0.242203 -5.416840"
+<<<<<<< HEAD
 	quat="-0.000000 -0.019711 0.000000 0.999806"
+=======
+	quat="0.000000 0.999806 0.000000 0.019710"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -101,7 +105,7 @@
 	name="2"
 	/>
 <transform
-	pos="-65.349800 15.808000 20.828899"
+	pos="-65.349800 -1.306200 20.828899"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -114,7 +118,7 @@
 <elevator
 	speedDown="27"
 	speedUp="27"
-	state="0"
+	state="2"
 	target_down="-65.349800 -1.306200 20.828899"
 	target_up="-65.349800 15.808000 20.828899"
 	/>
@@ -275,7 +279,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.010002 -0.203600 19.675100"
+	pos="-66.748001 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -290,11 +294,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.748001 -0.203600 19.675100"
+	target="-66.010002 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -320,7 +324,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.896797 16.879801 19.739000"
+	pos="-66.078102 16.879801 19.739000"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -335,11 +339,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.078102 16.879801 19.739000"
+	target="-66.896797 16.879801 19.739000"
 	/>
 <rigidbody
 	kinematic="0"
@@ -365,7 +369,7 @@
 	name="2"
 	/>
 <transform
-	pos="-64.710701 -0.203600 19.675100"
+	pos="-64.059502 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -380,11 +384,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-64.059502 -0.203600 19.675100"
+	target="-64.710701 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -410,7 +414,7 @@
 	name="2"
 	/>
 <transform
-	pos="-63.948799 16.879801 19.724001"
+	pos="-64.744102 16.879801 19.724001"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -425,11 +429,11 @@
 	tags="door               "
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-64.744102 16.879801 19.724001"
+	target="-63.948799 16.879801 19.724001"
 	/>
 <rigidbody
 	kinematic="0"
@@ -437,58 +441,6 @@
 	smooth="0"
 	type_collision="dynamic"
 	type_shape="convex"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_abajo"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_arriba"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_derec"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="trozo_destruible_iz"
-	/>
-<snoozer
-	/>
-<tags
-	tags="fragment wall1_fragment              "
 	/>
 </entity>
 <entity
@@ -514,21 +466,30 @@
 	name="__player_1"
 	/>
 <room
-	name="1"
+	name="2"
 	/>
 <transform
+<<<<<<< HEAD
 	pos="-49.713455 -1.303517 -1.803008"
 	quat="-0.000000 -0.779059 0.000000 0.626951"
+=======
+	pos="0.000000 200.000000 0.000000"
+	quat="-0.000000 -0.040706 0.000000 0.999171"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
+<<<<<<< HEAD
 	points="137.215"
+=======
+	points="137.763"
+>>>>>>> art
 	/>
 <tags
-	tags="player raijin              "
+	tags="raijin               "
 	/>
 <character_controller
 	height="0.7"
@@ -623,7 +584,11 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
 	pos="-122.075378 -1.309573 -10.584266"
+=======
+	pos="-122.074898 -1.309578 -10.584587"
+>>>>>>> art
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -650,541 +615,6 @@
 	/>
 <local_aabb
 	/>
-<skeleton
-	model="skeletons/guard/guard.skeleton"
-	/>
-<skeleton_ik
-	/>
-<skeleton_lookat
-	/>
-<skc_guard
-	/>
-<name
-	name="guard_002"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="24.216406 -24.020000 15.468857"
-	quat="-0.000000 -0.532008 0.000000 0.846739"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="skeletons/guard/guard.static_mesh"
-	/>
-<tags
-	tags="AI AI_guard              "
-	/>
-<bt_guard
-	formation_dir="26.215700 -23.967800 -6.800940"
-	formation_point="25.573900 -24.025101 -6.973200"
-	jurRadius="5"
-	jurisdiction="26.068199 -23.900000 -5.114040"
-	kpt0_pos="13.348700 -23.871201 16.484501"
-	kpt0_type="seek"
-	kpt0_wait="2"
-	kpt1_pos="2.404460 -23.871201 2.588890"
-	kpt1_type="seek"
-	kpt1_wait="2"
-	kpt2_pos="26.175501 -23.871201 -4.613600"
-	kpt2_type="seek"
-	kpt2_wait="2"
-	kpt3_pos="10.851100 -23.871201 -13.658300"
-	kpt3_type="seek"
-	kpt3_wait="2"
-	kpt_size="4"
-	state="seekwpt"
-	/>
-<character_controller
-	height="1.8"
-	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<skeleton
-	model="skeletons/guard/guard.skeleton"
-	/>
-<skeleton_ik
-	/>
-<skeleton_lookat
-	/>
-<skc_guard
-	/>
-<name
-	name="guard_003"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="19.583708 -23.430748 15.531205"
-	quat="-0.000000 -0.989318 0.000000 0.145775"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="skeletons/guard/guard.static_mesh"
-	/>
-<tags
-	tags="AI AI_guard              "
-	/>
-<bt_guard
-	formation_dir="-3.618460 -23.967800 2.134690"
-	formation_point="-4.260290 -24.025101 1.962430"
-	jurRadius="5"
-	jurisdiction="-1.580590 -23.900000 3.847850"
-	kpt0_pos="5.847900 -23.871201 22.454500"
-	kpt0_type="seek"
-	kpt0_wait="2"
-	kpt1_pos="6.838980 -23.871201 -21.022699"
-	kpt1_type="seek"
-	kpt1_wait="2"
-	kpt2_pos="2.705620 -23.871201 1.629040"
-	kpt2_type="seek"
-	kpt2_wait="2"
-	kpt_size="3"
-	state="seekwpt"
-	/>
-<character_controller
-	height="1.8"
-	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<skeleton
-	model="skeletons/guard/guard.skeleton"
-	/>
-<skeleton_ik
-	/>
-<skeleton_lookat
-	/>
-<skc_guard
-	/>
-<name
-	name="guard_004"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-84.200241 -1.303518 -28.472303"
-	quat="-0.000000 -0.546335 0.000000 0.837567"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="skeletons/guard/guard.static_mesh"
-	/>
-<tags
-	tags="AI AI_guard              "
-	/>
-<bt_guard
-	formation_dir="-86.390099 -1.267510 -30.135201"
-	formation_point="-87.031898 -1.324820 -30.307400"
-	jurRadius="7.15"
-	jurisdiction="-82.830200 -1.199720 -25.286301"
-	kpt0_pos="-84.325897 -1.279540 -28.057501"
-	kpt0_type="look"
-	kpt0_wait="2"
-	kpt1_pos="-84.339302 -1.285890 -28.451799"
-	kpt1_type="seek"
-	kpt1_wait="2"
-	kpt_size="2"
-	state="waitwpt"
-	/>
-<character_controller
-	height="1.8"
-	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<skeleton
-	model="skeletons/guard/guard.skeleton"
-	/>
-<skeleton_ik
-	/>
-<skeleton_lookat
-	/>
-<skc_guard
-	/>
-<name
-	name="guard_005"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-81.658997 -1.303518 -28.422001"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="skeletons/guard/guard.static_mesh"
-	/>
-<tags
-	tags="AI AI_guard              "
-	/>
-<bt_guard
-	formation_dir="-83.696899 -1.267510 -30.135201"
-	formation_point="-84.338699 -1.324820 -30.307400"
-	jurRadius="7.2"
-	jurisdiction="-82.830200 -1.199720 -25.286301"
-	kpt0_pos="-81.632698 -1.279540 -28.057501"
-	kpt0_type="look"
-	kpt0_wait="2"
-	kpt1_pos="-81.646103 -1.285890 -28.451799"
-	kpt1_type="seek"
-	kpt1_wait="2"
-	kpt_size="2"
-	state="waitwpt"
-	/>
-<character_controller
-	height="1.8"
-	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<skeleton
-	model="skeletons/guard/guard.skeleton"
-	/>
-<skeleton_ik
-	/>
-<skeleton_lookat
-	/>
-<skc_guard
-	/>
-<name
-	name="guard_006"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-99.148895 -1.303517 -14.327662"
-	quat="0.000000 0.731034 0.000000 0.682341"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="skeletons/guard/guard.static_mesh"
-	/>
-<tags
-	tags="AI AI_guard              "
-	/>
-<bt_guard
-	formation_dir="-98.822304 -1.267510 -12.318200"
-	formation_point="-99.464203 -1.324820 -12.490400"
-	jurRadius="5"
-	jurisdiction="-96.784500 -1.199720 -10.605000"
-	kpt0_pos="-100.585999 -1.279540 -5.806380"
-	kpt0_type="look"
-	kpt0_wait="2"
-	kpt1_pos="-100.725998 -1.285890 -14.300300"
-	kpt1_type="seek"
-	kpt1_wait="2"
-	kpt2_pos="-92.854599 -1.285890 -14.365800"
-	kpt2_type="seek"
-	kpt2_wait="2"
-	kpt3_pos="-90.735901 -1.279540 -17.299900"
-	kpt3_type="look"
-	kpt3_wait="2"
-	kpt4_pos="-70.060204 -1.285890 -14.365800"
-	kpt4_type="seek"
-	kpt4_wait="2"
-	kpt5_pos="-72.265503 -1.279540 -17.299900"
-	kpt5_type="look"
-	kpt5_wait="2"
-	kpt_size="6"
-	state="seekwpt"
-	/>
-<character_controller
-	height="1.8"
-	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<skeleton
-	model="skeletons/guard/guard.skeleton"
-	/>
-<skeleton_ik
-	/>
-<skeleton_lookat
-	/>
-<skc_guard
-	/>
-<name
-	name="guard_007"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-65.635025 -1.303516 5.891587"
-	quat="0.000000 0.991621 0.000000 0.129182"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="skeletons/guard/guard.static_mesh"
-	/>
-<tags
-	tags="AI AI_guard              "
-	/>
-<bt_guard
-	formation_dir="-68.951797 -1.267510 6.100120"
-	formation_point="-69.593597 -1.324820 5.927850"
-	jurRadius="5"
-	jurisdiction="-66.913902 -1.199720 7.813280"
-	kpt0_pos="-67.109398 -1.279540 10.706400"
-	kpt0_type="look"
-	kpt0_wait="2"
-	kpt1_pos="-67.123100 -1.285890 11.418900"
-	kpt1_type="seek"
-	kpt1_wait="2"
-	kpt2_pos="-62.984100 -1.285890 -8.108530"
-	kpt2_type="seek"
-	kpt2_wait="2"
-	kpt3_pos="-57.916698 -1.279540 -7.760420"
-	kpt3_type="look"
-	kpt3_wait="2"
-	kpt4_pos="-88.364899 -1.285890 1.819710"
-	kpt4_type="seek"
-	kpt4_wait="2"
-	kpt5_pos="-88.504303 -1.279540 -8.207650"
-	kpt5_type="look"
-	kpt5_wait="2"
-	kpt_size="6"
-	state="seekwpt"
-	/>
-<character_controller
-	height="1.8"
-	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="DroneMinus_1"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="16.100927 -11.749342 -11.545349"
-	quat="0.000000 0.708986 0.000000 0.705223"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/obj/drone.static_mesh"
-	/>
-<polarized
-	offset="-0.010628 0.965812 0.101485"
-	pol="minus"
-	/>
-<tags
-	tags="drone platform              "
-	/>
-<drone
-	textureBack=""
-	textureFront=""
-	wpt0_pos="16.754700 -11.801500 -11.529500"
-	wpt0_wait="2"
-	wpt1_pos="3.386520 -11.801500 -11.529500"
-	wpt1_wait="2"
-	wpts_size="2"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="drone"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="DronePlus_1"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="3.944997 -11.760855 -2.778607"
-	quat="0.000000 -0.707107 0.000000 0.707107"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/obj/drone.static_mesh"
-	/>
-<polarized
-	offset="0.000000 0.966293 -0.032145"
-	pol="plus"
-	/>
-<tags
-	tags="drone platform              "
-	/>
-<drone
-	textureBack=""
-	textureFront=""
-	wpt0_pos="3.420320 -11.801500 -2.787320"
-	wpt0_wait="2"
-	wpt1_pos="16.611601 -11.801500 -2.787320"
-	wpt1_wait="2"
-	wpts_size="2"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="drone"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="DroneMinus_002"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="16.263205 -11.766329 5.136960"
-	quat="0.000000 0.708986 0.000000 0.705223"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/obj/drone.static_mesh"
-	/>
-<polarized
-	offset="-0.010628 0.965812 -0.044817"
-	pol="minus"
-	/>
-<tags
-	tags="drone platform              "
-	/>
-<drone
-	textureBack=""
-	textureFront=""
-	wpt0_pos="16.699800 -11.801500 5.150440"
-	wpt0_wait="2"
-	wpt1_pos="3.590940 -11.801500 5.150440"
-	wpt1_wait="2"
-	wpts_size="2"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="drone"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="DronePlus_002"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="3.942631 -11.761011 14.059531"
-	quat="0.000000 -0.707107 0.000000 0.707107"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/obj/drone.static_mesh"
-	/>
-<polarized
-	offset="-0.016867 0.966293 -0.293303"
-	pol="plus"
-	/>
-<tags
-	tags="drone platform              "
-	/>
-<drone
-	textureBack=""
-	textureFront=""
-	wpt0_pos="3.420320 -11.801500 14.066400"
-	wpt0_wait="2"
-	wpt1_pos="16.611601 -11.801500 14.066400"
-	wpt1_wait="2"
-	wpts_size="2"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="drone"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
 <name
 	name="Box_1"
 	/>
@@ -1192,8 +622,13 @@
 	name="1"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="24.216406 -24.020000 15.468857"
+	quat="-0.000000 -0.532008 0.000000 0.846739"
+=======
 	pos="15.264800 -10.923300 22.079599"
 	quat="0.000000 0.000000 0.000000 1.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1228,152 +663,19 @@
 <local_aabb
 	/>
 <name
-	name="DroneMinus_003"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="-2.490783 -3.132071 21.363480"
-	quat="0.000000 1.000000 0.000000 0.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/obj/drone.static_mesh"
-	/>
-<polarized
-	offset="-0.073867 0.934383 0.100378"
-	pol="plus"
-	/>
-<tags
-	tags="drone platform              "
-	/>
-<drone
-	textureBack=""
-	textureFront=""
-	wpt0_pos="-3.177640 -3.087290 21.393000"
-	wpt0_wait="2"
-	wpt1_pos="10.032500 -5.153200 21.371201"
-	wpt1_wait="2"
-	wpts_size="2"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="drone"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="DroneMinus_004"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="-26.969551 1.420083 5.736446"
-	quat="0.000000 0.908985 0.000000 0.416829"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/obj/drone.static_mesh"
-	/>
-<polarized
-	offset="-0.037151 0.965812 -0.027224"
-	pol="minus"
-	/>
-<tags
-	tags="drone platform              "
-	/>
-<drone
-	textureBack=""
-	textureFront=""
-	wpt0_pos="-26.997999 1.425430 5.704170"
-	wpt0_wait="2"
-	wpt1_pos="-19.057301 -1.584790 14.564400"
-	wpt1_wait="2"
-	wpts_size="2"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="drone"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="DroneMinus_005"
-	/>
-<room
-	name="1"
-	/>
-<transform
-	pos="-34.467598 4.195458 20.985262"
-	quat="0.000000 -0.701693 0.000000 0.712479"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/obj/drone.static_mesh"
-	/>
-<polarized
-	offset="0.100697 0.934383 0.073431"
-	pol="plus"
-	/>
-<tags
-	tags="drone platform              "
-	/>
-<drone
-	textureBack=""
-	textureFront=""
-	wpt0_pos="-34.409599 4.275510 22.212500"
-	wpt0_wait="2"
-	wpt1_pos="-34.488602 2.209590 8.486400"
-	wpt1_wait="2"
-	wpts_size="2"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="drone"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
 	name="Box_2"
 	/>
 <room
 	name="1"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="19.583708 -23.430748 15.531205"
+	quat="-0.000000 -0.989318 0.000000 0.145775"
+=======
 	pos="27.404219 -23.267971 -14.433702"
 	quat="0.000006 -0.000001 -0.000007 1.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1423,8 +725,13 @@
 	name="1"
 	/>
 <transform
-	pos="32.826412 -24.020000 -5.570373"
-	quat="-0.000000 -0.032901 0.000000 0.999459"
+<<<<<<< HEAD
+	pos="-84.200241 -1.303518 -28.472303"
+	quat="-0.000000 -0.546335 0.000000 0.837567"
+=======
+	pos="33.193909 -24.020000 -5.242186"
+	quat="0.000000 0.999090 0.000000 -0.042647"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1433,6 +740,21 @@
 <tags
 	tags="AI AI_mole AI_poss             "
 	/>
+<<<<<<< HEAD
+<bt_guard
+	formation_dir="-86.390099 -1.267510 -30.135201"
+	formation_point="-87.031898 -1.324820 -30.307400"
+	jurRadius="7.15"
+	jurisdiction="-82.830200 -1.199720 -25.286301"
+	kpt0_pos="-84.325897 -1.279540 -28.057501"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-84.339302 -1.285890 -28.451799"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt_size="2"
+	state="waitwpt"
+=======
 <bt_mole
 	state="followPathToWpt"
 	wpt0_pos="32.941601 -23.858999 -8.192150"
@@ -1441,6 +763,7 @@
 	wpt3_pos="31.308500 -23.858999 7.675870"
 	wpt4_pos="33.281601 -23.858999 0.208357"
 	wpts_size="5"
+>>>>>>> art
 	/>
 <character_controller
 	height="2.01"
@@ -1468,7 +791,25 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="AI AI_guard              "
+	/>
+<bt_guard
+	formation_dir="-83.696899 -1.267510 -30.135201"
+	formation_point="-84.338699 -1.324820 -30.307400"
+	jurRadius="7.2"
+	jurisdiction="-82.830200 -1.199720 -25.286301"
+	kpt0_pos="-81.632698 -1.279540 -28.057501"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-81.646103 -1.285890 -28.451799"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt_size="2"
+	state="waitwpt"
+=======
 	tags="trigger               "
+>>>>>>> art
 	/>
 <rigidbody
 	kinematic="0"
@@ -1493,17 +834,52 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="-99.148895 -1.303517 -14.327662"
+	quat="0.000000 0.731034 0.000000 0.682341"
+=======
 	pos="-90.836800 -0.419937 14.430100"
 	quat="0.000000 0.000000 0.000000 1.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="static_meshes/ms3/cargador_bateria.static_mesh"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="AI AI_guard              "
+	/>
+<bt_guard
+	formation_dir="-98.822304 -1.267510 -12.318200"
+	formation_point="-99.464203 -1.324820 -12.490400"
+	jurRadius="5"
+	jurisdiction="-96.784500 -1.199720 -10.605000"
+	kpt0_pos="-100.585999 -1.279540 -5.806380"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-100.725998 -1.285890 -14.300300"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt2_pos="-92.854599 -1.285890 -14.365800"
+	kpt2_type="seek"
+	kpt2_wait="2"
+	kpt3_pos="-90.735901 -1.279540 -17.299900"
+	kpt3_type="look"
+	kpt3_wait="2"
+	kpt4_pos="-70.060204 -1.285890 -14.365800"
+	kpt4_type="seek"
+	kpt4_wait="2"
+	kpt5_pos="-72.265503 -1.279540 -17.299900"
+	kpt5_type="look"
+	kpt5_wait="2"
+	kpt_size="6"
+	state="seekwpt"
+=======
 	tags="pila_container interactive              "
 	/>
 <pila_container
+>>>>>>> art
 	/>
 <rigidbody
 	kinematic="0"
@@ -1529,12 +905,47 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="-65.635025 -1.303516 5.891587"
+	quat="0.000000 0.991621 0.000000 0.129182"
+=======
 	pos="-90.807602 -0.719524 14.492000"
 	quat="0.000000 0.000000 0.000000 1.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="AI AI_guard              "
+	/>
+<bt_guard
+	formation_dir="-68.951797 -1.267510 6.100120"
+	formation_point="-69.593597 -1.324820 5.927850"
+	jurRadius="5"
+	jurisdiction="-66.913902 -1.199720 7.813280"
+	kpt0_pos="-67.109398 -1.279540 10.706400"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-67.123100 -1.285890 11.418900"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt2_pos="-62.984100 -1.285890 -8.108530"
+	kpt2_type="seek"
+	kpt2_wait="2"
+	kpt3_pos="-57.916698 -1.279540 -7.760420"
+	kpt3_type="look"
+	kpt3_wait="2"
+	kpt4_pos="-88.364899 -1.285890 1.819710"
+	kpt4_type="seek"
+	kpt4_wait="2"
+	kpt5_pos="-88.504303 -1.279540 -8.207650"
+	kpt5_type="look"
+	kpt5_wait="2"
+	kpt_size="6"
+	state="seekwpt"
+=======
 	tags="trigger               "
+>>>>>>> art
 	/>
 <rigidbody
 	kinematic="0"
@@ -1561,8 +972,13 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="16.100927 -11.749342 -11.545349"
+	quat="0.000000 0.708986 0.000000 0.705223"
+=======
 	pos="-121.536003 -0.719525 -6.020050"
 	quat="0.000000 0.000000 0.000000 1.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
@@ -1592,8 +1008,13 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="3.944997 -11.760855 -2.778607"
+	quat="0.000000 -0.707107 0.000000 0.707107"
+=======
 	pos="-86.472801 -0.331161 -7.483200"
 	quat="0.000000 0.000000 0.000000 1.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
@@ -1692,6 +1113,7 @@
 <local_aabb
 	/>
 <player_cientifico
+	possessed="1"
 	/>
 <skeleton
 	model="skeletons/scientist/scientist.skeleton"
@@ -1707,25 +1129,32 @@
 	name="2"
 	/>
 <transform
-	pos="-66.711395 15.803701 16.632891"
-	quat="-0.000000 -0.069428 0.000000 0.997587"
+<<<<<<< HEAD
+	pos="16.263205 -11.766329 5.136960"
+	quat="0.000000 0.708986 0.000000 0.705223"
+	scale="1.000000 1.000000 1.000000"
+=======
+	pos="-65.319145 -1.231200 20.834442"
+	quat="0.000000 0.999966 0.000000 0.008217"
 	scale="0.009299 0.009299 0.009299"
+>>>>>>> art
 	/>
 <render_static_mesh
 	name="skeletons/scientist/scientist.static_mesh"
 	/>
 <tags
-	tags="AI AI_cientifico AI_poss interactive            "
+	tags="AI AI_cientifico AI_poss interactive player           "
 	/>
 <bt_scientist
 	kpt_size="0"
-	state="waitinworkstation"
+	possessed="1"
+	state="posessed"
 	zmax="0.1"
 	zmin="100"
 	/>
 <character_controller
 	height="1.71312"
-	radius="0.147"
+	radius="0.3"
 	/>
 </entity>
 <entity
@@ -1739,12 +1168,30 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="3.942631 -11.761011 14.059531"
+	quat="0.000000 -0.707107 0.000000 0.707107"
+=======
 	pos="-64.458397 16.297899 13.227700"
 	quat="0.000000 0.922127 0.000000 0.386888"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="drone platform              "
+	/>
+<drone
+	textureBack=""
+	textureFront=""
+	wpt0_pos="3.420320 -11.801500 14.066400"
+	wpt0_wait="2"
+	wpt1_pos="16.611601 -11.801500 14.066400"
+	wpt1_wait="2"
+	wpts_size="2"
+=======
 	tags="workstation               "
+>>>>>>> art
 	/>
 <workstation
 	animation="idle"
@@ -1811,14 +1258,31 @@
 	name="1"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="-2.490783 -3.132071 21.363480"
+=======
 	pos="-17.810101 -1.546140 24.667601"
+>>>>>>> art
 	quat="0.000000 1.000000 0.000000 0.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <generator
 	/>
 <tags
+<<<<<<< HEAD
+	tags="drone platform              "
+	/>
+<drone
+	textureBack=""
+	textureFront=""
+	wpt0_pos="-3.177640 -3.087290 21.393000"
+	wpt0_wait="2"
+	wpt1_pos="10.032500 -5.153200 21.371201"
+	wpt1_wait="2"
+	wpts_size="2"
+=======
 	tags="trigger generator              "
+>>>>>>> art
 	/>
 <rigidbody
 	kinematic="0"
@@ -1840,8 +1304,13 @@
 	name="1"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="-26.969551 1.420083 5.736446"
+	quat="0.000000 0.908985 0.000000 0.416829"
+=======
 	pos="29.617599 -23.288900 16.429600"
 	quat="0.000000 1.000000 0.000000 0.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <generator
@@ -1869,8 +1338,13 @@
 	name="1"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="-34.467598 4.195458 20.985262"
+	quat="0.000000 -0.701693 0.000000 0.712479"
+=======
 	pos="-6.749730 -12.236300 -19.607100"
 	quat="0.000000 0.000000 0.000000 1.000000"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <generator
@@ -1898,8 +1372,13 @@
 	name="1"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="27.404219 -23.267971 -14.433702"
+	quat="0.000006 -0.000001 -0.000007 1.000000"
+=======
 	pos="-40.825001 -0.555908 -7.163710"
 	quat="0.000000 0.705949 0.000000 0.708263"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <generator
@@ -1927,8 +1406,13 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="32.826412 -24.020000 -5.570373"
+	quat="-0.000000 -0.032901 0.000000 0.999459"
+=======
 	pos="-73.506798 -0.588134 8.454650"
 	quat="0.000000 0.846634 0.000000 0.532176"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <generator
@@ -1963,12 +1447,20 @@
 <generator
 	/>
 <tags
+<<<<<<< HEAD
+	tags="trigger               "
+=======
 	tags="trigger generator              "
+>>>>>>> art
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
+<<<<<<< HEAD
+	size="1.202695 0.092500 1.922545"
+=======
 	radius="1.64"
+>>>>>>> art
 	smooth="0"
 	type_collision="trigger"
 	type_shape="sphere"
@@ -2022,12 +1514,20 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="trigger               "
+=======
 	tags="trigger room_switcher              "
+>>>>>>> art
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
+<<<<<<< HEAD
+	size="1.089255 0.585750 1.204775"
+=======
 	size="1.500000 2.000000 0.050000"
+>>>>>>> art
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2048,12 +1548,20 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="trigger               "
+=======
 	tags="trigger limit              "
+>>>>>>> art
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
+<<<<<<< HEAD
+	size="0.729800 0.585750 0.745515"
+=======
 	size="0.050000 2.000000 6.000000"
+>>>>>>> art
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2075,7 +1583,19 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="trigger               "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="0.541210 0.092500 1.922545"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+=======
 	tags="workstation               "
+>>>>>>> art
 	/>
 <workstation
 	animation="idle"
@@ -2094,12 +1614,30 @@
 	name="2"
 	/>
 <transform
+<<<<<<< HEAD
+	pos="-66.711395 15.803701 16.632891"
+	quat="-0.000000 -0.069428 0.000000 0.997587"
+	scale="0.009299 0.009299 0.009299"
+	/>
+<render_static_mesh
+	name="skeletons/scientist/scientist.static_mesh"
+	/>
+<tags
+	tags="AI AI_cientifico AI_poss interactive            "
+	/>
+<bt_scientist
+	kpt_size="0"
+	state="waitinworkstation"
+	zmax="0.1"
+	zmin="100"
+=======
 	pos="-93.464104 -0.628905 19.821400"
 	quat="0.000000 -0.728751 0.000000 0.684779"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
 	tags="workstation               "
+>>>>>>> art
 	/>
 <workstation
 	animation="idle"
@@ -2168,7 +1706,11 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
+<<<<<<< HEAD
+	tags="workstation               "
+=======
 	tags="guided_camera               "
+>>>>>>> art
 	/>
 <guided_camera
 	default_dirs="0"
@@ -2417,8 +1959,674 @@
 	visited5="0"
 	visited6="0"
 	visited7="0"
+	visited8="1"
+	visited9="0"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="DroneMinus_1"
+	/>
+<room
+	name="1"
+	/>
+<transform
+	pos="11.227434 -11.999750 -9.261921"
+	quat="0.000000 0.708986 0.000000 0.705223"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/obj/drone.static_mesh"
+	/>
+<polarized
+	offset="-0.010628 0.965812 0.101485"
+	pol="minus"
+	/>
+<tags
+	tags="drone platform              "
+	/>
+<drone
+	textureBack=""
+	textureFront=""
+	wpt0_pos="11.227400 -12.000000 -18.000000"
+	wpt0_wait="2"
+	wpt1_pos="11.227400 -12.000000 -0.499999"
+	wpt1_wait="2"
+	wpts_size="2"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+<<<<<<< HEAD
+	size="0.357145 0.362500 0.461411"
+=======
+>>>>>>> art
+	smooth="0"
+	type_collision="dynamic"
+	type_shape="drone"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="DronePlus_1"
+	/>
+<room
+	name="1"
+	/>
+<transform
+	pos="8.830301 -11.999760 11.366124"
+	quat="0.000000 -0.707107 0.000000 0.707107"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/obj/drone.static_mesh"
+	/>
+<polarized
+	offset="0.000000 0.966293 -0.032145"
+	pol="plus"
+	/>
+<tags
+	tags="drone platform              "
+	/>
+<drone
+	textureBack=""
+	textureFront=""
+	wpt0_pos="8.830380 -12.000000 16.540600"
+	wpt0_wait="2"
+	wpt1_pos="8.830380 -12.000000 -1.177090"
+	wpt1_wait="2"
+	wpts_size="2"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+<<<<<<< HEAD
+	size="1.500000 2.000000 0.050000"
+=======
+>>>>>>> art
+	smooth="0"
+	type_collision="dynamic"
+	type_shape="drone"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="DroneMinus_003"
+	/>
+<room
+	name="1"
+	/>
+<transform
+	pos="-7.764934 1.822723 21.391985"
+	quat="0.000000 1.000000 0.000000 0.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/obj/drone.static_mesh"
+	/>
+<polarized
+	offset="-0.073867 0.934383 0.100378"
+	pol="plus"
+	/>
+<tags
+	tags="drone platform              "
+	/>
+<drone
+	textureBack=""
+	textureFront=""
+	wpt0_pos="-8.350610 2.294550 21.393000"
+	wpt0_wait="2"
+	wpt1_pos="4.859490 -8.349250 21.371201"
+	wpt1_wait="2"
+	wpts_size="2"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+<<<<<<< HEAD
+	size="0.050000 2.000000 6.000000"
+=======
+>>>>>>> art
+	smooth="0"
+	type_collision="dynamic"
+	type_shape="drone"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<name
+	name="DroneMinus_004"
+	/>
+<room
+	name="1"
+	/>
+<transform
+	pos="-26.691053 1.033101 9.869427"
+	quat="0.000000 0.908985 0.000000 0.416829"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/obj/drone.static_mesh"
+	/>
+<polarized
+	offset="-0.037151 0.965812 -0.027224"
+	pol="minus"
+	/>
+<tags
+<<<<<<< HEAD
+	tags="workstation               "
+=======
+	tags="drone platform              "
+>>>>>>> art
+	/>
+<drone
+	textureBack=""
+	textureFront=""
+	wpt0_pos="-30.673500 1.425430 5.704170"
+	wpt0_wait="2"
+	wpt1_pos="-19.057301 0.281056 17.854799"
+	wpt1_wait="2"
+	wpts_size="2"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	smooth="0"
+	type_collision="dynamic"
+	type_shape="drone"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	model="skeletons/guard/guard.skeleton"
+	/>
+<<<<<<< HEAD
+<tags
+	tags="workstation               "
+=======
+<skeleton_ik
+>>>>>>> art
+	/>
+<skeleton_lookat
+	/>
+<skc_guard
+	/>
+<name
+	name="guard_002"
+	/>
+<room
+	name="1"
+	/>
+<transform
+	pos="2.476563 -24.020000 2.634102"
+	quat="-0.000000 -0.940163 0.000000 0.340724"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/guard/guard.static_mesh"
+	/>
+<tags
+<<<<<<< HEAD
+	tags="workstation               "
+=======
+	tags="AI AI_guard              "
+>>>>>>> art
+	/>
+<bt_guard
+	formation_dir="26.215700 -23.967800 -6.800940"
+	formation_point="25.573900 -24.025101 -6.973200"
+	jurRadius="50"
+	jurisdiction="-4.909500 -25.409100 0.406024"
+	kpt0_pos="13.348700 -23.871201 16.484501"
+	kpt0_type="seek"
+	kpt0_wait="2"
+	kpt1_pos="2.404460 -23.871201 2.588890"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt2_pos="26.175501 -23.871201 -4.613600"
+	kpt2_type="seek"
+	kpt2_wait="2"
+	kpt3_pos="10.851100 -23.871201 -13.658300"
+	kpt3_type="seek"
+	kpt3_wait="2"
+	kpt_size="4"
+	state="nextWpt"
+	/>
+<character_controller
+	height="1.8"
+	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	model="skeletons/guard/guard.skeleton"
+	/>
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_guard
+	/>
+<name
+	name="guard_003"
+	/>
+<room
+	name="1"
+	/>
+<transform
+	pos="12.582511 -24.020000 1.079504"
+	quat="-0.000000 -0.996127 0.000000 0.087925"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/guard/guard.static_mesh"
+	/>
+<tags
+<<<<<<< HEAD
+	tags="workstation               "
+=======
+	tags="AI AI_guard              "
+>>>>>>> art
+	/>
+<bt_guard
+	formation_dir="-3.618460 -23.967800 2.134690"
+	formation_point="-4.260290 -24.025101 1.962430"
+	jurRadius="50"
+	jurisdiction="-4.909500 -25.409100 0.406024"
+	kpt0_pos="5.847900 -23.871201 22.454500"
+	kpt0_type="seek"
+	kpt0_wait="2"
+	kpt1_pos="6.838980 -23.871201 -21.022699"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt2_pos="2.705620 -23.871201 1.629040"
+	kpt2_type="seek"
+	kpt2_wait="2"
+	kpt_size="3"
+	state="seekwpt"
+	/>
+<character_controller
+	height="1.8"
+	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<<<<<<< HEAD
+<tags
+	tags="guided_camera               "
+=======
+<skeleton
+	model="skeletons/guard/guard.skeleton"
+>>>>>>> art
+	/>
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_guard
+	/>
+<name
+	name="guard_004"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-84.215355 -1.303518 -28.439316"
+	quat="-0.000000 -0.179298 0.000000 0.983795"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/guard/guard.static_mesh"
+	/>
+<tags
+<<<<<<< HEAD
+	tags="guided_camera               "
+=======
+	tags="AI AI_guard              "
+>>>>>>> art
+	/>
+<bt_guard
+	formation_dir="-86.390099 -1.267510 -30.135201"
+	formation_point="-87.031898 -1.324820 -30.307400"
+	jurRadius="10"
+	jurisdiction="-82.830200 -1.199720 -25.286301"
+	kpt0_pos="-84.325897 -1.279540 -28.057501"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-84.339302 -1.285890 -28.451799"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt_size="2"
+	state="waitwpt"
+	/>
+<character_controller
+	height="1.8"
+	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<<<<<<< HEAD
+<tags
+	tags="guided_camera               "
+=======
+<skeleton
+	model="skeletons/guard/guard.skeleton"
+>>>>>>> art
+	/>
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_guard
+	/>
+<name
+	name="guard_005"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-81.658997 -1.303518 -28.422001"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/guard/guard.static_mesh"
+	/>
+<tags
+<<<<<<< HEAD
+	tags="trigger               "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="1.807530 1.825575 0.815160"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+=======
+	tags="AI AI_guard              "
+	/>
+<bt_guard
+	formation_dir="-83.696899 -1.267510 -30.135201"
+	formation_point="-84.338699 -1.324820 -30.307400"
+	jurRadius="10"
+	jurisdiction="-82.830200 -2.749890 -25.286301"
+	kpt0_pos="-81.632698 -1.279540 -28.057501"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-81.646103 -1.285890 -28.451799"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt_size="2"
+	state="waitwpt"
+	/>
+<character_controller
+	height="1.8"
+	radius="0.3"
+>>>>>>> art
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	model="skeletons/guard/guard.skeleton"
+	/>
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_guard
+	/>
+<name
+	name="guard_006"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-99.264503 -1.314243 -15.550564"
+	quat="-0.000000 -0.120928 0.000000 0.992661"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/guard/guard.static_mesh"
+	/>
+<tags
+<<<<<<< HEAD
+	tags="trigger               "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="7.808500 0.982075 3.325280"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+=======
+	tags="AI AI_guard              "
+	/>
+<bt_guard
+	formation_dir="-98.822304 -1.267510 -12.318200"
+	formation_point="-99.464203 -1.324820 -12.490400"
+	jurRadius="20"
+	jurisdiction="-93.773804 -2.749890 -8.708530"
+	kpt0_pos="-100.585999 -1.279540 -5.806380"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-100.725998 -1.285890 -14.300300"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt2_pos="-92.854599 -1.285890 -14.365800"
+	kpt2_type="seek"
+	kpt2_wait="2"
+	kpt3_pos="-90.735901 -1.279540 -17.299900"
+	kpt3_type="look"
+	kpt3_wait="2"
+	kpt4_pos="-70.060204 -1.285890 -14.365800"
+	kpt4_type="seek"
+	kpt4_wait="2"
+	kpt5_pos="-72.265503 -1.279540 -17.299900"
+	kpt5_type="look"
+	kpt5_wait="2"
+	kpt_size="6"
+	state="seekwpt"
+	/>
+<character_controller
+	height="1.8"
+	radius="0.3"
+>>>>>>> art
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	model="skeletons/guard/guard.skeleton"
+	/>
+<<<<<<< HEAD
+<tags
+	tags="trigger               "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="0.105000 2.000000 2.250000"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+=======
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_guard
+>>>>>>> art
+	/>
+<name
+	name="guard_007"
+	/>
+<room
+	name="2"
+	/>
+<transform
+<<<<<<< HEAD
+	pos="-121.471001 -1.304540 -5.789930"
+	quat="0.000000 0.000000 0.000000 1.000000"
+=======
+	pos="-70.841080 -1.303516 1.016371"
+	quat="-0.000000 -0.798208 0.000000 0.602382"
+>>>>>>> art
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/guard/guard.static_mesh"
+	/>
+<tags
+<<<<<<< HEAD
+	tags="tasklist               "
+	/>
+<tasklist
+	points_size="13"
+	pos0="27.754900 -23.840700 -14.772500"
+	pos1="10.397700 -11.614200 -20.243799"
+	pos10="-121.471001 -1.304540 -5.794450"
+	pos11="-94.028397 -1.139690 18.638500"
+	pos12="-82.814400 -1.478770 -35.137001"
+	pos2="15.270500 -10.103800 22.163900"
+	pos3="-18.976101 -2.199140 21.819000"
+	pos4="-38.180099 -1.304540 -0.525588"
+	pos5="-121.471001 -1.304540 -5.789930"
+	pos6="-90.825600 -1.139690 14.804800"
+	pos7="-86.689598 -1.478770 -8.234550"
+	pos8="-65.338203 15.858300 19.920500"
+	pos9="-90.825600 -1.139690 14.752100"
+	room0="-1"
+	room1="-1"
+	room10="-1"
+	room11="-1"
+	room12="-1"
+	room2="-1"
+	room3="-1"
+	room4="-1"
+	room5="-1"
+	room6="-1"
+	room7="-1"
+	room8="-1"
+	room9="-1"
+	visited0="1"
+	visited1="1"
+	visited10="0"
+	visited11="0"
+	visited12="0"
+	visited2="1"
+	visited3="1"
+	visited4="1"
+	visited5="0"
+	visited6="0"
+	visited7="0"
 	visited8="0"
 	visited9="0"
+=======
+	tags="AI AI_guard              "
+	/>
+<bt_guard
+	formation_dir="-68.951797 -1.267510 6.100120"
+	formation_point="-69.593597 -1.324820 5.927850"
+	jurRadius="20"
+	jurisdiction="-66.913902 -2.911510 -2.068440"
+	kpt0_pos="-67.109398 -1.279540 10.706400"
+	kpt0_type="look"
+	kpt0_wait="2"
+	kpt1_pos="-67.123100 -1.285890 11.418900"
+	kpt1_type="seek"
+	kpt1_wait="2"
+	kpt2_pos="-62.984100 -1.285890 -8.108530"
+	kpt2_type="seek"
+	kpt2_wait="2"
+	kpt3_pos="-57.916698 -1.279540 -7.760420"
+	kpt3_type="look"
+	kpt3_wait="2"
+	kpt4_pos="-88.364899 -1.285890 1.819710"
+	kpt4_type="seek"
+	kpt4_wait="2"
+	kpt5_pos="-88.504303 -1.279540 -8.207650"
+	kpt5_type="look"
+	kpt5_wait="2"
+	kpt_size="6"
+	state="seekwpt"
+	/>
+<character_controller
+	height="1.8"
+	radius="0.3"
+>>>>>>> art
 	/>
 </entity>
 </entities>
