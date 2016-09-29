@@ -23,15 +23,15 @@
 	name="player_1"
 	/>
 <transform
-	pos="-1.193961 50.661098 -21.453115"
-	quat="-0.000000 -0.104496 0.000000 0.994525"
+	pos="-0.112806 50.661098 -25.768993"
+	quat="0.000000 0.515342 0.000000 0.856985"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="148.901"
+	points="148.427"
 	/>
 <tags
 	tags="player raijin              "
@@ -39,6 +39,89 @@
 <character_controller
 	height="0.7"
 	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="1"
+	/>
+<room
+	name="99999999"
+	/>
+<transform
+	pos="-1.946490 51.386902 -25.612900"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test/baliza.static_mesh"
+	/>
+<tags
+	tags="tasklistend Text_Message_Letter_title_text              "
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<name
+	name="end_hub"
+	/>
+<transform
+	pos="-2.250840 53.524700 -25.659901"
+	quat="-0.480359 0.125710 0.109824 0.861040"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/hub/end_hub.static_mesh"
+	/>
+<tags
+	tags="end_hub Text_Message_Letter_title_text              "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	smooth="0"
+	type_collision="static"
+	type_shape="mesh"
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="leave"
+	actived="0"
+	/>
+<name
+	name="thub_end"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.946490 52.754700 -25.673500"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="end_hub end_hub trigger             "
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="2.459770 1.958455 1.345830"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
 	/>
 </entity>
 <entity
@@ -88,7 +171,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.937023 0.491037 1.437020"
+	size="0.468511 0.245519 0.718510"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -119,7 +202,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.937023 0.491037 1.437020"
+	size="0.468511 0.245519 0.718510"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -196,7 +279,7 @@
 	name="99999999"
 	/>
 <transform
-	pos="-1.946490 51.386902 -20.087400"
+	pos="-1.946490 51.386902 -25.612900"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -214,7 +297,7 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="0"
+	visited0="1"
 	visited1="1"
 	visited2="0"
 	/>
