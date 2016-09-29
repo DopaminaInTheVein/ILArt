@@ -23,15 +23,15 @@
 	name="player_1"
 	/>
 <transform
-	pos="-1.052715 50.661587 -30.073801"
-	quat="-0.000000 -0.852923 0.000000 0.522037"
+	pos="-1.193961 50.661098 -21.453115"
+	quat="-0.000000 -0.104496 0.000000 0.994525"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="138.918"
+	points="148.901"
 	/>
 <tags
 	tags="player raijin              "
@@ -39,6 +39,28 @@
 <character_controller
 	height="0.7"
 	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="1"
+	/>
+<room
+	name="99999999"
+	/>
+<transform
+	pos="-1.946490 51.386902 -25.612900"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test/baliza.static_mesh"
+	/>
+<tags
+	tags="tasklistend Text_Message_Letter_title_text              "
 	/>
 </entity>
 <entity
@@ -66,7 +88,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="1.874045 0.982075 2.874040"
+	size="0.937023 0.491037 1.437020"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -97,7 +119,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="1.874045 0.982075 2.874040"
+	size="0.937023 0.491037 1.437020"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -193,7 +215,7 @@
 	room1="-1"
 	room2="-1"
 	visited0="0"
-	visited1="0"
+	visited1="1"
 	visited2="0"
 	/>
 </entity>
