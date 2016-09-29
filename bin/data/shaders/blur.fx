@@ -139,9 +139,8 @@ float4 PSBlurWithDepth(
 ) : SV_Target
 {
 
-float factor_depth = 4;
+float factor_depth = 3;
   float base_depth = txDepths.Sample(samLinear, iTex0.xy).r;
-  
   
   float depth = base_depth * factor_depth;
   //float factor = (1 - depth);
@@ -205,7 +204,7 @@ float factor_depth = 4;
 	
 	//return float4(depth, depth, depth, 1);
 
-	return float4(1, 1, 1, 0.0f);
+	//return float4(1, 1, 1, 0.0f);
 	
 	return float4(cfinal.rgb,depth*factor_depth);
 
