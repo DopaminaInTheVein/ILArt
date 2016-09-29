@@ -113,7 +113,7 @@
 <name
    name="sillas"/>
 <transform
-   pos="49.7937 0.586215 -2.81125"
+   pos="49.7863 0.586214 -6.18538"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -201,6 +201,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos002_sound004"/>
 <transform
@@ -212,6 +215,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos002_sound003"/>
 <transform
@@ -223,6 +229,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos002_sound002"/>
 <transform
@@ -234,6 +243,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos002_sound001"/>
 <transform
@@ -260,6 +272,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos003_sound001"/>
 <transform
@@ -271,6 +286,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos003_sound002"/>
 <transform
@@ -282,6 +300,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos003_sound003"/>
 <transform
@@ -293,6 +314,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos003_sound004"/>
 <transform
@@ -319,10 +343,13 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos004_sound001"/>
 <transform
-   pos="62.5805 1.08533 -1.55084"
+   pos="62.5805 1.08533 -1.55083"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -330,6 +357,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos004_sound002"/>
 <transform
@@ -341,10 +371,13 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos004_sound003"/>
 <transform
-   pos="75.9401 1.08534 -0.497147"
+   pos="75.9401 1.08534 -0.497145"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -352,6 +385,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos004_sound004"/>
 <transform
@@ -363,10 +399,13 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos004_sound005"/>
 <transform
-   pos="75.9401 8.10499 -0.497141"
+   pos="75.9401 8.10499 -0.497139"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -374,6 +413,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos004_sound006"/>
 <transform
@@ -385,10 +427,13 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos004_sound007"/>
 <transform
-   pos="75.9401 8.80086 -0.80106"
+   pos="75.9401 8.80086 -0.801058"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -786,6 +831,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos005_sound001"/>
 <transform
@@ -797,6 +845,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos005_sound002"/>
 <transform
@@ -823,6 +874,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos006_sound001"/>
 <transform
@@ -834,6 +888,9 @@
 <entity
    reload="no">
 <tags/>
+<sound
+   event="OnFluoriscent"
+   volume="0.25"/>
 <name
    name="farolillos006_sound002"/>
 <transform

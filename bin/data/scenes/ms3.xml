@@ -600,7 +600,7 @@
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/columna_rota_abajo2.static_mesh"/>
+   name="static_meshes/ms3/columnas_desechables.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -5214,23 +5214,14 @@
 <entity>
 <tags/>
 <name
-   name="columnas_rota"/>
-<transform
-   pos="0 0 0"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<rigidbody
-   type_collision="static"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="columnas_rotas_3"/>
 <transform
    pos="0 0 0"
    quat="0 0 0 1.0"
    scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/columnas_rotas_3.static_mesh"/>
+<abs_aabb/>
 <rigidbody
    type_collision="static"/>
 

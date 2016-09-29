@@ -252,7 +252,7 @@ void PSLightPoint(
   
   
   if(color_ramp != 0.0f){
-	lightCol *= lightWarp.xyz;
+	//lightCol *= lightWarp.xyz;
   }
   
   //spec_amount *= specular_force;
@@ -275,7 +275,7 @@ void PSLightPoint(
   
   // Aportacion final de la luz es NL x color_luz x atenuacion
   o_color.xyz = lightCol * NL * distance_att * albedo + o_specular.xyz*specular_color;
- //o_color.xyz = NL.xxx;
+ 
   //o_color.xyz += env * glossiness * 0.3;
   //o_color.xyz = E_refl.xyz;
   o_color.a = 1.;
