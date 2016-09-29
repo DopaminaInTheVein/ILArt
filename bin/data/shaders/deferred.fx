@@ -251,9 +251,9 @@ void PSLightPoint(
   float3 lightCol = LightColor.xyz*LightColor.a;
   
   
-  //if(color_ramp != 0.0f){
+  if(color_ramp != 0.0f){
 	lightCol *= lightWarp.xyz;
- // }
+  }
   
   //spec_amount *= specular_force;
   o_specular = spec_amount;
