@@ -21,7 +21,8 @@ function OnStart_hub( )
 	sci_done = false
 	p:setControlEnabled(1)
 	p:setOnlySense(1)
-	--p:exec_command("p:setPlayerEnabled(1)", 5) --test
+	p:aim_circle("circle_1","aim_circle",-1.94,51.64,-20.08,-1.0)
+	p:force_sense_vision()
 	p:player_talks(p:get_text("hub","start_hub"))
 end
 -------------------------------
@@ -59,9 +60,13 @@ end
 --===========================================
 function hub_target_seen()
 	p:player_talks(p:get_text("hub","target_seen"))
-	h:getHandleCaller()
-	h:destroy()
-	p:exec_command("p:setOnlySense(0);", 0.5)
+	p:exec_command("p:player_talks(p:get_text(\"hub\",\"target_seen2\"))",6.5)
+	p:exec_command("p:no_aim_circle(\"circle_1\")",13.0)
+	p:exec_command("p:unforce_sense_vision()",13.0)
+
+	p:exec_command("h:getHandleCaller()",13.0)
+	p:exec_command("h:destroy()",13.0)
+	p:exec_command("p:setOnlySense(0);", 13.5)
 end
 
 function dream_mole()

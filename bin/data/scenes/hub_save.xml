@@ -23,44 +23,22 @@
 	name="player_1"
 	/>
 <transform
-	pos="-1.206151 50.661098 -21.603256"
-	quat="-0.000000 -0.133213 0.000000 0.991087"
+	pos="-0.933649 50.661098 -30.173109"
+	quat="-0.000000 -0.830573 0.000000 0.556909"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="148.859"
+	points="145.206"
 	/>
 <tags
-	tags="player raijin              "
+	tags="player raijin"
 	/>
 <character_controller
 	height="0.7"
 	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="1"
-	/>
-<room
-	name="99999999"
-	/>
-<transform
-	pos="-1.946490 51.386902 -25.612900"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/test/baliza.static_mesh"
-	/>
-<tags
-	tags="tasklistend Fading_Message_Letter_15159_36              "
 	/>
 </entity>
 <entity
@@ -83,7 +61,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger raijin              "
+	tags="trigger raijin"
 	/>
 <rigidbody
 	kinematic="0"
@@ -114,7 +92,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger Fading_Message_Letter_15159_40              "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -152,7 +130,7 @@
 	name="skeletons/mole/mole.static_mesh"
 	/>
 <tags
-	tags="loading56 Fading_Message_Letter_15159_39              "
+	tags="trigger"
 	/>
 </entity>
 <entity
@@ -182,7 +160,7 @@
 	name="skeletons/scientist/scientist.static_mesh"
 	/>
 <tags
-	tags="loading55 Fading_Message_Letter_15159_38              "
+	tags="tasklist"
 	/>
 </entity>
 <entity
@@ -196,7 +174,7 @@
 	name="99999999"
 	/>
 <transform
-	pos="-1.946490 51.386902 -20.087400"
+	pos="-1.946490 51.386902 -25.612900"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -204,7 +182,7 @@
 	name="static_meshes/test/baliza.static_mesh"
 	/>
 <tags
-	tags="tasklist Fading_Message_Letter_15159_37              "
+	tags="tasklist"
 	/>
 <tasklist
 	points_size="3"
@@ -214,31 +192,9 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="0"
+	visited0="1"
 	visited1="1"
-	visited2="0"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="1"
-	/>
-<room
-	name="99999999"
-	/>
-<transform
-	pos="-1.946490 51.386902 -25.612900"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/test/baliza.static_mesh"
-	/>
-<tags
-	tags="tasklistend Fading_Message_Letter_15159_36              "
+	visited2="1"
 	/>
 </entity>
 </entities>

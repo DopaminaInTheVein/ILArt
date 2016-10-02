@@ -332,7 +332,7 @@ function OnDetected( distance )
 	p:play_3d_sound("event:/OnDetected", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
 	name_guard = h:get_name()
 	CallFunction("OnDetected_"..name_guard)
-	p:character_globe(distance, h:get_x(), h:get_y(), h:get_z())
+	p:character_globe("ui/effects/bafarada", distance, h:get_x(), h:get_y(), h:get_z(), 2.0, -1.0)
 end
 
 function OnNextPatrol( guard_name )
@@ -467,6 +467,7 @@ function OnLoadedLevel( logic_level, real_level )
 	p:exec_command("CallFunction(\"OnLoad_"..real_level.."\");", 1.1)
 end
 
+loading_handles = HandleGroup()
 function InitScene()
 	g_dead = false
 	cam:reset_camera()
@@ -477,6 +478,8 @@ function InitScene()
 	if not g_is_menu then
 		p:load_entities("player_hud")
 	end
+	loading_handles:get_handles_by_tag("loading")
+	p:exec_command("loading_handles:destroy();", 1)
 end
 
 function OnLoadingLevel()
@@ -504,7 +507,7 @@ end
 
 -- Others
 -------------------------------------------
-function OnStepGuardBaldosa( step )
+function OnStepGuardBaldosa( step, x, y, z )
 	h:getHandleCaller()
 	sound_route = ""
 	
@@ -520,10 +523,11 @@ function OnStepGuardBaldosa( step )
 		sound_route = "event:/OnGuardStepLeft1"
 	end
 	
-	p:play_3d_sound(sound_route, h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
+	p:play_3d_sound(sound_route, x, y, z, 1.0, false, 32)
+	p:character_globe("ui/effects/tap", "1.0", x, y, z, 0.5, 20.0)
 end
 
-function OnStepMoleBaldosa( step )
+function OnStepMoleBaldosa( step, x, y, z )
 	h:getHandleCaller()
 	sound_route = ""
 	
@@ -539,10 +543,10 @@ function OnStepMoleBaldosa( step )
 		sound_route = "event:/OnMoleStepLeft1"
 	end
 	
-	p:play_3d_sound(sound_route, h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
+	p:play_3d_sound(sound_route, x, y, z, 1.0, false, 32)
 end
 
-function OnStepScientistBaldosa( step )
+function OnStepScientistBaldosa( step, x, y, z )
 	h:getHandleCaller()
 	sound_route = ""
 	
@@ -558,10 +562,10 @@ function OnStepScientistBaldosa( step )
 		sound_route = "event:/OnScientistStepBaldosaL1"
 	end
 	
-	p:play_3d_sound(sound_route, h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
+	p:play_3d_sound(sound_route, x, y, z, 1.0, false, 32)
 end
 
-function OnStepGuardParquet( step )
+function OnStepGuardParquet( step, x, y, z )
 	h:getHandleCaller()
 	sound_route = ""
 	
@@ -577,10 +581,11 @@ function OnStepGuardParquet( step )
 		sound_route = "event:/OnGuardStepParquetL1"
 	end
 	
-	p:play_3d_sound(sound_route, h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
+	p:play_3d_sound(sound_route, x, y, z, 1.0, false, 32)
+	p:character_globe("ui/effects/tap", "1.0", x, y, z, 0.5, 20.0)
 end
 
-function OnStepMoleParquet( step )
+function OnStepMoleParquet( step, x, y, z )
 	h:getHandleCaller()
 	sound_route = ""
 	
@@ -596,10 +601,10 @@ function OnStepMoleParquet( step )
 		sound_route = "event:/OnMoleStepParquetL1"
 	end
 	
-	p:play_3d_sound(sound_route, h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
+	p:play_3d_sound(sound_route, x, y, z, 1.0, false, 32)
 end
 
-function OnStepScientistParquet( step )
+function OnStepScientistParquet( step, x, y, z )
 	h:getHandleCaller()
 	sound_route = ""
 	
@@ -615,7 +620,7 @@ function OnStepScientistParquet( step )
 		sound_route = "event:/OnScientistStepParquetL1"
 	end
 	
-	p:play_3d_sound(sound_route, h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
+	p:play_3d_sound(sound_route, x, y, z, 1.0, false, 32)
 end
 
 function OnStepOutGuardBaldosa( step )
