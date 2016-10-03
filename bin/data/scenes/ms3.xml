@@ -235,43 +235,9 @@
 <entity>
 <tags/>
 <name
-   name="bote_mediano"/>
-<transform
-   pos="15.3595 -23.8362 -6.36514"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/bote_mediano.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="bote_pequeno"/>
-<transform
-   pos="15.3386 -23.8946 -6.61795"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/bote_pequeno.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
    name="botegrande"/>
 <transform
-   pos="11.3318 -23.7532 -18.9539"
+   pos="-1.68542 -23.7532 -0.0945024"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -279,8 +245,6 @@
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
-<room
-   name="1"/>
 
 </entity>
 <entity>
@@ -426,7 +390,7 @@
 <name
    name="cajas_de_herramientas_ms1"/>
 <transform
-   pos="-2.94468 -20.144 -5.12957"
+   pos="-2.94468 -20.3993 -5.12957"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -434,8 +398,6 @@
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
-<room
-   name="1"/>
 
 </entity>
 <entity>
@@ -684,23 +646,6 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/columnas_balcon_izquierdo_cuadrado.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="1"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="cubo"/>
-<transform
-   pos="-5.57598 -20.2973 2.07459"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/cubo.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -1563,8 +1508,6 @@
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
-<room
-   name="1"/>
 
 </entity>
 <entity>
@@ -3407,7 +3350,7 @@
 <entity>
 <tags/>
 <name
-   name="Object001"/>
+   name="banner_derecho"/>
 <transform
    pos="0 0 0"
    quat="0 0 0 1.0"
@@ -3422,7 +3365,7 @@
 <entity>
 <tags/>
 <name
-   name="Object002"/>
+   name="banner_izquierdo"/>
 <transform
    pos="0 0 37.6313"
    quat="0 0 0 1.0"
@@ -3439,7 +3382,7 @@
 <name
    name="cubo_de_pintura_grande_mapeado"/>
 <transform
-   pos="-5.58868 -23.3171 1.24878"
+   pos="-7.22248 -20.267 -7.7257"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -4695,7 +4638,7 @@
 <name
    name="maquinas_abajo"/>
 <transform
-   pos="-24.492 -24.0188 11.4504"
+   pos="1.26695 -23.0184 4.78576"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -5281,6 +5224,66 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/cargador_bateria003.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="viga"/>
+<transform
+   pos="0 0 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/viga.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="viga1"/>
+<transform
+   pos="0 0 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/viga1.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="Object003"/>
+<transform
+   pos="-5.57598 -20.2973 2.07459"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/cubo.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="cubos"/>
+<transform
+   pos="-5.54537 -20.2856 2.08098"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/cubo.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
