@@ -75,8 +75,6 @@
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
-<room
-   name="1"/>
 
 </entity>
 <entity>
@@ -339,45 +337,11 @@
 <name
    name="cacharro_cientificomapeadoarriba"/>
 <transform
-   pos="-62.2043 16.7526 13.8225"
+   pos="-62.215 16.7526 13.8148"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/cacharro_cientificomapeadoarriba.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="caja_de_herramientas"/>
-<transform
-   pos="-62.8277 16.6607 14.3358"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/caja_de_herramientas.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="caja_de_herramientasabajo"/>
-<transform
-   pos="-93.8549 -0.395488 18.4124"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/caja_de_herramientasabajo.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -5284,6 +5248,66 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/cubo.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="caja2"/>
+<transform
+   pos="-2.94468 -20.3993 -5.12957"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/cajas_de_herramientas_ms1.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="pipetas001"/>
+<transform
+   pos="-69.4621 16.9465 16.0049"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/pipetas001.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="pipetas_e"/>
+<transform
+   pos="-94.6248 -0.308192 18.1998"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/cacharro_cientificomapeadoabajo.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="pipetas002"/>
+<transform
+   pos="-62.2151 16.7526 13.8225"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/cacharro_cientificomapeadoarriba.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
