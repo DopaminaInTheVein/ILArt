@@ -537,7 +537,7 @@
 <name
    name="columna_rota001"/>
 <transform
-   pos="-37.0865 -20.7983 -18.2052"
+   pos="-15.7226 -20.7983 -20.3029"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -5308,6 +5308,93 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/cacharro_cientificomapeadoarriba.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="rejasdespacho"/>
+<transform
+   pos="-82.0367 0.881225 -3.60809"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/rejasdespacho.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="rejasdespachoderecha"/>
+<transform
+   pos="-82.0367 0.767578 -12.0981"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="rejaslibreria"/>
+<transform
+   pos="-81.9029 0.990967 6.89136"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/rejaslibreria.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="rejaslaboarriba"/>
+<transform
+   pos="-65.6285 17.5277 11.2535"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/rejaslaboarriba.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="marco_libreria"/>
+<transform
+   pos="-81.9208 1.00992 6.89136"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/marco_libreria.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="marcosdespacho"/>
+<transform
+   pos="-82.0389 0.79309 -7.85249"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/marcosdespacho.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
