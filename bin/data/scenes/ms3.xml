@@ -5336,6 +5336,9 @@
    pos="-82.0367 0.767578 -12.0981"
    quat="0 0 0 1.0"
    scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/rejasdespachoderecha.static_mesh"/>
+<abs_aabb/>
 <rigidbody
    type_collision="static"/>
 

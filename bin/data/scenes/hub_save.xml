@@ -23,15 +23,15 @@
 	name="player_1"
 	/>
 <transform
-	pos="-0.933649 50.661098 -30.173109"
-	quat="-0.000000 -0.830573 0.000000 0.556909"
+	pos="-1.129316 50.661098 -20.764633"
+	quat="-0.000000 -0.642252 0.000000 0.766493"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="145.206"
+	points="105.947"
 	/>
 <tags
 	tags="player raijin"
@@ -66,7 +66,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.937023 0.491037 1.437020"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -92,12 +92,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger"
+	tags="trigger Text_Message_Letter_helper_text"
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.937023 0.491037 1.437020"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -130,7 +130,7 @@
 	name="skeletons/mole/mole.static_mesh"
 	/>
 <tags
-	tags="trigger"
+	tags="gui Text_Message_Letter_helper_text"
 	/>
 </entity>
 <entity
@@ -160,7 +160,7 @@
 	name="skeletons/scientist/scientist.static_mesh"
 	/>
 <tags
-	tags="tasklist"
+	tags="gui Text_Message_Letter_helper_text"
 	/>
 </entity>
 <entity
@@ -174,7 +174,7 @@
 	name="99999999"
 	/>
 <transform
-	pos="-1.946490 51.386902 -25.612900"
+	pos="-1.946490 51.386902 -20.087400"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -182,7 +182,7 @@
 	name="static_meshes/test/baliza.static_mesh"
 	/>
 <tags
-	tags="tasklist"
+	tags="tasklist Text_Message_Letter_helper_text"
 	/>
 <tasklist
 	points_size="3"
@@ -192,9 +192,9 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="1"
-	visited1="1"
-	visited2="1"
+	visited0="false"
+	visited1="false"
+	visited2="false"
 	/>
 </entity>
 </entities>
