@@ -28,7 +28,7 @@
 	pol="neutral"
 	/>
 <tags
-	tags="doorExit door interactive             "
+	tags="doorExit door"
 	/>
 <magnet_door
 	locked="1"
@@ -61,7 +61,7 @@
 	/>
 <transform
 	pos="-121.537003 -0.242203 -5.416840"
-	quat="0.000000 0.999806 0.000000 0.019710"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -70,7 +70,7 @@
 <bone_tracker
 	/>
 <tags
-	tags="platform pila interactive             "
+	tags="platform pila interactive"
 	/>
 <pila
 	action="examinate"
@@ -101,7 +101,7 @@
 	name="2"
 	/>
 <transform
-	pos="-65.349800 -1.306200 20.828899"
+	pos="-65.349800 15.808000 20.828899"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -109,12 +109,12 @@
 	name="static_meshes/ms3/elevator.static_mesh"
 	/>
 <tags
-	tags="elevator interactive              "
+	tags="elevator interactive"
 	/>
 <elevator
 	speedDown="27"
 	speedUp="27"
-	state="2"
+	state="0"
 	target_down="-65.349800 -1.306200 20.828899"
 	target_up="-65.349800 15.808000 20.828899"
 	/>
@@ -149,7 +149,7 @@
 	name="static_meshes/ms3/enchufe.static_mesh"
 	/>
 <tags
-	tags="pila_container interactive              "
+	tags="pila_container interactive"
 	/>
 <pila_container
 	/>
@@ -182,7 +182,7 @@
 	name="static_meshes/ms3/mesa_cientifico_up_mapeado.static_mesh"
 	/>
 <tags
-	tags="workbench interactive              "
+	tags="workbench interactive"
 	/>
 <workbench
 	/>
@@ -215,7 +215,7 @@
 	name="static_meshes/ms3/mesa_cientifico_up_mapeado001.static_mesh"
 	/>
 <tags
-	tags="workbench interactive              "
+	tags="workbench interactive"
 	/>
 <workbench
 	/>
@@ -249,7 +249,7 @@
 	name="static_meshes/ms3/pared_rompible.static_mesh"
 	/>
 <tags
-	tags="interactive               "
+	tags="interactive"
 	/>
 <rigidbody
 	kinematic="0"
@@ -275,7 +275,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.748001 -0.203600 19.675100"
+	pos="-66.010002 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -287,14 +287,14 @@
 	pol="neutral"
 	/>
 <tags
-	tags="door               "
+	tags="door"
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.010002 -0.203600 19.675100"
+	target="-66.748001 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -320,7 +320,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.078102 16.879801 19.739000"
+	pos="-66.896797 16.879801 19.739000"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -332,14 +332,14 @@
 	pol="neutral"
 	/>
 <tags
-	tags="door               "
+	tags="door"
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.896797 16.879801 19.739000"
+	target="-66.078102 16.879801 19.739000"
 	/>
 <rigidbody
 	kinematic="0"
@@ -365,7 +365,7 @@
 	name="2"
 	/>
 <transform
-	pos="-64.059502 -0.203600 19.675100"
+	pos="-64.710701 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -377,14 +377,14 @@
 	pol="neutral"
 	/>
 <tags
-	tags="door               "
+	tags="door"
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-64.710701 -0.203600 19.675100"
+	target="-64.059502 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -410,7 +410,7 @@
 	name="2"
 	/>
 <transform
-	pos="-64.744102 16.879801 19.724001"
+	pos="-63.948799 16.879801 19.724001"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -422,14 +422,14 @@
 	pol="neutral"
 	/>
 <tags
-	tags="door               "
+	tags="door"
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-63.948799 16.879801 19.724001"
+	target="-64.744102 16.879801 19.724001"
 	/>
 <rigidbody
 	kinematic="0"
@@ -462,21 +462,21 @@
 	name="__player_1"
 	/>
 <room
-	name="2"
+	name="1"
 	/>
 <transform
-	pos="0.000000 200.000000 0.000000"
-	quat="-0.000000 -0.040706 0.000000 0.999171"
+	pos="-49.678005 -1.303516 -0.792466"
+	quat="-0.000000 -0.767039 0.000000 0.641600"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="137.763"
+	points="114.82"
 	/>
 <tags
-	tags="raijin               "
+	tags="player raijin"
 	/>
 <character_controller
 	height="0.7"
@@ -504,7 +504,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -536,7 +536,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -571,7 +571,7 @@
 	name="2"
 	/>
 <transform
-	pos="-122.074898 -1.309578 -10.584587"
+	pos="-122.071976 -1.309606 -10.586550"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -579,10 +579,9 @@
 	name="skeletons/mole/mole.static_mesh"
 	/>
 <tags
-	tags="AI AI_mole AI_poss             "
+	tags="AI AI_mole AI_poss"
 	/>
 <bt_mole
-	state="reachedPoint"
 	wpts_size="0"
 	/>
 <character_controller
@@ -619,7 +618,7 @@
 <bone_tracker
 	/>
 <tags
-	tags="box platform removable interactive            "
+	tags="box platform removable interactive"
 	/>
 <box
 	size="3.000000 1.500000 3.000000"
@@ -661,7 +660,7 @@
 <bone_tracker
 	/>
 <tags
-	tags="box platform removable interactive            "
+	tags="box platform removable interactive"
 	/>
 <box
 	size="3.000000 1.500000 3.000000"
@@ -698,15 +697,15 @@
 	name="1"
 	/>
 <transform
-	pos="33.193909 -24.020000 -5.242186"
-	quat="0.000000 0.999090 0.000000 -0.042647"
+	pos="32.454414 -24.020000 8.183604"
+	quat="0.000000 0.017309 0.000000 0.999850"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/mole/mole.static_mesh"
 	/>
 <tags
-	tags="AI AI_mole AI_poss             "
+	tags="AI AI_mole AI_poss"
 	/>
 <bt_mole
 	state="followPathToWpt"
@@ -743,7 +742,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -776,7 +775,7 @@
 	name="static_meshes/ms3/cargador_bateria.static_mesh"
 	/>
 <tags
-	tags="pila_container interactive              "
+	tags="pila_container interactive"
 	/>
 <pila_container
 	/>
@@ -809,7 +808,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -841,7 +840,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -872,7 +871,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -967,7 +966,6 @@
 <local_aabb
 	/>
 <player_cientifico
-	possessed="1"
 	/>
 <skeleton
 	model="skeletons/scientist/scientist.skeleton"
@@ -983,20 +981,18 @@
 	name="2"
 	/>
 <transform
-	pos="-65.319145 -1.231200 20.834442"
-	quat="0.000000 0.999966 0.000000 0.008217"
-	scale="0.009299 0.009299 0.009299"
+	pos="-66.218399 15.803700 12.551200"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/scientist/scientist.static_mesh"
 	/>
 <tags
-	tags="AI AI_cientifico AI_poss interactive player           "
+	tags="AI AI_cientifico AI_poss interactive"
 	/>
 <bt_scientist
 	kpt_size="0"
-	possessed="1"
-	state="posessed"
 	zmax="0.1"
 	zmin="100"
 	/>
@@ -1017,16 +1013,16 @@
 	/>
 <transform
 	pos="-64.458397 16.297899 13.227700"
-	quat="0.000000 0.922127 0.000000 0.386888"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation               "
+	tags="workstation"
 	/>
 <workstation
 	animation="idle"
 	posAction="-64.458397 16.297899 13.227700"
-	yawAction="-3.14159"
+	yawAction="0"
 	/>
 </entity>
 <entity
@@ -1041,11 +1037,11 @@
 	/>
 <transform
 	pos="-66.745003 16.297899 16.787001"
-	quat="0.000000 -0.357009 0.000000 0.934101"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation               "
+	tags="workstation"
 	/>
 <workstation
 	animation="idle"
@@ -1065,11 +1061,11 @@
 	/>
 <transform
 	pos="-63.220100 16.297899 17.436300"
-	quat="0.000000 0.410464 0.000000 0.911877"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation               "
+	tags="workstation"
 	/>
 <workstation
 	animation="idle"
@@ -1095,7 +1091,7 @@
 <generator
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger generator"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1124,7 +1120,7 @@
 <generator
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger generator"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1153,7 +1149,7 @@
 <generator
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger generator"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1182,7 +1178,7 @@
 <generator
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger generator"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1204,14 +1200,14 @@
 	name="2"
 	/>
 <transform
-	pos="-73.506798 -0.588134 8.454650"
+	pos="-73.506798 -0.588134 8.454660"
 	quat="0.000000 0.846634 0.000000 0.532176"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <generator
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger generator"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1240,7 +1236,7 @@
 <generator
 	/>
 <tags
-	tags="trigger generator              "
+	tags="trigger generator"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1271,7 +1267,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1299,7 +1295,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger room_switcher              "
+	tags="trigger room_switcher"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1325,7 +1321,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger limit              "
+	tags="trigger limit"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1348,16 +1344,16 @@
 	/>
 <transform
 	pos="-86.654297 -0.628906 15.036300"
-	quat="0.000000 0.710217 0.000000 0.703983"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation               "
+	tags="workstation"
 	/>
 <workstation
 	animation="idle"
 	posAction="-86.654297 -0.628906 15.036300"
-	yawAction="-3.14159"
+	yawAction="0"
 	/>
 </entity>
 <entity
@@ -1372,16 +1368,16 @@
 	/>
 <transform
 	pos="-93.464104 -0.628905 19.821400"
-	quat="0.000000 -0.728751 0.000000 0.684779"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation               "
+	tags="workstation"
 	/>
 <workstation
 	animation="idle"
 	posAction="-93.464104 -0.628905 19.821400"
-	yawAction="-3.14159"
+	yawAction="0"
 	/>
 </entity>
 <entity
@@ -1396,16 +1392,16 @@
 	/>
 <transform
 	pos="-94.238098 -0.628906 15.836000"
-	quat="0.000000 -0.728751 0.000000 0.684779"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation               "
+	tags="workstation"
 	/>
 <workstation
 	animation="idle"
 	posAction="-94.238098 -0.628906 15.836000"
-	yawAction="-3.14159"
+	yawAction="0"
 	/>
 </entity>
 <entity
@@ -1420,16 +1416,16 @@
 	/>
 <transform
 	pos="-90.035896 -0.628906 15.571200"
-	quat="0.000000 0.928940 0.000000 -0.370229"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="workstation               "
+	tags="workstation"
 	/>
 <workstation
 	animation="idle"
 	posAction="-90.035896 -0.628906 15.571200"
-	yawAction="-3.14159"
+	yawAction="0"
 	/>
 </entity>
 <entity
@@ -1445,7 +1441,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera               "
+	tags="guided_camera"
 	/>
 <guided_camera
 	default_dirs="0"
@@ -1478,7 +1474,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera               "
+	tags="guided_camera"
 	/>
 <guided_camera
 	default_dirs="0"
@@ -1521,7 +1517,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera               "
+	tags="guided_camera"
 	/>
 <guided_camera
 	default_dirs="0"
@@ -1566,7 +1562,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1596,7 +1592,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1623,7 +1619,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger               "
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -1645,7 +1641,7 @@
 	name="99999999"
 	/>
 <transform
-	pos="-121.471001 -1.304540 -5.789930"
+	pos="27.754900 -23.840700 -14.772500"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1653,7 +1649,7 @@
 	name="static_meshes/test/baliza.static_mesh"
 	/>
 <tags
-	tags="tasklist               "
+	tags="tasklist"
 	/>
 <tasklist
 	points_size="13"
@@ -1683,19 +1679,19 @@
 	room7="-1"
 	room8="-1"
 	room9="-1"
-	visited0="1"
-	visited1="1"
-	visited10="0"
-	visited11="0"
-	visited12="0"
-	visited2="1"
-	visited3="1"
-	visited4="1"
-	visited5="0"
-	visited6="0"
-	visited7="0"
-	visited8="1"
-	visited9="0"
+	visited0="false"
+	visited1="false"
+	visited10="false"
+	visited11="false"
+	visited12="false"
+	visited2="false"
+	visited3="false"
+	visited4="true"
+	visited5="false"
+	visited6="false"
+	visited7="false"
+	visited8="false"
+	visited9="false"
 	/>
 </entity>
 <entity
@@ -1713,8 +1709,8 @@
 	name="1"
 	/>
 <transform
-	pos="11.227434 -11.999750 -9.261921"
-	quat="0.000000 0.708986 0.000000 0.705223"
+	pos="11.227420 -11.999980 -1.567855"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1725,14 +1721,14 @@
 	pol="minus"
 	/>
 <tags
-	tags="drone platform              "
+	tags="drone platform"
 	/>
 <drone
 	textureBack=""
 	textureFront=""
 	wpt0_pos="11.227400 -12.000000 -18.000000"
 	wpt0_wait="2"
-	wpt1_pos="11.227400 -12.000000 -0.499999"
+	wpt1_pos="11.227400 -12.000000 -0.500000"
 	wpt1_wait="2"
 	wpts_size="2"
 	/>
@@ -1759,8 +1755,8 @@
 	name="1"
 	/>
 <transform
-	pos="8.830301 -11.999760 11.366124"
-	quat="0.000000 -0.707107 0.000000 0.707107"
+	pos="8.830360 -11.999980 4.655728"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1771,7 +1767,7 @@
 	pol="plus"
 	/>
 <tags
-	tags="drone platform              "
+	tags="drone platform"
 	/>
 <drone
 	textureBack=""
@@ -1805,8 +1801,8 @@
 	name="1"
 	/>
 <transform
-	pos="-7.764934 1.822723 21.391985"
-	quat="0.000000 1.000000 0.000000 0.000000"
+	pos="3.443137 -7.208051 21.373537"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1817,7 +1813,7 @@
 	pol="plus"
 	/>
 <tags
-	tags="drone platform              "
+	tags="drone platform"
 	/>
 <drone
 	textureBack=""
@@ -1851,8 +1847,8 @@
 	name="1"
 	/>
 <transform
-	pos="-26.691053 1.033101 9.869427"
-	quat="0.000000 0.908985 0.000000 0.416829"
+	pos="-21.005175 0.472952 15.817299"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1863,7 +1859,7 @@
 	pol="minus"
 	/>
 <tags
-	tags="drone platform              "
+	tags="drone platform"
 	/>
 <drone
 	textureBack=""
@@ -1906,15 +1902,15 @@
 	name="1"
 	/>
 <transform
-	pos="2.476563 -24.020000 2.634102"
-	quat="-0.000000 -0.940163 0.000000 0.340724"
+	pos="15.282220 -24.020000 -5.066373"
+	quat="0.000000 0.662905 0.000000 0.748703"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/guard/guard.static_mesh"
 	/>
 <tags
-	tags="AI AI_guard              "
+	tags="AI AI_guard"
 	/>
 <bt_guard
 	formation_dir="26.215700 -23.967800 -6.800940"
@@ -1934,7 +1930,7 @@
 	kpt3_type="seek"
 	kpt3_wait="2"
 	kpt_size="4"
-	state="nextWpt"
+	state="seekwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -1965,15 +1961,15 @@
 	name="1"
 	/>
 <transform
-	pos="12.582511 -24.020000 1.079504"
-	quat="-0.000000 -0.996127 0.000000 0.087925"
+	pos="7.219285 -23.724813 8.970426"
+	quat="-0.000000 -0.011039 0.000000 0.999939"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/guard/guard.static_mesh"
 	/>
 <tags
-	tags="AI AI_guard              "
+	tags="AI AI_guard"
 	/>
 <bt_guard
 	formation_dir="-3.618460 -23.967800 2.134690"
@@ -2021,15 +2017,15 @@
 	name="2"
 	/>
 <transform
-	pos="-84.215355 -1.303518 -28.439316"
-	quat="-0.000000 -0.179298 0.000000 0.983795"
+	pos="-84.147270 -1.303518 -28.490820"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/guard/guard.static_mesh"
 	/>
 <tags
-	tags="AI AI_guard              "
+	tags="AI AI_guard"
 	/>
 <bt_guard
 	formation_dir="-86.390099 -1.267510 -30.135201"
@@ -2043,7 +2039,6 @@
 	kpt1_type="seek"
 	kpt1_wait="2"
 	kpt_size="2"
-	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -2082,7 +2077,7 @@
 	name="skeletons/guard/guard.static_mesh"
 	/>
 <tags
-	tags="AI AI_guard              "
+	tags="AI AI_guard"
 	/>
 <bt_guard
 	formation_dir="-83.696899 -1.267510 -30.135201"
@@ -2096,7 +2091,6 @@
 	kpt1_type="seek"
 	kpt1_wait="2"
 	kpt_size="2"
-	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -2127,15 +2121,15 @@
 	name="2"
 	/>
 <transform
-	pos="-99.264503 -1.314243 -15.550564"
-	quat="-0.000000 -0.120928 0.000000 0.992661"
+	pos="-96.784500 -1.303517 -10.605000"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/guard/guard.static_mesh"
 	/>
 <tags
-	tags="AI AI_guard              "
+	tags="AI AI_guard"
 	/>
 <bt_guard
 	formation_dir="-98.822304 -1.267510 -12.318200"
@@ -2161,7 +2155,6 @@
 	kpt5_type="look"
 	kpt5_wait="2"
 	kpt_size="6"
-	state="seekwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -2192,15 +2185,15 @@
 	name="2"
 	/>
 <transform
-	pos="-70.841080 -1.303516 1.016371"
-	quat="-0.000000 -0.798208 0.000000 0.602382"
+	pos="-66.913902 -1.303516 7.813280"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/guard/guard.static_mesh"
 	/>
 <tags
-	tags="AI AI_guard              "
+	tags="AI AI_guard"
 	/>
 <bt_guard
 	formation_dir="-68.951797 -1.267510 6.100120"
@@ -2226,7 +2219,6 @@
 	kpt5_type="look"
 	kpt5_wait="2"
 	kpt_size="6"
-	state="seekwpt"
 	/>
 <character_controller
 	height="1.8"

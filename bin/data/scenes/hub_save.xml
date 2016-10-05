@@ -23,18 +23,27 @@
 	name="player_1"
 	/>
 <transform
+<<<<<<< HEAD
 	pos="-0.961509 51.365040 -20.074944"
 	quat="-0.000000 -0.637221 0.000000 0.770681"
+=======
+	pos="-1.129316 50.661098 -20.764633"
+	quat="-0.000000 -0.642252 0.000000 0.766493"
+>>>>>>> art
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
+<<<<<<< HEAD
 	points="139.011"
+=======
+	points="105.947"
+>>>>>>> art
 	/>
 <tags
-	tags="player raijin              "
+	tags="player raijin"
 	/>
 <character_controller
 	height="0.7"
@@ -61,7 +70,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger raijin              "
+	tags="trigger raijin"
 	/>
 <rigidbody
 	kinematic="0"
@@ -92,7 +101,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger Text_Message_Letter_title_text              "
+	tags="trigger Text_Message_Letter_helper_text"
 	/>
 <rigidbody
 	kinematic="0"
@@ -130,7 +139,7 @@
 	name="skeletons/mole/mole.static_mesh"
 	/>
 <tags
-	tags="gui Text_Message_Letter_title_text              "
+	tags="gui Text_Message_Letter_helper_text"
 	/>
 </entity>
 <entity
@@ -160,7 +169,7 @@
 	name="skeletons/scientist/scientist.static_mesh"
 	/>
 <tags
-	tags="gui Text_Message_Letter_title_text              "
+	tags="gui Text_Message_Letter_helper_text"
 	/>
 </entity>
 <entity
@@ -182,7 +191,7 @@
 	name="static_meshes/test/baliza.static_mesh"
 	/>
 <tags
-	tags="tasklist Text_Message_Letter_title_text              "
+	tags="tasklist Text_Message_Letter_helper_text"
 	/>
 <tasklist
 	points_size="3"
@@ -192,31 +201,9 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="0"
-	visited1="0"
-	visited2="0"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="1"
-	/>
-<room
-	name="99999999"
-	/>
-<transform
-	pos="-1.946490 51.386902 -25.612900"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/test/baliza.static_mesh"
-	/>
-<tags
-	tags="tasklistend Text_Message_Letter_title_text              "
+	visited0="false"
+	visited1="false"
+	visited2="false"
 	/>
 </entity>
 </entities>
