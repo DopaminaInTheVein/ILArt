@@ -23,15 +23,15 @@
 	name="player_1"
 	/>
 <transform
-	pos="-1.729370 51.365040 -30.070921"
-	quat="0.000000 0.999818 0.000000 0.019076"
+	pos="-0.961509 51.365040 -20.074944"
+	quat="-0.000000 -0.637221 0.000000 0.770681"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
 	/>
 <life
-	points="116.86"
+	points="139.011"
 	/>
 <tags
 	tags="player raijin              "
