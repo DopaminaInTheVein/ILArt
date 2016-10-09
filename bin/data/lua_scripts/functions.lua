@@ -57,21 +57,23 @@ end
 g_current_level = "level_0"
 g_is_menu = false
 function LoadLevel( logic_level )
+	p:print("Load Level")
 	g_current_level = logic_level
 	if g_current_level == "level_0" then 
 		g_is_menu = true
 	else
 		g_is_menu = false
 	end
-	p:print("Load Level")
-	--ui_cam:fade_out(1)
+	ui_cam:fade_out(0.5)
 	p:setControlEnabled(0)
-	p:load_entities("loading")
+	--p:load_entities("loading")
 	--p:exec_command("p:load_entites(\"loading\")", 0.1)
+	p:exec_command("p:load_entities(\"loading\");", 0.5)
+	p:exec_command("ui_cam:fade_in(0.5)", 0.5)
 	p:exec_command("p:load_level(\""..logic_level.."\")", 1)
 end
 function LoadLevelSaving( logic_level )
-g_current_level = logic_level
+	g_current_level = logic_level
 	p:print("Load Level")
 	ui_cam:fade_out(1)
 	p:setControlEnabled(0)
@@ -83,4 +85,8 @@ function DestroyAllByTag(tag)
 	handles = HandleGroup()
 	handles:get_handles_by_tag(tag)
 	handles:destroy()
+end
+
+function ShowMessage(level, txt_id, pj)
+	p:show_message(p:get_text(level, txt_id), pj)
 end

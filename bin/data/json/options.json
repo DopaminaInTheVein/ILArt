@@ -1,7 +1,7 @@
 {
     "scenes": {
         "level_0": "title",
-        "level_1": "tuto_mole",
+        "level_1": "hub",
         "level_2": "tuto_mole",
         "level_3": "tuto_sci",
         "level_4": "ms3"
@@ -22,7 +22,8 @@
         "difficulty": 0.0
     },
     "sound": {
-        "sfx": 0.495294988155365,
-        "music": 1.0
+        "sfx": 0.0,
+        "music": 0.0,
+        "MAX_DISTANCE": 1.0
     }
 }

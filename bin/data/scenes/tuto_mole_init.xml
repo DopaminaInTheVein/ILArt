@@ -230,7 +230,7 @@
 <name
    name="_ttutomole_end"/>
 <transform
-   pos="1028.49 73.1718 -24.9682"
+   pos="1029.15 73.1718 -24.9682"
    quat="0 0 0 1.0"
    scale="1.0"/>
 
@@ -319,6 +319,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="4"
+   skippable="no"
+   stop_final="yes"
    wpt1="1028.02 77.6201 -32.1976"
    wpt2="1028.02 67.7094 -27.8563"
    wpt3="1029.87 65.6882 -26.2146"
@@ -343,6 +345,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="3"
+   skippable="no"
+   stop_final="yes"
    wpt1="1027.41 65.5478 -29.8346"
    wpt2="1020.46 65.4545 -27.4272"
    wpt3="1018.11 66.5244 -16.9743"
@@ -365,6 +369,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="2"
+   skippable="no"
+   stop_final="yes"
    wpt1="1021.1 70.7414 -19.4925"
    wpt2="1016.79 76.8245 -15.1391"
    lpt1="1029.38 72.3398 -25.2395"
@@ -385,6 +391,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="3"
+   skippable="no"
+   stop_final="yes"
    wpt1="1021.25 71.9291 -19.6802"
    wpt2="1021.25 67.4304 -25.2186"
    wpt3="1024.13 67.1188 -31.1171"
