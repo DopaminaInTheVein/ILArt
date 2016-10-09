@@ -390,7 +390,7 @@
 <name
    name="columna_rota001"/>
 <transform
-   pos="1026.11 64.1497 -25.2976"
+   pos="1026.11 64.1897 -25.2976"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
