@@ -384,7 +384,7 @@
 <rigidbody
    type_collision="static"
    type_shape="box"
-   size="1.2024 7.0 1.54006"
+   size="1.2024 7.716 1.54006"
    mass="5"/>
 <local_aabb/>
 
