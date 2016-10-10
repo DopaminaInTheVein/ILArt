@@ -8,9 +8,24 @@
 <name
    name="Omni005"/>
 <transform
-   pos="9.27955 56.6631 -17.3862"
+   pos="9.27955 56.6631 -17.7151"
    quat="0 0 0 1.0"
    scale="1.0"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="ceiling"/>
+<transform
+   pos="11.53 50.6611 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/ceiling.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
 
 </entity>
 <entity>
@@ -187,7 +202,7 @@
 <name
    name="wall_lamp_sound21"/>
 <transform
-   pos="13.7262 55.293 -33.4789"
+   pos="13.7262 55.293 -33.2689"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -229,7 +244,7 @@
 <name
    name="wall_lamp_sound03"/>
 <transform
-   pos="9.6048 55.293 -33.4789"
+   pos="9.6048 55.293 -33.2689"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -341,7 +356,7 @@
 <name
    name="wall_lamp_sound11"/>
 <transform
-   pos="9.34076 55.293 -17.5048"
+   pos="9.34076 55.293 -17.6548"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -355,7 +370,7 @@
 <name
    name="wall_lamp_sound12"/>
 <transform
-   pos="13.6194 55.293 -17.5048"
+   pos="13.6194 55.293 -17.6548"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -492,7 +507,7 @@
 <name
    name="wall1"/>
 <transform
-   pos="11.53 50.6611 -17.241"
+   pos="11.53 50.6611 -17.0373"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -527,6 +542,21 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/hub/wall_3.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="ceiling_tile"/>
+<transform
+   pos="11.53 62.5135 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/hub/ceiling_tile.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>

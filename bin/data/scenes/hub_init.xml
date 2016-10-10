@@ -140,8 +140,6 @@
    velocity="0.5"
    default_dirs="0"
    points_size="4"
-   skippable="no"
-   stop_final="yes"
    wpt1="21.1506 54.8714 -25.5393"
    wpt2="15.4449 54.8714 -24.8663"
    wpt3="3.96856 52.0162 -20.8374"
