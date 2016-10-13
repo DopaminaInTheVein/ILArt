@@ -639,7 +639,7 @@
 <transform
    pos="-2.27247 50.6611 -25.4918"
    quat="0 0 0 1.0"
-   scale="6.72523"/>
+   scale="1.0"/>
 <render_static_mesh
    name="static_meshes/hub/machine_table.static_mesh"/>
 <abs_aabb/>
