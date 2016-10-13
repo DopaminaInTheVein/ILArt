@@ -639,7 +639,7 @@
 <transform
    pos="-2.27247 50.6611 -25.4918"
    quat="0 0 0 1.0"
-   scale="6.72523"/>
+   scale="1.0"/>
 <render_static_mesh
    name="static_meshes/hub/machine_table.static_mesh"/>
 <abs_aabb/>
@@ -653,8 +653,8 @@
 <name
    name="generator"/>
 <transform
-   pos="7.365 51.44 -30.6467"
-   quat="-0.064627 0.926492 -0.187081 0.320057"
+   pos="7.23866 51.44 -30.8202"
+   quat="-0.0336897 0 0 0.999401"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/tuto_sci/generator.static_mesh"/>

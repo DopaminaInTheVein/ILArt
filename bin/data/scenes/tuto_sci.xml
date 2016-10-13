@@ -21,7 +21,7 @@
    name="generator"/>
 <transform
    pos="75.3317 7.89981 -0.590158"
-   quat="0 0 0 1.0"
+   quat="0 0.906308 0 -0.422618"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/tuto_sci/generator.static_mesh"/>
@@ -356,7 +356,7 @@
 <name
    name="farolillos004_sound003"/>
 <transform
-   pos="75.9401 1.08534 -0.497156"
+   pos="75.9401 1.08534 -0.497158"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -384,7 +384,7 @@
 <name
    name="farolillos004_sound005"/>
 <transform
-   pos="75.9401 8.10499 -0.497151"
+   pos="75.9401 8.10499 -0.497153"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 
@@ -412,7 +412,7 @@
 <name
    name="farolillos004_sound007"/>
 <transform
-   pos="75.9401 8.80086 -0.80107"
+   pos="75.9401 8.80086 -0.801072"
    quat="0 -0.707107 0.707107 0"
    scale="1.0"/>
 

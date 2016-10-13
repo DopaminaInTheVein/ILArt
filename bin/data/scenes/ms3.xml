@@ -3012,19 +3012,6 @@
 
 </entity>
 <entity>
-<tags
-   tags="target"/>
-<name
-   name="cargador_bateria_pAction"/>
-<transform
-   pos="-91.6796 -0.419937 14.2709"
-   quat="0 0.959077 0 0.283145"
-   scale="1.0"/>
-<room
-   name="2"/>
-
-</entity>
-<entity>
 <tags/>
 <name
    name="tWireDown_WireParticlesUp"/>
@@ -3056,7 +3043,7 @@
    name="generator_1"/>
 <transform
    pos="-17.8101 -1.54614 24.6676"
-   quat="0 0 0 1.0"
+   quat="0 0.999986 0 0"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/obj/generator.static_mesh"/>
@@ -3073,8 +3060,8 @@
 <name
    name="generator_2"/>
 <transform
-   pos="29.6176 -23.2889 16.4296"
-   quat="0 0 0 1.0"
+   pos="29.6176 -23.2889 16.4005"
+   quat="0 1.0 0 0"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/obj/generator.static_mesh"/>
@@ -3109,8 +3096,8 @@
 <name
    name="generator_4"/>
 <transform
-   pos="-40.825 -0.555909 -7.16371"
-   quat="0 0 0 1.0"
+   pos="-40.8964 -0.555909 -7.16371"
+   quat="0 0.707107 0 0.707107"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/obj/generator.static_mesh"/>
@@ -3128,7 +3115,7 @@
    name="generator_5"/>
 <transform
    pos="-73.5068 -0.588134 8.45465"
-   quat="0 0 0 1.0"
+   quat="0 0.846634 0 0.532176"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/obj/generator.static_mesh"/>
@@ -3146,7 +3133,7 @@
    name="generator_6"/>
 <transform
    pos="-119.645 -0.582276 -12.5256"
-   quat="0 0 0 1.0"
+   quat="0 -0.707107 0 0.707107"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/obj/generator.static_mesh"/>
@@ -4811,7 +4798,7 @@
 <name
    name="suelo_nivel_1"/>
 <transform
-   pos="-2.49144 -24.02 -0.113522"
+   pos="-2.49144 -24.02 -0.097165"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -5158,18 +5145,16 @@
 
 </entity>
 <entity>
-<tags/>
+<tags
+   tags="target"/>
 <name
-   name="cargador_bateria003"/>
+   name="cargador_bateria_pAction"/>
 <transform
-   pos="0 0 0"
-   quat="0 0 0 1.0"
+   pos="-91.6796 -0.419937 14.2709"
+   quat="0 0.959077 0 0.283145"
    scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/cargador_bateria003.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"/>
+<room
+   name="2"/>
 
 </entity>
 <entity>
@@ -5295,13 +5280,13 @@
 <entity>
 <tags/>
 <name
-   name="rejasdespachoderecha"/>
+   name="rejas_despacho_izquierda"/>
 <transform
-   pos="-82.0367 0.775156 -7.85312"
+   pos="-82.0367 0.881225 -3.60834"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ms3/rejasdespachoderecha.static_mesh"/>
+   name="static_meshes/ms3/rejas_despacho_izquierda.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
@@ -5362,6 +5347,21 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ms3/rejaslibreria001.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="rejas_despacho_derecha"/>
+<transform
+   pos="-82.0367 0.767578 -12.0962"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/rejas_despacho_derecha.static_mesh"/>
 <abs_aabb/>
 <rigidbody
    type_collision="static"/>
