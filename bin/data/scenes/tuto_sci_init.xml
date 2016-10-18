@@ -25,7 +25,8 @@
 <skeleton
    model="skeletons/guard/guard.skeleton"/>
 <render_static_mesh
-   name="skeletons/guard/guard.static_mesh"/>
+   name="skeletons/guard/guard.static_mesh"
+   static="no"/>
 <skeleton_ik/>
 <abs_aabb/>
 <local_aabb/>
@@ -60,7 +61,8 @@
 <skeleton
    model="skeletons/guard/guard.skeleton"/>
 <render_static_mesh
-   name="skeletons/guard/guard.static_mesh"/>
+   name="skeletons/guard/guard.static_mesh"
+   static="no"/>
 <skeleton_ik/>
 <abs_aabb/>
 <local_aabb/>
@@ -87,7 +89,8 @@
 <skeleton
    model="skeletons/player/player.skeleton"/>
 <render_static_mesh
-   name="skeletons/player/player.static_mesh"/>
+   name="skeletons/player/player.static_mesh"
+   static="no"/>
 <skeleton_ik/>
 <abs_aabb/>
 <local_aabb/>
@@ -124,9 +127,10 @@
    pos="51.6847 2.81285 -6.69464"
    quat="0 0 0 1.0"
    scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/tuto_sci/mesa_cientifico_up_mapeado.static_mesh"/>
 <abs_aabb/>
+<render_static_mesh
+   name="static_meshes/tuto_sci/mesa_cientifico_up_mapeado.static_mesh"
+   static="yes"/>
 <rigidbody
    type_collision="static"/>
 
@@ -147,7 +151,8 @@
 <skeleton
    model="skeletons/scientist/scientist.skeleton"/>
 <render_static_mesh
-   name="skeletons/scientist/scientist.static_mesh"/>
+   name="skeletons/scientist/scientist.static_mesh"
+   static="no"/>
 <skeleton_ik/>
 <abs_aabb/>
 <local_aabb/>
@@ -192,9 +197,10 @@
    pos="70.6917 3.82912 -2.78086"
    quat="0 0 0 1.0"
    scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/obj/drone.static_mesh"/>
 <abs_aabb/>
+<render_static_mesh
+   name="static_meshes/obj/drone.static_mesh"
+   static="no"/>
 <rigidbody
    type_collision="dynamic"
    type_shape="drone"/>
@@ -258,9 +264,10 @@
    pos="75.9743 8.61366 -2.82908"
    quat="0 0 0 1.0"
    scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/tuto_sci/door_tuto_end.static_mesh"/>
 <abs_aabb/>
+<render_static_mesh
+   name="static_meshes/tuto_sci/door_tuto_end.static_mesh"
+   static="no"/>
 <rigidbody
    type_collision="dynamic"
    type_shape="convex"
@@ -295,7 +302,8 @@
 <tags
    tags="tasklist"/>
 <render_static_mesh
-   name="static_meshes/test/baliza.static_mesh"/>
+   name="static_meshes/test/baliza.static_mesh"
+   to_render="no"/>
 <room
    name="-1"/>
 <tasklist
@@ -328,6 +336,8 @@
    velocity="0.4"
    default_dirs="0"
    points_size="3"
+   skippable="no"
+   stop_final="yes"
    wpt1="48.3744 0.569 -2.66042"
    wpt2="50.5407 2.17801 -0.319584"
    wpt3="51.8844 1.94034 -2.65872"
@@ -350,6 +360,8 @@
    velocity="0.4"
    default_dirs="0"
    points_size="5"
+   skippable="no"
+   stop_final="yes"
    wpt1="50.7159 0.569 -2.71586"
    wpt2="64.3482 2.17801 -2.83887"
    wpt3="65.8859 0.569 -4.34853"
