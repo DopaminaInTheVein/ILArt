@@ -25,7 +25,8 @@
    name="static_meshes/hub/ceiling.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/ceiling"/>
 
 </entity>
 <entity>
@@ -40,7 +41,8 @@
    name="static_meshes/hub/reja.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/reja"/>
 
 </entity>
 <entity>
@@ -55,7 +57,8 @@
    name="static_meshes/hub/cenefa_1.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/cenefa_1"/>
 
 </entity>
 <entity>
@@ -70,7 +73,8 @@
    name="static_meshes/hub/cenefa_2.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/cenefa_2"/>
 
 </entity>
 <entity>
@@ -85,7 +89,8 @@
    name="static_meshes/hub/arc_door.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/arc_door"/>
 
 </entity>
 <entity>
@@ -100,7 +105,8 @@
    name="static_meshes/hub/window_wall.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/window_wall"/>
 
 </entity>
 <entity>
@@ -115,7 +121,8 @@
    name="static_meshes/hub/columna_2.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/columna_2"/>
 
 </entity>
 <entity>
@@ -130,7 +137,8 @@
    name="static_meshes/hub/door.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/door"/>
 
 </entity>
 <entity>
@@ -145,7 +153,8 @@
    name="static_meshes/hub/columna.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/columna"/>
 
 </entity>
 <entity>
@@ -160,7 +169,8 @@
    name="static_meshes/hub/control_panel.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/control_panel"/>
 
 </entity>
 <entity>
@@ -175,7 +185,8 @@
    name="static_meshes/hub/sofa1.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/sofa1"/>
 
 </entity>
 <entity>
@@ -190,7 +201,8 @@
    name="static_meshes/hub/wall_lamp.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/wall_lamp"/>
 
 </entity>
 <entity
@@ -499,7 +511,8 @@
    name="static_meshes/hub/arc_door.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/arc_door"/>
 
 </entity>
 <entity>
@@ -514,7 +527,8 @@
    name="static_meshes/hub/wall1.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/wall1"/>
 
 </entity>
 <entity>
@@ -529,7 +543,8 @@
    name="static_meshes/hub/wall2.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/wall2"/>
 
 </entity>
 <entity>
@@ -544,7 +559,8 @@
    name="static_meshes/hub/wall_3.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/wall_3"/>
 
 </entity>
 <entity>
@@ -559,7 +575,8 @@
    name="static_meshes/hub/ceiling_tile.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/ceiling_tile"/>
 
 </entity>
 <entity>
@@ -574,7 +591,8 @@
    name="static_meshes/hub/sofa2.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/sofa2"/>
 
 </entity>
 <entity
@@ -591,7 +609,8 @@
    name="static_meshes/hub/end_hub.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/end_hub"/>
 
 </entity>
 <entity
@@ -629,7 +648,8 @@
    name="static_meshes/hub/floor.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/floor"/>
 
 </entity>
 <entity>
@@ -644,7 +664,8 @@
    name="static_meshes/hub/machine_table.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="hub/machine_table"/>
 
 </entity>
 <entity>
@@ -660,7 +681,8 @@
    name="static_meshes/tuto_sci/generator.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="tuto_sci/generator"/>
 
 </entity>
 

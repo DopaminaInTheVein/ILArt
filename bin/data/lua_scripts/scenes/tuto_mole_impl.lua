@@ -40,20 +40,23 @@ function OnStart_tuto_mole( )
 	portal_done = false
 	idWall_out = 100
 	idWall_in = 101
-	TXT_LOOK_WALL = "look_wall"
-	TXT_HELP_POSS = "help_possess"
-	TXT_HELP_UNPOSS = "help_unpossess"
-	TXT_PLACE_BOX = "help_place_box"
-	TXT_HELP_WALL = "help_wall"
-	TXT_HELP_BOX = "help_box"
-	TXT_HELP_DJUMP = "help_djump"
-	TXT_BOX_HINT = "box_hint"
-	TXT_MOLE_DREAM = "mole_dream"
-	TXT_NEED_HIGHER = "need_higher"
-	TXT_PULL_PUSH = "pull_push"
-	TXT_SHOW_PORTAL = "show_portal"
-	TXT_WALL_DETROYED = "wall_destroyed"
+	p:ai_start()
+	TXT_LOOK_WALL = "::look_wall"
+	TXT_HELP_POSS = "::help_possess"
+	TXT_HELP_UNPOSS = "::help_unpossess"
+	TXT_PLACE_BOX = "::help_place_box"
+	TXT_HELP_WALL = "::help_wall"
+	TXT_HELP_BOX = "::help_box"
+	TXT_HELP_DJUMP = "::help_djump"
+	TXT_BOX_HINT = "::box_hint"
+	TXT_MOLE_DREAM = "::mole_dream"
+	TXT_NEED_HIGHER = "::need_higher"
+	TXT_PULL_PUSH = "::pull_push"
+	TXT_SHOW_PORTAL = "::show_portal"
+	TXT_WALL_DETROYED = "::wall_destroyed"
+	TXT_FALL_COLUMN = "::fall_column"
 	IntroTutoMole()
+	cam:fx(FX_DREAM_BORDER, 1) -- defined on fx.lua
 end
 
 function OnPossess_tuto_mole( )
@@ -110,7 +113,7 @@ end
 function tutomole_lookWall( )
   p:print("Look Wall\n")
   triggerWall_1:getHandleCaller()
-  p:player_talks(p:get_text("tuto_mole", TXT_LOOK_WALL))
+  p:player_talks(TXT_LOOK_WALL)
   p:exec_command( "triggerWall_1:setActionable(1);", 2 )
 end
 
@@ -159,6 +162,16 @@ function tutomole_destroyWallEffect()
   --Tasklist
   p:complete_tasklist(TASK_TUTOM_WALL)
 end
+
+function tutomole_reach_column( )
+	p:hide_message()
+	cam:run_cinematic("CineNearPortal", 1)
+end
+
+function tutomole_out_column( )
+	p:player_talks(TXT_FALL_COLUMN)
+	cam:skip_cinematic()
+end
 --------------------------------------
 --------------
 
@@ -183,69 +196,69 @@ function IntroTutoMole( )
 end
 
 function IntroTutoMole2( )
-	ShowMessage("tuto_mole", TXT_MOLE_DREAM, "mole")
-	p:exec_command("IntroTutoMole3();", 1)
+	p:show_message(TXT_MOLE_DREAM, "mole")
+	p:exec_command("IntroTutoMole4();", 5)
 end
 
 function IntroTutoMole3( )
-	p:wait_button("IntroTutoMole4();")
+	--p:wait_button("IntroTutoMole4();")
 end
 
 function IntroTutoMole4( )
 	cam:skip_cinematic()
-	p:hide_message()
+	--p:hide_message()
 	p:setControlEnabled(1)
 	p:exec_command("tutomole_help_possess();", 0.5)
 end
 ----------------------------------------------------------------------------------
 -- Wall destroyed
 function TutoMoleWallDestroyed()
-	ShowMessage("tuto_mole", TXT_WALL_DETROYED, "raijin")
+	p:show_message(TXT_WALL_DETROYED, "raijin")
 	p:exec_command("p:hide_message()", 4)
 end
 ----------------------------------------------------------------------------------
 function TutoMoleSala()
 	p:setControlEnabled(0)
-	cam:run_cinematic("CineSala", 5)
-	p:exec_command("TutoMoleSala2();", 5)
+	cam:run_cinematic("CineSala", 8)
+	p:exec_command("TutoMoleSala2();", 2)
 end
 
 function TutoMoleSala2()
-	ShowMessage("tuto_mole", TXT_SHOW_PORTAL, "raijin")
-	p:exec_command("TutoMoleSala3();", 0.5)
+	p:show_message(TXT_SHOW_PORTAL, "raijin")
+	p:exec_command("TutoMoleSala4();", 5.5)
 end
 
 function TutoMoleSala3()
-	p:wait_button("TutoMoleSala4();")
+	--p:wait_button("TutoMoleSala4();")
 end
 
 function TutoMoleSala4()
-	cam:run_cinematic("CinePortalWay", 5)
-	p:exec_command("TutoMoleSala5();", 2)
+	cam:run_cinematic("CinePortalWay", 7.5)
+	p:exec_command("TutoMoleSala5();", 1)
 end
 
 function TutoMoleSala5()
-	ShowMessage("tuto_mole", TXT_NEED_HIGHER, "raijin")
-	p:exec_command("TutoMoleSala6();", 0.5)
+	p:show_message(TXT_NEED_HIGHER, "raijin")
+	p:exec_command("TutoMoleSala7();", 3.5)
 end
 
 function TutoMoleSala6()
-	p:wait_button("TutoMoleSala7();")
+	--p:wait_button("TutoMoleSala7();")
 end
 
 function TutoMoleSala7()
 	p:hide_message()
-	cam:run_cinematic("CineBox", 5)
-	p:exec_command("TutoMoleSala8();", 2)
+	cam:run_cinematic("CineBox", 7.5)
+	p:exec_command("TutoMoleSala8();", 1)
 end
 
 function TutoMoleSala8()
-	ShowMessage("tuto_mole", TXT_BOX_HINT, "raijin")
-	p:exec_command("TutoMoleSala9();", 0.5)
+	p:show_message(TXT_BOX_HINT, "raijin")
+	p:exec_command("TutoMoleSala10();", 3.5)
 end
 
 function TutoMoleSala9()
-	p:wait_button("TutoMoleSala10();")
+	--p:wait_button("TutoMoleSala10();")
 end
 
 function TutoMoleSala10()
@@ -258,27 +271,27 @@ end
 function TutoMoleUseBox()
 	if not box_contacted then
 		box_contacted = true
-		ShowMessage("tuto_mole", TXT_PULL_PUSH, "raijin")
+		p:show_message(TXT_PULL_PUSH, "raijin")
 	end
 end
 
 function tutomole_help_possess( )
-	ShowMessage("tuto_mole", TXT_HELP_POSS, "raijin")
+	p:show_message(TXT_HELP_POSS, "raijin")
 end
 
 function tutomole_help_unpossess( )
-	p:player_talks(p:get_text("tuto_mole", TXT_HELP_UNPOSS))
+	p:player_talks(TXT_HELP_UNPOSS)
 end
 function tutomole_help_place_box( )
-	p:player_talks(p:get_text("tuto_mole", TXT_PLACE_BOX))
+	p:player_talks(TXT_PLACE_BOX)
 end
 function tutomole_help_wall( )
-	ShowMessage("tuto_mole", TXT_HELP_WALL, "raijin")
+	p:show_message(TXT_HELP_WALL, "raijin")
 end
 function tutomole_help_box( )
-	ShowMessage("tuto_mole", TXT_HELP_BOX, "raijin")
+	p:show_message(TXT_HELP_BOX, "raijin")
 end
 function tutomole_help_djump( )
-	ShowMessage("tuto_mole", TXT_HELP_DJUMP, "raijin")
+	p:show_message(TXT_HELP_DJUMP, "raijin")
 end
 --==============================================================

@@ -75,8 +75,8 @@
 <name
    name="_mole_slept"/>
 <transform
-   pos="-1.94649 51.3869 -20.0874"
-   quat="0 0.960939 0 0.276759"
+   pos="-1.94649 50.6621 -20.0874"
+   quat="0 0.942651 0 0.333781"
    scale="1.0"/>
 <skeleton
    model="skeletons/mole/mole.skeleton"
@@ -113,7 +113,8 @@
 <tags
    tags="tasklist"/>
 <render_static_mesh
-   name="static_meshes/test/baliza.static_mesh"/>
+   name="static_meshes/test/baliza.static_mesh"
+   to_render="no"/>
 <room
    name="-1"/>
 <tasklist
@@ -140,6 +141,8 @@
    velocity="0.5"
    default_dirs="0"
    points_size="4"
+   skippable="no"
+   stop_final="yes"
    wpt1="21.1506 54.8714 -25.5393"
    wpt2="15.4449 54.8714 -24.8663"
    wpt3="3.96856 52.0162 -20.8374"

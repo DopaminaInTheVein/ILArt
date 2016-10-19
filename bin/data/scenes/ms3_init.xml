@@ -99,7 +99,8 @@
    name="static_meshes/ms3/enchufe.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="ms3/enchufe"/>
 <room
    name="2"/>
 
@@ -119,7 +120,8 @@
    name="static_meshes/ms3/mesa_cientifico_up_mapeado.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="ms3/mesa_cientifico_up_mapeado"/>
 <room
    name="2"/>
 
@@ -139,7 +141,8 @@
    name="static_meshes/ms3/mesa_cientifico_up_mapeado001.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="ms3/mesa_cientifico_up_mapeado001"/>
 <room
    name="2"/>
 
@@ -159,7 +162,8 @@
    name="static_meshes/ms3/pared_rompible.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="ms3/pared_rompible"/>
 <room
    name="2"/>
 
@@ -453,7 +457,10 @@
    reload="yes">
 <tags
    tags="AI AI_mole AI_poss"/>
-<bt_mole/>
+<bt_mole
+   wpts_size="1"
+   wpt0_pos="-122.107 -1.28589 -10.3324"
+   wpt0_wait="2"/>
 <player_mole/>
 <skc_mole/>
 <name
@@ -1223,7 +1230,8 @@
 <tags
    tags="tasklist"/>
 <render_static_mesh
-   name="static_meshes/test/baliza.static_mesh"/>
+   name="static_meshes/test/baliza.static_mesh"
+   to_render="no"/>
 <room
    name="-1"/>
 <tasklist
@@ -1683,7 +1691,8 @@
    name="static_meshes/ms3/cargador_bateria.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="ms3/cargador_bateria"/>
 
 </entity>
 <entity
@@ -1814,6 +1823,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="1"
+   skippable="no"
+   stop_final="yes"
    wpt1="0.0969548 -18.9482 -18.9551"
    lpt1="-6.46518 -16.4432 -18.2734"/>
 <name
@@ -1832,6 +1843,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="1"
+   skippable="no"
+   stop_final="yes"
    wpt1="-8.77077 -16.6452 -17.587"
    lpt1="-2.23728 -14.5072 -19.8532"/>
 <name
@@ -1850,6 +1863,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="1"
+   skippable="no"
+   stop_final="yes"
    wpt1="1.36599 -14.5072 -18.7102"
    lpt1="-6.3729 -12.3717 -18.2988"/>
 <name
@@ -1868,6 +1883,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="1"
+   skippable="no"
+   stop_final="yes"
    wpt1="-8.64099 -12.8981 -17.7905"
    lpt1="-4.34012 -11.0318 -18.6665"/>
 <name
@@ -1886,6 +1903,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="1"
+   skippable="no"
+   stop_final="yes"
    wpt1="-7.08201 -4.01793 -17.6389"
    lpt1="-3.15616 -10.2888 -18.3613"/>
 <name
@@ -1904,6 +1923,8 @@
    velocity="2.0"
    default_dirs="0"
    points_size="1"
+   skippable="no"
+   stop_final="yes"
    wpt1="-4.66282 -7.09837 -16.5245"
    lpt1="4.44516 -8.15843 -21.374"/>
 <name
