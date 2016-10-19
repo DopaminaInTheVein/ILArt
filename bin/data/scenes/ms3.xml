@@ -1501,7 +1501,7 @@
 <name
    name="montanha_escombro_map"/>
 <transform
-   pos="-31.6426 -25.0387 1.33133"
+   pos="-31.6426 -25.3593 1.33133"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -5659,6 +5659,22 @@
 <rigidbody
    type_collision="static"
    mesh_name="ms3/columnas_fondo"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="farolillos_puertas"/>
+<transform
+   pos="-15.2569 -2.13191 0.164227"
+   quat="0.706952 -0.0148085 -0.0148085 0.706952"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/farolillos_puertas.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="ms3/farolillos_puertas"/>
 
 </entity>
 
