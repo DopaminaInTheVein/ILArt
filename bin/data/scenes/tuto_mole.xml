@@ -334,22 +334,6 @@
 </entity>
 <entity>
 <tags/>
-<name
-   name="farolillo001"/>
-<transform
-   pos="0.714844 68.8862 -2.53658"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/tuto_mole/farolillo001.static_mesh"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"
-   mesh_name="tuto_mole/farolillo001"/>
-
-</entity>
-<entity>
-<tags/>
 <light_point
    color="1.0 1.0 1.0 0.4"
    in_radius="4.00001"
@@ -427,6 +411,22 @@
 <rigidbody
    type_collision="static"
    mesh_name="tuto_mole/_end_portal"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="farolillo001"/>
+<transform
+   pos="0.714844 68.8862 -2.53658"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/farolillo001.static_mesh"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/farolillo001"/>
 
 </entity>
 
