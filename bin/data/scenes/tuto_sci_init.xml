@@ -128,7 +128,8 @@
    name="static_meshes/tuto_sci/mesa_cientifico_up_mapeado.static_mesh"/>
 <abs_aabb/>
 <rigidbody
-   type_collision="static"/>
+   type_collision="static"
+   mesh_name="tuto_sci/mesa_cientifico_up_mapeado"/>
 
 </entity>
 <entity
@@ -217,8 +218,8 @@
 <name
    name="gen_tuto_sci"/>
 <transform
-   pos="75.3317 7.89981 -0.590159"
-   quat="0 0.642788 0 0.766044"
+   pos="75.3317 7.89981 -0.590158"
+   quat="0 -0.422618 0 0.906308"
    scale="1.0"/>
 
 </entity>
@@ -295,7 +296,8 @@
 <tags
    tags="tasklist"/>
 <render_static_mesh
-   name="static_meshes/test/baliza.static_mesh"/>
+   name="static_meshes/test/baliza.static_mesh"
+   to_render="no"/>
 <room
    name="-1"/>
 <tasklist
@@ -316,6 +318,58 @@
    name="tasklist"/>
 <transform
    pos="48.9306 0.164173 -2.65924"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity
+   reload="yes">
+<tags
+   tags="guided_camera"/>
+<guided_camera
+   velocity="0.4"
+   default_dirs="0"
+   points_size="3"
+   skippable="no"
+   stop_final="yes"
+   wpt1="48.3744 0.569 -2.66042"
+   wpt2="50.5407 2.17801 -0.319584"
+   wpt3="51.8844 1.94034 -2.65872"
+   lpt1="50.6727 0.568992 -7.05565"
+   lpt2="50.673 0.569 -7.056"
+   lpt3="50.673 0.569 -7.056"/>
+<name
+   name="CineShowWorkbench"/>
+<transform
+   pos="35.6838 66.6056 -25.4918"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+
+</entity>
+<entity
+   reload="yes">
+<tags
+   tags="guided_camera"/>
+<guided_camera
+   velocity="0.4"
+   default_dirs="0"
+   points_size="5"
+   skippable="no"
+   stop_final="yes"
+   wpt1="50.7159 0.569 -2.71586"
+   wpt2="64.3482 2.17801 -2.83887"
+   wpt3="65.8859 0.569 -4.34853"
+   wpt4="64.3482 2.17801 -0.319584"
+   wpt5="64.5634 4.52481 -2.65872"
+   lpt1="55.4475 0.683006 -3.04263"
+   lpt2="70.6492 0.628326 -2.85045"
+   lpt3="70.6174 0.683006 -4.67529"
+   lpt4="70.6492 0.628326 -1.26605"
+   lpt5="70.6492 3.53921 -2.82397"/>
+<name
+   name="CineShowGuards"/>
+<transform
+   pos="35.6838 66.6056 -25.4918"
    quat="0 0 0 1.0"
    scale="1.0"/>
 

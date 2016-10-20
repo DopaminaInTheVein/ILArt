@@ -18,3 +18,4 @@ max/max*
 *.orig
 *.opendb
 bin/data/navmeshes/*.data
+*_save*.xml

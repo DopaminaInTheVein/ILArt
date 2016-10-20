@@ -74,6 +74,7 @@ end
 function OnGameStart( param )
 	p:print( "OnGameStart: "..param.."\n" )
 	p:load_entities("init")
+	ui_cam:fade_out(0)
 	p:exec_command("LoadLevel(\"level_0\")", 2)
 	--Sound
 	val = p:json_read(FILE_OPTIONS, "sound", "music")
@@ -255,6 +256,11 @@ function OnUseCable( param )
 	p:print( "OnUseCable: "..param.."\n" )
 end
 
+function OnSenseVision( level )
+	p:print( "OnSenseVision: "..level.."\n" )
+	CallFunction(level.."_sense_pressed")
+end
+
 function OnUseGenerator( param )
 	p:print( "OnUseGenerator: "..param.."\n" )
 	CallFunction("OnUseGenerator_"..param)
@@ -427,6 +433,11 @@ function OnPutPila( param )
 	p:play_sound("event:/OnPutPila", 1.0, false)
 end
 
+function OnBoxMode( level )
+	p:print( "OnBoxMode\n")
+	CallFunction("OnBoxMode_"..level)
+end
+
 function OnRemovePila( param )
 	p:print( "OnRemovePila\n")
 	CallFunction("OnRemovePila_"..param)
@@ -474,6 +485,7 @@ loading_handles = HandleGroup()
 function InitScene()
 	g_dead = false
 	cam:reset_camera()
+	p:hide_message()
 	p:exec_command("ui_cam:fade_in(1)", 1)
 	if not real_level == "hub" then
 		p:exec_command("p:setControlEnabled(1);", 1)
@@ -502,9 +514,10 @@ function OnDead(level)
 	g_dead = true
 	special_death = CallFunction("OnDead_"..level)
 	if not special_death then
+		pl:unpossess()
 		cam:orbit(true)
 		p:exec_command("p:load_entities(\"dead_menu\");", 2.0)
-		p:exec_command("cam:orbit(fase)", 3.0)
+		p:exec_command("cam:orbit(false)", 3.0)
 	end
 end
 

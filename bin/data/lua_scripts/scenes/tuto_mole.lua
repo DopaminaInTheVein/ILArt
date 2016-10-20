@@ -14,35 +14,11 @@ function OnEnter__ttutomole_end( )
 tutomole_end()
 end
 
-function OnEnter__ttutomole_end( )
-tutomole_end()
+function OnEnter__tColumn( )
+tutomole_reach_column()
 end
 
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
-end
-
-function OnEnter__ttutomole_end( )
-tutomole_end()
+function OnLeave__tColumn( )
+tutomole_out_column()
 end
 
