@@ -23,15 +23,16 @@
 	name="player_1"
 	/>
 <transform
-	pos="-1.865227 50.661098 -26.561132"
-	quat="-0.000000 -0.289091 0.000000 0.957302"
+	pos="-0.053445 50.661098 -30.114309"
+	quat="-0.000000 -0.800345 0.000000 0.599539"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
+	static="1"
 	/>
 <life
-	points="145.67"
+	points="141.625"
 	/>
 <tags
 	tags="player raijin"
@@ -39,67 +40,6 @@
 <character_controller
 	height="0.7"
 	radius="0.3"
-	/>
-</entity>
-<entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<name
-	name="end_hub"
-	/>
-<transform
-	pos="-2.250840 53.524700 -25.659901"
-	quat="-0.480359 0.125710 0.109824 0.861040"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/hub/end_hub.static_mesh"
-	/>
-<tags
-	tags="end_hub Fading_Message_Letter_9789_46"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	smooth="0"
-	type_collision="static"
-	type_shape="mesh"
-	/>
-</entity>
-<entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<trigger_lua
-	action="leave"
-	actived="0"
-	/>
-<name
-	name="thub_end"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-1.946490 52.754700 -25.673500"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags="end_hub end_hub trigger"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	size="2.459770 1.958455 1.345830"
-	smooth="0"
-	type_collision="trigger"
-	type_shape="box"
 	/>
 </entity>
 <entity
@@ -122,12 +62,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger raijin"
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.468511 0.245519 0.718510"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -153,12 +93,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger Fading_Message_Letter_9789_41"
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.468511 0.245519 0.718510"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -183,15 +123,16 @@
 	name="_mole_slept"
 	/>
 <transform
-	pos="-1.946490 51.386902 -20.087400"
-	quat="0.000000 0.960939 0.000000 0.276759"
+	pos="-1.946490 50.662102 -20.087400"
+	quat="0.000000 0.942651 0.000000 0.333781"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/mole/mole.static_mesh"
+	static="1"
 	/>
 <tags
-	tags="trigger Fading_Message_Letter_9789_40"
+	tags=""
 	/>
 </entity>
 <entity
@@ -219,9 +160,10 @@
 	/>
 <render_static_mesh
 	name="skeletons/scientist/scientist.static_mesh"
+	static="1"
 	/>
 <tags
-	tags="trigger Fading_Message_Letter_9789_39"
+	tags=""
 	/>
 </entity>
 <entity
@@ -232,18 +174,20 @@
 	name="tasklist"
 	/>
 <room
-	name="99999999"
+	name=""
 	/>
 <transform
-	pos="-1.946490 51.386902 -25.612900"
+	pos="-1.946490 51.386902 -20.087400"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="static_meshes/test/baliza.static_mesh"
+	static="1"
+	to_render="0"
 	/>
 <tags
-	tags="tasklist Fading_Message_Letter_9789_38"
+	tags="tasklist interactive"
 	/>
 <tasklist
 	points_size="3"
@@ -253,9 +197,64 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="true"
-	visited1="true"
+	visited0="false"
+	visited1="false"
 	visited2="false"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="CineEndTarget"
+	/>
+<transform
+	pos="35.683800 66.605598 -25.491800"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="guided_camera"
+	/>
+<guided_camera
+	default_dirs="0"
+	lpt1="7.276620 51.652100 -30.493099"
+	lpt2="7.280090 51.678001 -30.480700"
+	lpt3="-1.769610 51.729801 -20.350901"
+	lpt4="-1.896370 52.652199 -25.382999"
+	points_size="4"
+	velocity="0.5"
+	wpt1="21.150600 54.871399 -25.539301"
+	wpt2="15.444900 54.871399 -24.866301"
+	wpt3="3.968560 52.016201 -20.837400"
+	wpt4="2.932090 52.028500 -25.420799"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="gen_hub"
+	/>
+<transform
+	pos="7.238660 51.439999 -30.820200"
+	quat="-0.021902 0.638564 -0.026310 0.768807"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<generator
+	/>
+<tags
+	tags="trigger generator"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	radius="1.64"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="sphere"
 	/>
 </entity>
 </entities>

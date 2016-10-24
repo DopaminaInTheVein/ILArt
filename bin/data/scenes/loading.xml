@@ -9,7 +9,8 @@
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ui/loading/loading_background.static_mesh"/>
+   name="static_meshes/ui/loading/loading_background.static_mesh"
+   static="true"/>
 <abs_aabb/>
 
 </entity>
@@ -17,14 +18,77 @@
 <tags
    tags="loading"/>
 <name
-   name="loading_bar"/>
+   name="loading_backgroundwhite"/>
 <transform
-   pos="4.99603 -97.2179 9.54736"
-   quat="0.707107 0 0 0.707107"
+   pos="5.0 -95.0 3.79779"
+   quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ui/loading/loading_bar.static_mesh"/>
+   name="static_meshes/ui/loading/loading_backgroundwhite.static_mesh"
+   static="true"/>
 <abs_aabb/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="Plane001"/>
+<transform
+   pos="7.30961 -94.165 5.54041"
+   quat="0.707107 0 0 0.707107"
+   scale="2.54716"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/Plane001.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="controlesmandos1"/>
+<transform
+   pos="2.40486 -94.9609 5.59128"
+   quat="0.707107 0 0 0.707107"
+   scale="1.69378"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="pila"/>
+<transform
+   pos="7.51253 -96.8559 5.77849"
+   quat="0.707107 0 0 0.707107"
+   scale="1.34404"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/pila.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="piladelante"/>
+<transform
+   pos="7.51253 -96.8559 5.89285"
+   quat="0.707107 0 0 0.707107"
+   scale="1.34404"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/piladelante.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="loadingpalabra"/>
+<transform
+   pos="6.97264 -96.0217 5.72566"
+   quat="0.707107 0 0 0.707107"
+   scale="1.0"/>
 
 </entity>
 
