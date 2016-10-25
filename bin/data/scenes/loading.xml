@@ -34,7 +34,7 @@
 <name
    name="Plane001"/>
 <transform
-   pos="7.15787 -94.165 5.54041"
+   pos="6.87576 -94.165 5.54041"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -54,7 +54,7 @@
 <name
    name="controlesmandos1"/>
 <transform
-   pos="2.40486 -94.9609 5.70615"
+   pos="2.31984 -95.0953 5.70615"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -68,7 +68,7 @@
 <name
    name="pila"/>
 <transform
-   pos="7.3608 -96.8559 5.77849"
+   pos="9.02195 -97.2587 5.78359"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -82,7 +82,7 @@
 <name
    name="piladelante"/>
 <transform
-   pos="7.3608 -96.8559 5.89285"
+   pos="9.02195 -97.2587 5.84511"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -92,13 +92,37 @@
 
 </entity>
 <entity>
-<tags/>
+<tags
+   tags="gui"/>
+<gui
+   menu_name="loading"
+   width="0.737976"
+   height="0.737976"
+   lang="yes"/>
 <name
    name="loadingpalabra"/>
 <transform
-   pos="6.82091 -95.6631 5.88191"
+   pos="8.76893 -97.5784 5.93482"
    quat="0 0 0 1.0"
    scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/loadingpalabra.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="Plane002"/>
+<transform
+   pos="9.00901 -97.2902 5.66791"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/Plane002.static_mesh"
+   static="true"/>
+<abs_aabb/>
 
 </entity>
 

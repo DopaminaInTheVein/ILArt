@@ -23,7 +23,7 @@
     },
     "sound": {
         "sfx": 1.0,
-        "music": 1.0,
-        "MAX_DISTANCE": 20
+        "music": 0.0,
+        "MAX_DISTANCE": 20.0
     }
 }
