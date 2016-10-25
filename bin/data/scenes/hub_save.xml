@@ -23,16 +23,16 @@
 	name="player_1"
 	/>
 <transform
-	pos="-0.391291 50.661098 -30.322813"
-	quat="-0.000000 -0.788452 0.000000 0.615096"
+	pos="-1.338807 50.661697 -20.909485"
+	quat="-0.000000 -0.129769 0.000000 0.991544"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
-	static="1"
+	static="0"
 	/>
 <life
-	points="143.761"
+	points="125.559"
 	/>
 <tags
 	tags="player raijin"
@@ -62,7 +62,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger"
+	tags="trigger gui gui_button clickable"
 	/>
 <rigidbody
 	kinematic="0"
@@ -93,7 +93,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger"
+	tags="trigger gui gui_button clickable"
 	/>
 <rigidbody
 	kinematic="0"
@@ -129,10 +129,10 @@
 	/>
 <render_static_mesh
 	name="skeletons/mole/mole.static_mesh"
-	static="1"
+	static="0"
 	/>
 <tags
-	tags=""
+	tags="loading gui gui_button clickable"
 	/>
 </entity>
 <entity
@@ -160,10 +160,10 @@
 	/>
 <render_static_mesh
 	name="skeletons/scientist/scientist.static_mesh"
-	static="1"
+	static="0"
 	/>
 <tags
-	tags=""
+	tags="loading gui gui_button clickable"
 	/>
 </entity>
 <entity
@@ -187,7 +187,7 @@
 	to_render="0"
 	/>
 <tags
-	tags="tasklist interactive"
+	tags="tasklist interactive gui_button clickable"
 	/>
 <tasklist
 	points_size="3"
@@ -215,7 +215,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera"
+	tags="guided_camera gui"
 	/>
 <guided_camera
 	default_dirs="0"
