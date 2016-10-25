@@ -62,30 +62,44 @@ end
 function OnCreateGui_opt_sfx( )
 	InitSfx()
 end
+function OnCreateGui_btn_opt_back( )
+	p:wait_escape("OnClicked_btn_opt_back();")
+end
 
 --Choose Options
 function OnChoose_opt_axisX(option)
+	p:play_sound("event:/OnMenuChange", 1.0, false)
 	SaveAxis(option, "x")
 end
 function OnChoose_opt_axisY(option)
+	p:play_sound("event:/OnMenuChange", 1.0, false)
 	SaveAxis(option, "y")
 end
 function OnChoose_opt_diff(option)
+	p:play_sound("event:/OnMenuChange", 1.0, false)
 	SaveDifficulty(option)
 end
 function OnChoose_opt_lang(option)
+	p:play_sound("event:/OnMenuChange", 1.0, false)
 	SaveLanguage(option)
 end
 function OnValueChanged_opt_music(value)
+	p:play_sound("event:/OnMenuChange", 1.0, false)
 	MusicChanged(value)
 end
 function OnValueChanged_opt_sfx(value)
+	p:play_sound("event:/OnMenuChange", 1.0, false)
 	SfxChanged(value)
 end
 
 --Click go back
 function OnClicked_btn_opt_back( )
+	p:play_sound("event:/OnMenuCancel", 1.0, false)
 	destroyOptions()
+	if options_from == "pause" then
+		OnCreateGui_btn_resume() --Simulamos q se crea otra vez el boton resume del menu
+	end
+	options_from = ""
 end
 
 -- Auxiliar functions --
@@ -96,6 +110,7 @@ function InitLanguage()
 	lang = p:json_read_str(FILE_OPTIONS, "language", "lang")
 	lang_int = -1
 	for i=0, LANGS_SIZE-1 do
+		--p:print("Add option "..TXT_LANGS[i])
 		h:add_option(TXT_LANGS[i])
 		if lang == LANGS_ID[i] then
 			lang_int = i
@@ -113,6 +128,7 @@ end
 function InitDifficulty()
 	h:getHandleCaller()
 	for i=0, DIFF_SIZE-1 do
+		--p:print("Add option "..TXT_DIFFICULTIES[i])
 		h:add_option(TXT_DIFFICULTIES[i])
 	end
 	diff = p:json_read(FILE_OPTIONS, "game", "difficulty")
