@@ -30,11 +30,12 @@
 
 </entity>
 <entity>
-<tags/>
+<tags
+   tags="loading"/>
 <name
    name="Plane001"/>
 <transform
-   pos="6.87576 -94.165 5.54041"
+   pos="6.87576 -94.6384 5.54041"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -45,7 +46,7 @@
 </entity>
 <entity>
 <tags
-   tags="gui"/>
+   tags="loading gui"/>
 <gui
    menu_name="loading"
    width="5.08134"
@@ -64,7 +65,8 @@
 
 </entity>
 <entity>
-<tags/>
+<tags
+   tags="loading"/>
 <name
    name="pila"/>
 <transform
@@ -78,7 +80,8 @@
 
 </entity>
 <entity>
-<tags/>
+<tags
+   tags="loading"/>
 <name
    name="piladelante"/>
 <transform
@@ -93,7 +96,7 @@
 </entity>
 <entity>
 <tags
-   tags="gui"/>
+   tags="loading gui"/>
 <gui
    menu_name="loading"
    width="0.737976"
@@ -112,7 +115,8 @@
 
 </entity>
 <entity>
-<tags/>
+<tags
+   tags="loading"/>
 <name
    name="Plane002"/>
 <transform
