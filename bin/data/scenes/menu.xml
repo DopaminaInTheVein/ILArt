@@ -43,16 +43,16 @@
    menu_name="menu"
    row="0"
    col="0"
-   width="0.654046"
-   height="0.654053"
+   width="1.47957"
+   height="1.47957"
    lang="yes"/>
 <gui_button
-   width="0.654046"
-   height="0.654053"/>
+   width="1.47957"
+   height="1.47957"/>
 <name
    name="btn_resumir"/>
 <transform
-   pos="5.06647 -94.9066 5.03932"
+   pos="6.22177 -92.8304 5.0393"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -69,16 +69,16 @@
    menu_name="menu"
    row="1"
    col="0"
-   width="0.654046"
-   height="0.654053"
+   width="1.47957"
+   height="1.47957"
    lang="yes"/>
 <gui_button
-   width="0.654046"
-   height="0.654053"/>
+   width="1.47957"
+   height="1.47957"/>
 <name
    name="btn_reempezar"/>
 <transform
-   pos="5.06647 -95.6985 5.03932"
+   pos="6.22177 -94.3087 5.0393"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -95,16 +95,16 @@
    menu_name="menu"
    row="2"
    col="0"
-   width="0.654046"
-   height="0.654053"
+   width="1.47957"
+   height="1.47957"
    lang="yes"/>
 <gui_button
-   width="0.654046"
-   height="0.654053"/>
+   width="1.47957"
+   height="1.47957"/>
 <name
    name="btn_opciones"/>
 <transform
-   pos="5.06647 -96.4903 5.03932"
+   pos="6.22177 -95.7939 5.0393"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -121,16 +121,16 @@
    menu_name="menu"
    row="3"
    col="0"
-   width="0.654046"
-   height="0.654053"
+   width="1.33454"
+   height="1.33453"
    lang="yes"/>
 <gui_button
-   width="0.654046"
-   height="0.654053"/>
+   width="1.33454"
+   height="1.33453"/>
 <name
    name="btn_salir"/>
 <transform
-   pos="5.06647 -97.281 5.03932"
+   pos="6.22177 -97.1859 5.0393"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -150,7 +150,7 @@
 <name
    name="Plane001"/>
 <transform
-   pos="5.07069 -93.3897 5.03296"
+   pos="3.81656 -95.1414 5.03296"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
