@@ -10,7 +10,14 @@ cam = Camera()
 ui_cam = UiCamera()
 
 function CallFunction(func)
-	called = true
+	--p:print("Call Function"..func)
+	--p:breakpoint(2)
+	--local called = pcall(func)
+	--if not called then
+	--	p:print("function "..func.." does not exist!\n")
+	--end
+	--return called
+	 called = true
 	if _G[func] then _G[func]()
 	else
 		p:print("function "..func.." does not exist!\n")
@@ -26,6 +33,7 @@ function CallFunctionParam(func, param)
 		p:print("function "..func.." does not exist!\n")
 		called = false
 	end
+	--local called = pcall(func, param)
 	return called
 end
 
@@ -58,7 +66,8 @@ function OnActionMole( param )
 end
 
 function OnEnter( param )
-	p:print( "OnEnter: "..param.."\n" ) 
+	p:print( "OnEnter: "..param.."\n" )
+	--p:breakpoint(1)
 	CallFunction("OnEnter_"..param)
 	--if _G["OnEnter_"..param] then _G["OnEnter_"..param](handle) 
 	--else
@@ -73,6 +82,7 @@ end
 
 function OnGameStart( param )
 	p:print( "OnGameStart: "..param.."\n" )
+	cam:fx(FX_FOG, 0)
 	p:load_entities("init")
 	ui_cam:fade_out(0)
 	p:exec_command("LoadLevel(\"level_0\")", 2)
@@ -94,13 +104,19 @@ end
 
 function OnGuardChaseEnd( volume )
 	p:print( "OnGuardChaseEnd: "..volume.."\n" )
-	p:play_music("event:/OnRoom1", volume)
+	p:play_music("event:/OnGameMusic", volume)
 end
 
 function OnGuardAttack( reaction_time )
 	p:print( "OnGuardAttack: "..reaction_time.."\n" )
 	h:getHandleCaller()	
 	p:play_3d_sound("event:/OnGuardAttack", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnGuardAttackPrep( reaction_time )
+	p:print( "OnGuardAttackPrep: "..reaction_time.."\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnGuardAttackPrep", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
 end
 
 function OnGuardAttackEnd( reaction_time )
@@ -210,6 +226,8 @@ end
 function OnBreakWall( param )
 	p:print( "OnBreakWall: "..param.."\n" )
 	p:play_sound("event:/OnBreakWall", 1.0, false)
+	cam:start_vibration(0.0, 0.75, 10)
+	p:exec_command("cam:stop_vibration(8)", 1.0)
 end
 
 function OnDroneMoving( sound_name )
@@ -239,7 +257,6 @@ function OnRepairDrone( level, drone )
 	p:play_sound("event:/OnUseGenerator", 1.0, false)
 	CallFunction("OnRepairDrone_"..level)
 	CallFunction("OnRepairDrone_"..drone)
-	--p:player_talks("I just repaired that useful thing to make a full working one...\nbut battery may fail as well, that is unreparable....")
 end
 
 function OnCreateBomb( level )
@@ -305,6 +322,12 @@ function OnDoubleJump( param )
 	p:play_sound("event:/OnDoubleJump", 1.0, false)
 end
 
+function OnJumpLand( param )
+	p:print( "OnJump: "..param.."\n" )
+	p:stop_sound("event:/OnJump")
+	p:stop_sound("event:/OnDoubleJump")
+end
+
 function OnMoleJump( param )
 	p:print( "OnMoleJump: "..param.."\n" )
 	p:play_sound("event:/OnMoleJumpVoice", 1.0, false)
@@ -313,11 +336,15 @@ end
 function OnJumpLandMoleBaldosa( param )
 	p:print( "OnJumpLandMoleBaldosa: "..param.."\n" )
 	p:play_sound("event:/OnMoleJump", 1.0, false)
+	cam:start_vibration(0.0, 0.75, 15)
+	p:exec_command("cam:stop_vibration(10)", 0.3)
 end
 
 function OnJumpLandMoleParquet( param )
 	p:print( "OnJumpLandScientistParquet: "..param.."\n" )
 	p:play_sound("event:/OnMoleJumpParquet", 1.0, false)
+	cam:start_vibration(0.0, 0.75, 15)
+	p:exec_command("cam:stop_vibration(10)", 0.3)
 end
 
 function OnScientistJump( param )
@@ -341,7 +368,7 @@ function OnDetected( distance )
 	p:play_3d_sound("event:/OnDetected", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
 	name_guard = h:get_name()
 	CallFunction("OnDetected_"..name_guard)
-	p:character_globe("ui/effects/bafarada", distance, h:get_x(), h:get_y(), h:get_z(), 2.0, -1.0)
+	p:character_globe("ui/effects/bafarada", distance, h:get_x(), h:get_y() + 1.5, h:get_z(), 2.0, -1.0)
 end
 
 function OnNextPatrol( guard_name )
@@ -387,13 +414,26 @@ end
 --------------------------------
 function OnExplode( param )
 	p:print( "OnExplode\n")
+	h:getHandleCaller()
 	CallFunction("OnExplode_"..param)
 end
 
 function OnExplode_throw_bomb()
 	p:print( "OnExplode_throw_bomb\n")
 	h:getHandleCaller()
+	local x = h:get_x()
+	local y = h:get_y()
+	local z = h:get_z()
+	explosion_particle = p:create(SMOKE_1, h:get_x(), h:get_y(), h:get_z())--0,0,0)--h:get_x(), h:get_y()+0.5, h:get_z())
+	explosion_particle:part_on()
+	boom_effect = p:character_globe(BOOM, "1.0", x, y, z, 0.5, 20.0)
+	boom_effect:set_size(3.0)
+	--p:exec_command("explosion_particle:part_on()", 1)
+	--explosion_particle:part_on()
+	--p:exec_command("explosion_particle:destroy()", 5)	
 	p:play_3d_sound("event:/OnBombExplodes", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 32)
+	cam:start_vibration(0.5, 2.0, 20)
+	p:exec_command("cam:stop_vibration(10)", 1.0)
 end
 
 
@@ -678,6 +718,14 @@ function OnStepOutScientistParquet( step )
 	-- p:print("StepOutScientist")
 end
 
+function OnStartVibration( param )
+	cam:start_vibration(0.0, 0.75, 9)
+end
+
+function OnStopVibration( param )
+	cam:stop_vibration(7.5)
+end
+
 -- GUI
 ---------------------------------------------------
 function OnCreateGui( param )
@@ -720,4 +768,10 @@ function OnPause( )
 	if not g_dead then
 		p:load_entities("menu")
 	end
+end
+
+function OnTest( )
+	p:print("Hola")
+	explosion_particle = p:create(SMOKE_1, pl:get_x(), pl:get_y(), pl:get_z())
+	--p:exec_command("explosion_particle:destroy()", 5)
 end
