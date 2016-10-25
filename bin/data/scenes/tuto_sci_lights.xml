@@ -226,6 +226,7 @@
 <entity>
 <tags/>
 <light_dir_shadows
+   gen_shadow="yes"
    color="0.913726 0.996079 0.82353 0.460896"
    in_radius="0.337527"
    out_radius="0.367527"/>
@@ -240,6 +241,7 @@
 <entity>
 <tags/>
 <light_dir_shadows
+   gen_shadow="yes"
    color="0.913726 0.996079 0.82353 0.460896"
    in_radius="0.337527"
    out_radius="0.367527"/>
@@ -254,6 +256,7 @@
 <entity>
 <tags/>
 <light_dir_shadows
+   gen_shadow="yes"
    color="0.913726 0.996079 0.82353 0.460896"
    in_radius="0.337527"
    out_radius="0.367527"/>
@@ -268,6 +271,7 @@
 <entity>
 <tags/>
 <light_dir_shadows
+   gen_shadow="yes"
    color="0.913726 0.996079 0.82353 0.460896"
    in_radius="0.337527"
    out_radius="0.367527"/>
