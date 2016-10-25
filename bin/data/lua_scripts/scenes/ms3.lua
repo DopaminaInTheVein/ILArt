@@ -51,11 +51,11 @@ OnVictory()
 end
 
 function OnEnter_tSave01( )
-SaveLevel()
+SaveCheckPoint()
 end
 
 function OnEnter_tSave02( )
-SaveLevel()
+SaveCheckPoint()
 end
 
 function OnEnter___ttablon1( )
@@ -104,5 +104,21 @@ end
 
 function OnLeave___ttablon006( )
 ms3_outTablon()
+end
+
+function OnEnter__tFogOut1( )
+FogCorridorOut1()
+end
+
+function OnEnter__tFogOut2( )
+FogCorridorOut2()
+end
+
+function OnEnter__tFogIn( )
+FogCorridorIn()
+end
+
+function OnEnter__tFogIn( )
+FogCorridorIn()
 end
 

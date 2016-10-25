@@ -1,0 +1,260 @@
+<entities
+>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<player
+	/>
+<skeleton
+	model="skeletons/player/player.skeleton"
+	/>
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_player
+	/>
+<name
+	name="player_1"
+	/>
+<transform
+	pos="-0.391291 50.661098 -30.322813"
+	quat="-0.000000 -0.788452 0.000000 0.615096"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/player/player.static_mesh"
+	static="1"
+	/>
+<life
+	points="143.761"
+	/>
+<tags
+	tags="player raijin"
+	/>
+<character_controller
+	height="0.7"
+	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="dream"
+	actived="1"
+	/>
+<name
+	name="thub_mole"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.946490 51.644199 -20.087400"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="trigger"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="1.874045 0.982075 2.874040"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="dream"
+	actived="1"
+	/>
+<name
+	name="thub_sci"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.789580 51.644199 -30.809500"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="trigger"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="1.874045 0.982075 2.874040"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+	/>
+</entity>
+<entity
+	id="5"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	anim="sleep"
+	model="skeletons/mole/mole.skeleton"
+	/>
+<skeleton_ik
+	/>
+<name
+	name="_mole_slept"
+	/>
+<transform
+	pos="-1.946490 50.662102 -20.087400"
+	quat="0.000000 0.942651 0.000000 0.333781"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/mole/mole.static_mesh"
+	static="1"
+	/>
+<tags
+	tags=""
+	/>
+</entity>
+<entity
+	id="6"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<skeleton
+	anim="sleep"
+	model="skeletons/scientist/scientist.skeleton"
+	/>
+<skeleton_ik
+	/>
+<name
+	name="_scientist_1"
+	/>
+<transform
+	pos="-1.703250 51.415901 -30.717501"
+	quat="0.000000 0.401707 0.000000 0.915768"
+	scale="0.009299 0.009299 0.009299"
+	/>
+<render_static_mesh
+	name="skeletons/scientist/scientist.static_mesh"
+	static="1"
+	/>
+<tags
+	tags=""
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="tasklist"
+	/>
+<room
+	name=""
+	/>
+<transform
+	pos="-1.946490 51.386902 -20.087400"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/test/baliza.static_mesh"
+	static="1"
+	to_render="0"
+	/>
+<tags
+	tags="tasklist interactive"
+	/>
+<tasklist
+	points_size="3"
+	pos0="-1.946490 51.386902 -20.087400"
+	pos1="-1.946490 51.386902 -30.767599"
+	pos2="-1.946490 51.386902 -25.612900"
+	room0="-1"
+	room1="-1"
+	room2="-1"
+	visited0="false"
+	visited1="false"
+	visited2="false"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="CineEndTarget"
+	/>
+<transform
+	pos="35.683800 66.605598 -25.491800"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="guided_camera"
+	/>
+<guided_camera
+	default_dirs="0"
+	lpt1="7.276620 51.652100 -30.493099"
+	lpt2="7.280090 51.678001 -30.480700"
+	lpt3="-1.769610 51.729801 -20.350901"
+	lpt4="-1.896370 52.652199 -25.382999"
+	points_size="4"
+	velocity="0.5"
+	wpt1="21.150600 54.871399 -25.539301"
+	wpt2="15.444900 54.871399 -24.866301"
+	wpt3="3.968560 52.016201 -20.837400"
+	wpt4="2.932090 52.028500 -25.420799"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="gen_hub"
+	/>
+<transform
+	pos="7.238660 51.439999 -30.820200"
+	quat="-0.021902 0.638564 -0.026310 0.768807"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<generator
+	/>
+<tags
+	tags="trigger generator"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	radius="1.64"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="sphere"
+	/>
+</entity>
+</entities>
