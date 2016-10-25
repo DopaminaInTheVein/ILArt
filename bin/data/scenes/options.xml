@@ -25,9 +25,9 @@
    height="3.23219"/>
 <gui_selector/>
 <name
-   name="opts_language"/>
+   name="opt_lang"/>
 <transform
-   pos="4.92146 -92.9774 7.25378"
+   pos="4.92146 -92.9774 6.08875"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -47,9 +47,9 @@
    height="3.23219"/>
 <gui_selector/>
 <name
-   name="opt_difff"/>
+   name="opt_diff"/>
 <transform
-   pos="4.92146 -93.572 7.25378"
+   pos="4.92146 -93.572 6.08875"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -69,9 +69,9 @@
    height="3.23219"/>
 <gui_drag/>
 <name
-   name="opt_muusic"/>
+   name="opt_music"/>
 <transform
-   pos="4.92146 -94.6352 7.25378"
+   pos="4.92146 -94.6352 6.08875"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -91,9 +91,9 @@
    height="3.23219"/>
 <gui_drag/>
 <name
-   name="opt_Sfxx"/>
+   name="opt_sfx"/>
 <transform
-   pos="4.92146 -95.0957 7.25378"
+   pos="4.92146 -95.0957 6.08875"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -113,9 +113,9 @@
    height="3.23219"/>
 <gui_selector/>
 <name
-   name="opt_axysxx"/>
+   name="opt_axysX"/>
 <transform
-   pos="4.92146 -96.33 7.25378"
+   pos="4.92146 -96.33 6.08875"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -135,9 +135,9 @@
    height="3.23219"/>
 <gui_selector/>
 <name
-   name="opt_axysyy"/>
+   name="opt_axysY"/>
 <transform
-   pos="4.92146 -96.9728 7.25378"
+   pos="4.92146 -96.9728 6.08875"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
