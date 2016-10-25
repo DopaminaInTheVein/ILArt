@@ -180,7 +180,8 @@ end
 
 function OnChangePolarity( param )
 	p:print( "OnChangePolarity: "..param.."\n" )
-	p:play_sound("event:/OnChangePolarity", 1.0, false)
+	h:getHandleCaller()
+	p:play_3d_sound("event:/OnChangePolarity", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 8)
 end
 
 function OnPickupBox( param )
@@ -281,7 +282,7 @@ end
 function OnUseGenerator( param )
 	p:print( "OnUseGenerator: "..param.."\n" )
 	CallFunction("OnUseGenerator_"..param)
-	p:play_sound("event:/OnUseGenerator", 1.0, false)
+	p:play_sound("event:/OnRaijinRecharge", 1.0, false)
 end
 
 function OnStun( param )
@@ -724,6 +725,79 @@ end
 
 function OnStopVibration( param )
 	cam:stop_vibration(7.5)
+end
+
+-- Voices
+function OnScientistVoice1( )
+	p:print( "OnScientistVoice1\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnScientistVoice1", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnScientistVoice2( )
+	p:print( "OnScientistVoice2\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnScientistVoice2", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnScientistVoice3( )
+	p:print( "OnScientistVoice3\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnScientistVoice3", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnScientistVoice4( )
+	p:print( "OnScientistVoice4\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnScientistVoice4", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnMoleVoice1( )
+	p:print( "OnMoleVoice1\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnMoleVoice1", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnMoleVoice2( )
+	p:print( "OnMoleVoice2\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnMoleVoice2", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnMoleVoice3( )
+	p:print( "OnMoleVoice3\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnMoleVoice3", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnMoleVoice4( )
+	p:print( "OnMoleVoice4\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnMoleVoice4", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnGuardVoice1( )
+	p:print( "OnGuardVoice1\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnGuardVoice1", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnGuardVoice2( )
+	p:print( "OnGuardVoice2\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnGuardVoice2", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnGuardVoice3( )
+	p:print( "OnGuardVoice3\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnGuardVoice3", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
+end
+
+function OnGuardVoice4( )
+	p:print( "OnGuardVoice4\n" )
+	h:getHandleCaller()	
+	p:play_3d_sound("event:/OnGuardVoice4", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
 end
 
 -- GUI
