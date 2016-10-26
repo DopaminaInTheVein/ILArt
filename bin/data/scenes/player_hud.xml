@@ -66,16 +66,21 @@
 
 </entity>
 <entity>
-<tags/>
+<tags
+   tags="gui"/>
+<gui
+   menu_name="player_hud"
+   width="1.84311"
+   height="1.84311"/>
 <name
-   name="lifebar_inner"/>
+   name="health_bar_inner"/>
 <transform
-   pos="1.30764 -92.9796 6.70752"
-   quat="0 0 0 1.0"
+   pos="1.20412 -92.9796 6.70752"
+   quat="0 0 1.0 0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ui/player_hud/lifebar_inner.static_mesh"
-   static="true"/>
+   name="static_meshes/ui/player_hud/health_bar_inner.static_mesh"
+   static="false"/>
 <abs_aabb/>
 
 </entity>

@@ -9,20 +9,21 @@
     "screen": {
         "xres": 1600,
         "yres": 900,
-        "full_screen": 1    },
+        "full_screen": 1
+    },
     "controls": {
         "y-axis_inverted": 0.0,
         "x-axis_inverted": 0.0
     },
     "language": {
-        "lang": "EN"
+        "lang": "ES"
     },
     "game": {
         "difficulty": 0.0
     },
     "sound": {
-        "sfx": 0.6094759702682495,
-        "music": 0.3700380027294159,
+        "sfx": 0.513700008392334,
+        "music": 0.5583950281143189,
         "MAX_DISTANCE": 20.0
     }
 }
