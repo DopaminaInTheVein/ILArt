@@ -42,8 +42,8 @@
    menu_name="options"
    row="0"
    col="0"
-   width="3.2322"
-   height="3.23219"/>
+   width="3.13228"
+   height="0.154205"/>
 <gui_selector/>
 <name
    name="opt_lang"/>
@@ -64,8 +64,8 @@
    menu_name="options"
    row="1"
    col="0"
-   width="3.2322"
-   height="3.23219"/>
+   width="3.13228"
+   height="0.154205"/>
 <gui_selector/>
 <name
    name="opt_diff"/>
@@ -86,8 +86,8 @@
    menu_name="options"
    row="2"
    col="0"
-   width="3.2322"
-   height="3.23219"/>
+   width="3.13228"
+   height="0.154205"/>
 <gui_drag/>
 <name
    name="opt_music"/>
@@ -108,8 +108,8 @@
    menu_name="options"
    row="3"
    col="0"
-   width="3.2322"
-   height="3.23219"/>
+   width="3.13228"
+   height="0.154205"/>
 <gui_drag/>
 <name
    name="opt_sfx"/>
@@ -130,8 +130,8 @@
    menu_name="options"
    row="4"
    col="0"
-   width="3.2322"
-   height="3.23219"/>
+   width="3.13228"
+   height="0.154205"/>
 <gui_selector/>
 <name
    name="opt_axisX"/>
@@ -152,8 +152,8 @@
    menu_name="options"
    row="5"
    col="0"
-   width="3.2322"
-   height="3.23219"/>
+   width="3.13228"
+   height="0.154205"/>
 <gui_selector/>
 <name
    name="opt_axisY"/>
@@ -179,6 +179,29 @@
 <render_static_mesh
    name="static_meshes/ui/options/background_optioooons.static_mesh"
    static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="options gui gui_button clickable"/>
+<gui
+   menu_name="options"
+   row="10"
+   col="0"
+   width="2.0"
+   height="2.0"
+   lang="yes"/>
+<gui_button/>
+<name
+   name="btn_opt_back"/>
+<transform
+   pos="1.24535 -97.2352 6.80901"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/options/btn_opt_back.static_mesh"
+   static="false"/>
 <abs_aabb/>
 
 </entity>

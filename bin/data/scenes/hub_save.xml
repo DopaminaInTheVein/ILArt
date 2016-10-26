@@ -23,16 +23,16 @@
 	name="player_1"
 	/>
 <transform
-	pos="-1.132143 50.661098 -30.010477"
-	quat="-0.000000 -0.758596 0.000000 0.651561"
+	pos="-0.811206 50.661812 -30.276047"
+	quat="-0.000000 -0.786311 0.000000 0.617831"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
 	name="skeletons/player/player.static_mesh"
-	static="1"
+	static="0"
 	/>
 <life
-	points="140.762"
+	points="145.136"
 	/>
 <tags
 	tags="player raijin"
@@ -129,7 +129,7 @@
 	/>
 <render_static_mesh
 	name="skeletons/mole/mole.static_mesh"
-	static="1"
+	static="0"
 	/>
 <tags
 	tags=""
@@ -160,7 +160,7 @@
 	/>
 <render_static_mesh
 	name="skeletons/scientist/scientist.static_mesh"
-	static="1"
+	static="0"
 	/>
 <tags
 	tags=""
