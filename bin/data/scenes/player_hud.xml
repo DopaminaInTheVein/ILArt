@@ -76,7 +76,7 @@
    name="health_bar_inner"/>
 <transform
    pos="1.20412 -92.9796 6.70752"
-   quat="0 0 1.0 0"
+   quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ui/player_hud/health_bar_inner.static_mesh"
@@ -109,25 +109,11 @@
 <name
    name="retrato"/>
 <transform
-   pos="2.79527 -96.7306 6.86634"
+   pos="2.22436 -96.7306 6.86634"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ui/player_hud/retrato.static_mesh"
-   static="true"/>
-<abs_aabb/>
-
-</entity>
-<entity>
-<tags/>
-<name
-   name="bocadillo"/>
-<transform
-   pos="5.48346 -96.9429 6.70363"
-   quat="0 0 0 1.0"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ui/player_hud/bocadillo.static_mesh"
    static="true"/>
 <abs_aabb/>
 
@@ -142,6 +128,20 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ui/player_hud/marco3.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="bocadillo001"/>
+<transform
+   pos="5.57049 -96.8406 6.84133"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/player_hud/bocadillo001.static_mesh"
    static="true"/>
 <abs_aabb/>
 
