@@ -185,7 +185,7 @@
 </entity>
 <entity>
 <tags
-   tags="gui"/>
+   tags="options gui"/>
 <gui
    menu_name="options"
    width="4.2236"
