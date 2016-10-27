@@ -7,8 +7,8 @@
         "level_4": "ms3"
     },
     "screen": {
-        "xres": 960,
-        "yres": 540,
+        "xres": 1600,
+        "yres": 900,
         "full_screen": 1
     },
     "controls": {
@@ -16,14 +16,14 @@
         "x-axis_inverted": 0.0
     },
     "language": {
-        "lang": "EN"
+        "lang": "ES"
     },
     "game": {
-        "difficulty": 0.0
+        "difficulty": 2.0
     },
     "sound": {
-        "sfx": 1.0,
-        "music": 1.0,
+        "sfx": 0.5235360264778137,
+        "music": 0.11488600075244904,
         "MAX_DISTANCE": 20.0
     }
 }
