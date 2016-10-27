@@ -78,13 +78,8 @@
 	name="player_1"
 	/>
 <transform
-<<<<<<< HEAD
-	pos="-1.338807 50.661697 -20.909485"
-	quat="-0.000000 -0.129769 0.000000 0.991544"
-=======
-	pos="-1.329719 50.661098 -29.843012"
-	quat="-0.000000 -0.988666 0.000000 0.150134"
->>>>>>> art
+	pos="-1.963889 51.365040 -20.041553"
+	quat="-0.000000 -0.538540 0.000000 0.842600"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -92,11 +87,7 @@
 	static="0"
 	/>
 <life
-<<<<<<< HEAD
-	points="125.559"
-=======
-	points="140.735"
->>>>>>> art
+	points="141.647"
 	/>
 <tags
 	tags="player raijin"
@@ -126,7 +117,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger gui gui_button clickable"
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -157,7 +148,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger gui gui_button clickable"
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -196,7 +187,7 @@
 	static="0"
 	/>
 <tags
-	tags="loading gui gui_button clickable"
+	tags=""
 	/>
 </entity>
 <entity
@@ -227,7 +218,7 @@
 	static="0"
 	/>
 <tags
-	tags="loading gui gui_button clickable"
+	tags=""
 	/>
 </entity>
 <entity
@@ -251,7 +242,7 @@
 	to_render="0"
 	/>
 <tags
-	tags="tasklist interactive gui_button clickable"
+	tags="tasklist interactive"
 	/>
 <tasklist
 	points_size="3"
@@ -266,62 +257,4 @@
 	visited2="false"
 	/>
 </entity>
-<<<<<<< HEAD
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="CineEndTarget"
-	/>
-<transform
-	pos="35.683800 66.605598 -25.491800"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags="guided_camera gui"
-	/>
-<guided_camera
-	default_dirs="0"
-	lpt1="7.276620 51.652100 -30.493099"
-	lpt2="7.280090 51.678001 -30.480700"
-	lpt3="-1.769610 51.729801 -20.350901"
-	lpt4="-1.896370 52.652199 -25.382999"
-	points_size="4"
-	velocity="0.5"
-	wpt1="21.150600 54.871399 -25.539301"
-	wpt2="15.444900 54.871399 -24.866301"
-	wpt3="3.968560 52.016201 -20.837400"
-	wpt4="2.932090 52.028500 -25.420799"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="gen_hub"
-	/>
-<transform
-	pos="7.238660 51.439999 -30.820200"
-	quat="-0.021902 0.638564 -0.026310 0.768807"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<generator
-	/>
-<tags
-	tags="trigger generator"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	radius="1.64"
-	smooth="0"
-	type_collision="trigger"
-	type_shape="sphere"
-	/>
-</entity>
-=======
->>>>>>> art
 </entities>
