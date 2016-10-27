@@ -5,48 +5,6 @@
 	reload="0"
 >
 <name
-	name="Omni001"
-	/>
-<transform
-	pos="1023.450012 72.118500 -25.354900"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags=""
-	/>
-<light_point
-	color="1.000000 1.000000 1.000000 0.400000"
-	in_radius="4.25001"
-	out_radius="200"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="0"
->
-<name
-	name="Omni002"
-	/>
-<transform
-	pos="1036.959961 67.104401 -25.354900"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags=""
-	/>
-<light_point
-	color="1.000000 1.000000 1.000000 0.010000"
-	in_radius="1.93"
-	out_radius="200"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="0"
->
-<name
 	name="Omni039"
 	/>
 <transform
@@ -59,8 +17,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -80,8 +38,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -101,8 +59,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -122,8 +80,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -143,8 +101,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -164,8 +122,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -185,8 +143,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -206,8 +164,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.240000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="1.56"
+	out_radius="2.38"
 	/>
 </entity>
 <entity
@@ -310,7 +268,7 @@
 	tags=""
 	/>
 <light_point
-	color="1.000000 0.862745 0.717647 0.460001"
+	color="1.000000 0.862745 0.717647 0.300000"
 	in_radius="1.86"
 	out_radius="3.3"
 	/>
@@ -333,7 +291,7 @@
 <light_point
 	color="1.000000 0.862745 0.717647 1.000000"
 	in_radius="2"
-	out_radius="9"
+	out_radius="10.8"
 	/>
 </entity>
 <entity
@@ -353,8 +311,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.200000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="0.96"
+	out_radius="4.4"
 	/>
 </entity>
 <entity
@@ -374,8 +332,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.200000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="0.96"
+	out_radius="4.4"
 	/>
 </entity>
 <entity
@@ -395,8 +353,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.200000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="0.96"
+	out_radius="4.4"
 	/>
 </entity>
 <entity
@@ -416,8 +374,8 @@
 	/>
 <light_point
 	color="1.000000 0.862745 0.717647 0.200000"
-	in_radius="1.86"
-	out_radius="3.3"
+	in_radius="0.96"
+	out_radius="4.4"
 	/>
 </entity>
 <entity
