@@ -73,7 +73,7 @@
 <name
    name="balcon_redondo"/>
 <transform
-   pos="-34.6137 -2.2547 -0.896849"
+   pos="-34.5171 -2.19858 -0.896849"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -150,7 +150,7 @@
 <name
    name="barrotes_balcon_arriba"/>
 <transform
-   pos="-34.9403 -0.685649 -1.29331"
+   pos="-34.8437 -0.662699 -1.29331"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -2004,7 +2004,7 @@
 <name
    name="pibotes_balcon_arriba"/>
 <transform
-   pos="-35.0434 -0.736112 -1.33485"
+   pos="-34.9469 -0.713163 -1.33485"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -2646,7 +2646,7 @@
 <name
    name="puerta_Ascensor_derecha_arriba___opened_pos002"/>
 <transform
-   pos="-66.0781 16.8798 19.739"
+   pos="-66.0781 16.8798 19.7683"
    quat="0.708405 0 0 0.705806"
    scale="1.0"/>
 <room
@@ -2670,7 +2670,7 @@
 <name
    name="puerta_Ascensor_izquierda_arriba___opened_pos004"/>
 <transform
-   pos="-64.7441 16.8798 19.724"
+   pos="-64.7441 16.8798 19.7533"
    quat="0.708405 0 0 0.705806"
    scale="1.0"/>
 <room
@@ -3845,7 +3845,7 @@
 <name
    name="arboles_balcon_redondo_grande"/>
 <transform
-   pos="-40.6128 0.725866 -0.804768"
+   pos="-40.5162 0.781989 -0.804768"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -4482,7 +4482,7 @@
 <name
    name="arboles_balcon_redondo_grande_maceta_1"/>
 <transform
-   pos="-40.6128 0.725866 -0.804768"
+   pos="-40.5162 0.781989 -0.804768"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -4499,7 +4499,7 @@
 <name
    name="arboles_balcon_redondo_grande_maceta_2"/>
 <transform
-   pos="-40.6128 0.725866 -0.804768"
+   pos="-40.5162 0.781989 -0.804768"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -4516,7 +4516,7 @@
 <name
    name="arboles_balcon_redondo_grande_2"/>
 <transform
-   pos="-40.6128 0.725866 -0.804768"
+   pos="-40.5162 0.781989 -0.804768"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
