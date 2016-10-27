@@ -2,7 +2,7 @@
     "scenes": {
         "level_0": "title",
         "level_1": "hub",
-        "level_2": "tuto_mole",
+        "level_2": "ms3",
         "level_3": "tuto_sci",
         "level_4": "ms3"
     },
@@ -19,11 +19,11 @@
         "lang": "ES"
     },
     "game": {
-        "difficulty": 2.0
+        "difficulty": 1.0
     },
     "sound": {
-        "sfx": 0.5235360264778137,
-        "music": 0.11488600075244904,
+        "sfx": 0.4849629998207093,
+        "music": 0.3381049931049347,
         "MAX_DISTANCE": 20.0
     }
 }
