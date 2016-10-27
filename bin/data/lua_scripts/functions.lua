@@ -54,6 +54,12 @@ function SaveLevel( )
 	p:save_level()
 end
 
+function SaveCheckPoint( )
+	h:get_handle_caller()
+	h:destroy()
+	p:save_level()
+end
+
 g_current_level = "level_0"
 g_is_menu = false
 function LoadLevel( logic_level )
@@ -67,10 +73,11 @@ function LoadLevel( logic_level )
 	ui_cam:fade_out(0.5)
 	p:setControlEnabled(0)
 	p:ai_stop()
+	p:exec_command("p:hide_message()", 0.5)
 	--p:load_entities("loading")
 	--p:exec_command("p:load_entites(\"loading\")", 0.1)
-	p:exec_command("p:load_entities(\"loading\");", 0.5)
-	p:exec_command("ui_cam:fade_in(0.5)", 0.5)
+	--p:exec_command("p:load_entities(\"loading\");", 0.5)
+	--p:exec_command("ui_cam:fade_in(0.5)", 0.5)
 	p:exec_command("p:load_level(\""..logic_level.."\")", 1)
 end
 function LoadLevelSaving( logic_level )

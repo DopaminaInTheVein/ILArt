@@ -214,12 +214,12 @@
 <magnet_door
    locked="no"
    speedOpening="1"
-   target="-66.0781 16.8798 19.7683"
+   target="-66.0781 16.8798 19.739"
    pol="neutral"/>
 <name
    name="puerta_Ascensor_derecha_arriba"/>
 <transform
-   pos="-66.8968 16.8798 19.7683"
+   pos="-66.8968 16.8798 19.739"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -276,12 +276,12 @@
 <magnet_door
    locked="no"
    speedOpening="1"
-   target="-64.7441 16.8798 19.7533"
+   target="-64.7441 16.8798 19.724"
    pol="neutral"/>
 <name
    name="puerta_Ascensor_izquierda_arriba"/>
 <transform
-   pos="-63.9488 16.8798 19.7533"
+   pos="-63.9488 16.8798 19.724"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -2041,27 +2041,6 @@
    pos="-46.1595 0.753134 -0.840155"
    quat="0 0 0 1.0"
    scale="1.0"/>
-
-</entity>
-<entity
-   id="1303"
-   reload="yes">
-<tags
-   tags="pila_container interactive"/>
-<pila_container/>
-<name
-   name="flecha_carga"/>
-<transform
-   pos="-90.8309 -0.023538 13.6837"
-   quat="0 0 0.5 0.866025"
-   scale="1.0"/>
-<render_static_mesh
-   name="static_meshes/ms3/flecha_carga.static_mesh"
-   static="true"/>
-<abs_aabb/>
-<rigidbody
-   type_collision="static"
-   mesh_name="ms3/flecha_carga"/>
 
 </entity>
 
