@@ -6041,5 +6041,22 @@
    mesh_name="ms3/techo_oficina"/>
 
 </entity>
+<entity>
+<tags/>
+<name
+   name="farolillo_pasillo"/>
+<transform
+   pos="-55.7632 0.818878 -3.44012"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ms3/farolillo_pasillo.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="ms3/farolillo_pasillo"/>
+
+</entity>
 
 </entities>
