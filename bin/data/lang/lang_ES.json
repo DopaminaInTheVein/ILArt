@@ -1,4 +1,8 @@
-{
+{	
+	"ui": {
+		"loading_skip": "*LMOUSE*:A jugar!",
+		"loading_skip_pad": "*XPAD*:A jugar!"
+	},
     "actions": {
         "none": "",
         "overcharge": "*LMOUSE*: Sobrecarga",
@@ -44,7 +48,7 @@
         "sense_pad": "Empezemos por SENTIR (*BPAD*)!!!\nPara la demostración, se mantendrá un ratito.",
         "target_seen_green": "Esta señal #00FF00#VERDE## indica el siguiente punto a visitar.",
         "target_seen_yellow": "Esta señal #FFFF00#AMARILLA## indica el punto final, el objetivo a alcanzar en el nivel.",
-        "target_seen_white": "Los objetos en BLANCO son generadores, donde puedes restaurar toda tu vida.",
+        "target_seen_white": "Los objetos en #FFFFFF#BLANCO## son generadores, donde puedes restaurar toda tu vida.",
         "return_control": "Es tu turno.\nMuevete con *WKEY**AKEY**SKEY**DKEY* + *MOUSE*, salta con *SPACE*.\nIntenta ir al chico grande y fuerte llamado MOLE\nPresiona *LMOUSE* para entrar en su sueño.",
         "return_control_pad": "Es tu turno.\nMuevete con *LSTICK* + *RSTICK*, salta con *APAD*.\nIntenta ir al chico grande y fuerte llamado MOLE\nPresiona *XPAD* para entrar en su sueño",
         "mole_tuto_complete": "Felicidades por completar el tutorial del MOLE",
@@ -80,8 +84,8 @@
     "tuto_sci": {
         "help_possess": "Este es el sueño de la CIENTIFICO.\nAcercate a ella y presiona *SHIFT* para controlarla.",
         "help_possess_pad": "Este es el sueño de la CIENTIFICO.\nAcercate a ella y presiona *YPAD* para controlarla.",
-        "help_wb": "Esta personaje es muy lista, puede crear bombas\nen los sitios de trabajo. Presiona *LMOUSE* para crear algunas.\nTambién parece que has descubrido como sobrecargarte,\nasí puedes aturdir los GUARDIAS con *LMOUSE*, pero perderás mucha vida.",
-        "help_wb_pad": "Esta personaje es muy lista, puede crear bombas\nen los sitios de trabajo. Presiona *XPAD* para crear algunas.\nTambién parece que has descubrido como sobrecargarte,\nasí puedes aturdir los GUARDIAS con *XPAD*, pero perderás mucha vida.",
+        "help_wb": "Esta personaje es muy lista, puede crear bombas\nen los sitios de trabajo. Presiona *LMOUSE* para crear algunas.\nTambién parece que has descubierto como sobrecargarte,\nasí puedes aturdir los GUARDIAS con *LMOUSE*, pero perderás mucha vida.",
+        "help_wb_pad": "Esta personaje es muy lista, puede crear bombas\nen los sitios de trabajo. Presiona *XPAD* para crear algunas.\nTambién parece que has descubierto como sobrecargarte,\nasí puedes aturdir los GUARDIAS con *XPAD*, pero perderás mucha vida.",
         "help_bomb": "Tira bombas con *EKEY*.\nLas bombas permiten aturdir los GUARDIAS un ratito\nLos GUARDIAS son los únicos personajes que te ven...\nY quieren tu muerte, ve con cuidado!",
         "help_bomb_pad": "Tira bombas con *RB*.\nLas bombas permiten aturdir los GUARDIAS un ratito\nLos GUARDIAS son los únicos personajes que te ven...\nY quieren tu muerte, ve con cuidado!",
         "stunned_guard_remain": "Fallaste!\nPodría ser peor... Aturde el GUARDA que queda.",

@@ -1,165 +1,6 @@
 <entities
 >
 <entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="gen_hub"
-	/>
-<transform
-	pos="7.238660 51.439999 -30.820200"
-	quat="-0.021902 0.638564 -0.026310 0.768807"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<generator
-	/>
-<tags
-	tags="trigger generator"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	radius="1.64"
-	smooth="0"
-	type_collision="trigger"
-	type_shape="sphere"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<name
-	name="CineEndTarget"
-	/>
-<transform
-	pos="35.683800 66.605598 -25.491800"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags="guided_camera"
-	/>
-<guided_camera
-	default_dirs="0"
-	lpt1="7.276620 51.652100 -30.493099"
-	lpt2="7.280090 51.678001 -30.480700"
-	lpt3="-1.769610 51.729801 -20.350901"
-	lpt4="-1.896370 52.652199 -25.382999"
-	points_size="4"
-	velocity="0.5"
-	wpt1="21.150600 54.871399 -25.539301"
-	wpt2="15.444900 54.871399 -24.866301"
-	wpt3="3.968560 52.016201 -20.837400"
-	wpt4="2.932090 52.028500 -25.420799"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<player
-	/>
-<skeleton
-	model="skeletons/player/player.skeleton"
-	/>
-<skeleton_ik
-	/>
-<skeleton_lookat
-	/>
-<skc_player
-	/>
-<name
-	name="player_1"
-	/>
-<transform
-	pos="-1.513109 51.365040 -30.643944"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="skeletons/player/player.static_mesh"
-	static="0"
-	/>
-<life
-	points="147.399"
-	/>
-<tags
-	tags="player raijin"
-	/>
-<character_controller
-	height="0.7"
-	radius="0.3"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<trigger_lua
-	action="dream"
-	actived="1"
-	/>
-<name
-	name="thub_mole"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-1.946490 51.644199 -20.087400"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags="trigger"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	size="1.874045 0.982075 2.874040"
-	smooth="0"
-	type_collision="trigger"
-	type_shape="box"
-	/>
-</entity>
-<entity
-	permanent="0"
-	reload="1"
->
-<trigger_lua
-	action="dream"
-	actived="1"
-	/>
-<name
-	name="thub_sci"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-1.789580 51.644199 -30.809500"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags="trigger"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	size="1.874045 0.982075 2.874040"
-	smooth="0"
-	type_collision="trigger"
-	type_shape="box"
-	/>
-</entity>
-<entity
 	id="5"
 	permanent="0"
 	reload="1"
@@ -187,7 +28,101 @@
 	static="0"
 	/>
 <tags
-	tags=""
+	tags="gui Text_Message_Letter_action_text gui"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="dream"
+	actived="1"
+	/>
+<name
+	name="thub_sci"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.789580 51.644199 -30.809500"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="trigger AI_guard gui"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="0.468511 0.245519 0.718510"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<name
+	name="end_hub"
+	/>
+<transform
+	pos="-2.189310 53.361000 -25.441900"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/hub/end_hub.static_mesh"
+	static="1"
+	/>
+<tags
+	tags="end_hub Text_Message_Letter_action_text"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	mesh_name="hub/end_hub"
+	smooth="0"
+	type_collision="static"
+	type_shape="mesh"
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="leave"
+	actived="0"
+	/>
+<name
+	name="thub_end"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.946490 52.754700 -25.673500"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="end_hub end_hub trigger"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="2.459770 1.958455 1.345830"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
 	/>
 </entity>
 <entity
@@ -218,7 +153,7 @@
 	static="0"
 	/>
 <tags
-	tags=""
+	tags="gui Text_Message_Letter_action_text"
 	/>
 </entity>
 <entity
@@ -232,7 +167,7 @@
 	name=""
 	/>
 <transform
-	pos="-1.946490 51.386902 -20.087400"
+	pos="-1.946490 51.386902 -25.612900"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -252,9 +187,137 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="false"
-	visited1="false"
+	visited0="true"
+	visited1="true"
 	visited2="false"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="CineEndTarget"
+	/>
+<transform
+	pos="35.683800 66.605598 -25.491800"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="guided_camera interactive"
+	/>
+<guided_camera
+	default_dirs="0"
+	lpt1="7.276620 51.652100 -30.493099"
+	lpt2="7.280090 51.678001 -30.480700"
+	lpt3="-1.769610 51.729801 -20.350901"
+	lpt4="-1.896370 52.652199 -25.382999"
+	points_size="4"
+	velocity="0.5"
+	wpt1="21.150600 54.871399 -25.539301"
+	wpt2="15.444900 54.871399 -24.866301"
+	wpt3="3.968560 52.016201 -20.837400"
+	wpt4="2.932090 52.028500 -25.420799"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="gen_hub"
+	/>
+<transform
+	pos="7.238660 51.439999 -30.820200"
+	quat="-0.021902 0.638564 -0.026310 0.768807"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<generator
+	/>
+<tags
+	tags="trigger generator"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	radius="1.64"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="sphere"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<local_aabb
+	/>
+<player
+	/>
+<skeleton
+	model="skeletons/player/player.skeleton"
+	/>
+<skeleton_ik
+	/>
+<skeleton_lookat
+	/>
+<skc_player
+	/>
+<name
+	name="player_1"
+	/>
+<transform
+	pos="-1.297871 53.737240 -25.717163"
+	quat="-0.000000 -0.661398 0.000000 0.750035"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="skeletons/player/player.static_mesh"
+	static="0"
+	/>
+<life
+	points="147.023"
+	/>
+<tags
+	tags="player raijin"
+	/>
+<character_controller
+	height="0.7"
+	radius="0.3"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="dream"
+	actived="1"
+	/>
+<name
+	name="thub_mole"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.946490 51.644199 -20.087400"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="trigger AI_guard"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="0.468511 0.245519 0.718510"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
 	/>
 </entity>
 </entities>
