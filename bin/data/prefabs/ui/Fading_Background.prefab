@@ -1,6 +1,8 @@
 <entities>
 <entity permanent="yes">
-<tags/>
+<gui/>
+<tags
+	tags="hiddeable_hud"/>
 <name
    name="bocadillo001"/>
 <transform
