@@ -629,7 +629,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos004_sound007"/>
 <transform
@@ -643,7 +643,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos004_sound006"/>
 <transform
@@ -657,7 +657,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos004_sound005"/>
 <transform
@@ -671,7 +671,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos004_sound004"/>
 <transform
@@ -685,7 +685,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos004_sound003"/>
 <transform
@@ -699,7 +699,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos004_sound002"/>
 <transform
@@ -713,7 +713,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos004_sound001"/>
 <transform
@@ -727,7 +727,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos005_sound002"/>
 <transform
@@ -741,7 +741,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos005_sound001"/>
 <transform
@@ -755,7 +755,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos006_sound002"/>
 <transform
@@ -769,7 +769,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos006_sound001"/>
 <transform
@@ -783,7 +783,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos002_sound001"/>
 <transform
@@ -797,7 +797,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos002_sound002"/>
 <transform
@@ -811,7 +811,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos003_sound004"/>
 <transform
@@ -825,7 +825,7 @@
 <tags/>
 <sound
    event="OnFluoriscent"
-   volume="0.25"/>
+   volume="0.1"/>
 <name
    name="farolillos003_sound002"/>
 <transform
