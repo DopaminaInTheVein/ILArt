@@ -35,7 +35,7 @@
 <name
    name="Plane001"/>
 <transform
-   pos="6.87576 -95.196 9.45184"
+   pos="6.87576 -95.0969 9.45184"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -47,7 +47,7 @@
 <entity
    only_pad="yes">
 <tags
-   tags="loading gui"/>
+   tags="loading loading_pag2 gui"/>
 <gui
    menu_name="loading"
    width="5.08134"
@@ -61,7 +61,8 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ui/loading/controlesmandospagina2.static_mesh"
-   static="false"/>
+   static="false"
+   hidden="yes"/>
 <abs_aabb/>
 
 </entity>
@@ -71,7 +72,7 @@
 <name
    name="pila"/>
 <transform
-   pos="8.63346 -97.1112 9.68961"
+   pos="8.63346 -97.1112 9.69503"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -82,26 +83,22 @@
 </entity>
 <entity>
 <tags
-   tags="loading gui"/>
-<gui
-   menu_name="loading"
-   width="1.44594"
-   height="1.44594"/>
+   tags="loading"/>
 <name
    name="piladelante"/>
 <transform
-   pos="8.63346 -97.1112 9.90196"
+   pos="8.63346 -97.1112 9.74056"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ui/loading/piladelante.static_mesh"
-   static="false"/>
+   static="true"/>
 <abs_aabb/>
 
 </entity>
 <entity>
 <tags
-   tags="loading gui"/>
+   tags="loading loading_text gui"/>
 <gui
    menu_name="loading"
    width="0.737976"
@@ -110,7 +107,7 @@
 <name
    name="loadingpalabra"/>
 <transform
-   pos="8.38044 -97.4308 9.95977"
+   pos="8.38044 -97.4308 9.84626"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -121,11 +118,7 @@
 </entity>
 <entity>
 <tags
-   tags="loading gui"/>
-<gui
-   menu_name="loading"
-   width="1.79808"
-   height="1.79808"/>
+   tags="loading"/>
 <name
    name="loadingfondo"/>
 <transform
@@ -133,8 +126,8 @@
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
-   name="static_meshes/ui/loading/loadingfondo.static_mesh"
-   static="false"/>
+   name="static_meshes/ui/loading/Plane002.static_mesh"
+   static="true"/>
 <abs_aabb/>
 
 </entity>
@@ -148,7 +141,7 @@
 <name
    name="loading_bar"/>
 <transform
-   pos="8.63346 -97.1112 9.79518"
+   pos="8.63346 -97.1112 9.73881"
    quat="0 0 0 1.0"
    scale="1.0"/>
 <render_static_mesh
@@ -160,7 +153,7 @@
 <entity
    only_pad="yes">
 <tags
-   tags="loading gui"/>
+   tags="loading loading_pag1 gui"/>
 <gui
    menu_name="loading"
    width="5.08134"
@@ -181,7 +174,7 @@
 <entity
    only_keyboard="yes">
 <tags
-   tags="loading gui"/>
+   tags="loading loading_pag1 gui"/>
 <gui
    menu_name="loading"
    width="5.08134"
@@ -202,7 +195,7 @@
 <entity
    only_keyboard="yes">
 <tags
-   tags="loading gui"/>
+   tags="loading loading_pag2 gui"/>
 <gui
    menu_name="loading"
    width="5.08134"
@@ -216,7 +209,8 @@
    scale="1.0"/>
 <render_static_mesh
    name="static_meshes/ui/loading/controlesteclado2.static_mesh"
-   static="false"/>
+   static="false"
+   hidden="yes"/>
 <abs_aabb/>
 
 </entity>

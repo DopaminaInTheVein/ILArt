@@ -3,6 +3,9 @@ p = Public()
 function OnCreateGui_btn_resume( )
 	p:pause_game()
 	p:wait_escape("OnClicked_btn_resume();")
+	local hud_elements = HandleGroup()
+	hud_elements:get_handles_by_tag("hiddeable_hud")
+	hud_elements:set_visible(0)
 end
 
 function OnClicked_btn_resume( )
@@ -41,12 +44,16 @@ function OnClicked_btn_opt_menu( )
 end
 
 function OnClicked_btn_exit_pause( )
-	p:play_sound("event:/OnMenuCancel", 1.0, false)
-	p:wait_escape_cancel()
-	p:print("exit..")
-	p:exit_game()
+	OnClicked_btn_back_title() --El exit ya no es exit!
+	-- p:play_sound("event:/OnMenuCancel", 1.0, false)
+	-- p:wait_escape_cancel()
+	-- p:print("exit..")
+	-- p:exit_game()
 end
 
 function destroyMenu( )
 	DestroyAllByTag("menu")
+	local hud_elements = HandleGroup()
+	hud_elements:get_handles_by_tag("hiddeable_hud")
+	hud_elements:set_visible(1)
 end
