@@ -1906,9 +1906,6 @@
    name="static_meshes/ms3/paredes_milestone_3.static_mesh"
    static="true"/>
 <abs_aabb/>
-<rigidbody
-   type_collision="static"
-   mesh_name="ms3/paredes_milestone_3"/>
 
 </entity>
 <entity>
