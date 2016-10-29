@@ -19,3 +19,4 @@ max/max*
 *.opendb
 bin/data/navmeshes/*.data
 *_save*.xml
+*.avi
