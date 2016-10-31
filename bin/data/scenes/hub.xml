@@ -722,7 +722,7 @@
 <entity
    slept="yes">
 <tags
-   tags="end_hubstaticMesh = hub/comicitlightens"/>
+   tags="end_hub"/>
 <name
    name="end_hub"/>
 <transform

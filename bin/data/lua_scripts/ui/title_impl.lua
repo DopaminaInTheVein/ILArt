@@ -26,6 +26,12 @@ end
 function playVideoIntro( )
 	p:removeText("title_text")
 	p:setup_game()
+	--LoadLevel("level_1")
+	ui_cam:fade_out(0.1)
+	p:exec_command("StartTheGame();", 0.1)
+end
+
+function StartTheGame()
 	LoadLevel("level_1")
 	--p:play_video_and_do("data\\videos\\intro.avi", "LoadLevel(\"level_1\");")
 end

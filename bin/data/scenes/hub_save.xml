@@ -1,6 +1,69 @@
 <entities
 >
 <entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<trigger_lua
+	action="leave"
+	actived="0"
+	/>
+<name
+	name="thub_end"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-1.946490 52.754700 -25.673500"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="end_hub end_hub trigger"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	size="2.459770 1.958455 1.345830"
+	smooth="0"
+	type_collision="trigger"
+	type_shape="box"
+	/>
+</entity>
+<entity
+	id="0"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<name
+	name="end_hub"
+	/>
+<transform
+	pos="0.000000 0.000000 0.000000"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/hub/end_hub.static_mesh"
+	static="1"
+	/>
+<tags
+	tags="end_hub generator interactive"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	mesh_name="hub/end_hub"
+	smooth="0"
+	type_collision="static"
+	type_shape="mesh"
+	/>
+</entity>
+<entity
 	permanent="0"
 	reload="1"
 >
@@ -23,8 +86,8 @@
 	name="player_1"
 	/>
 <transform
-	pos="-1.204522 50.662033 -20.818138"
-	quat="-0.000000 -0.088829 0.000000 0.996047"
+	pos="-0.756725 50.661098 -25.600651"
+	quat="-0.000000 -0.397872 0.000000 0.917441"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -32,7 +95,7 @@
 	static="0"
 	/>
 <life
-	points="147.062"
+	points="146.19"
 	/>
 <tags
 	tags="player raijin"
@@ -62,12 +125,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger"
+	tags="trigger AI_cientifico AI_poss"
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="1.874045 0.982075 2.874040"
+	size="0.468511 0.245519 0.718510"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -93,12 +156,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger"
+	tags="trigger AI_cientifico AI_poss"
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="1.874045 0.982075 2.874040"
+	size="0.468511 0.245519 0.718510"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -115,7 +178,7 @@
 	/>
 <skeleton
 	anim="sleep"
-	model="skeletons/mole/mole.skeleton"
+	model="skeletons/mole_slept/mole_slept.skeleton"
 	/>
 <skeleton_ik
 	/>
@@ -123,16 +186,16 @@
 	name="_mole_slept"
 	/>
 <transform
-	pos="-1.946490 50.662102 -20.087400"
-	quat="0.000000 0.942651 0.000000 0.333781"
+	pos="-1.946490 50.478802 -20.237900"
+	quat="0.000000 0.902573 0.000000 -0.430536"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
-	name="skeletons/mole/mole.static_mesh"
+	name="skeletons/mole_slept/mole_slept.static_mesh"
 	static="0"
 	/>
 <tags
-	tags=""
+	tags="gui interactive"
 	/>
 </entity>
 <entity
@@ -146,7 +209,7 @@
 	/>
 <skeleton
 	anim="sleep"
-	model="skeletons/scientist/scientist.skeleton"
+	model="skeletons/scientist_slept/scientist_slept.skeleton"
 	/>
 <skeleton_ik
 	/>
@@ -155,15 +218,15 @@
 	/>
 <transform
 	pos="-1.703250 51.415901 -30.717501"
-	quat="0.000000 0.401707 0.000000 0.915768"
+	quat="0.000000 0.931596 0.000000 0.363497"
 	scale="0.009299 0.009299 0.009299"
 	/>
 <render_static_mesh
-	name="skeletons/scientist/scientist.static_mesh"
+	name="skeletons/scientist_slept/scientist_slept.static_mesh"
 	static="0"
 	/>
 <tags
-	tags=""
+	tags="gui raijin"
 	/>
 </entity>
 <entity
@@ -177,7 +240,7 @@
 	name=""
 	/>
 <transform
-	pos="-1.946490 51.386902 -20.087400"
+	pos="-1.946490 51.386902 -25.612900"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -197,8 +260,8 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="false"
-	visited1="false"
+	visited0="true"
+	visited1="true"
 	visited2="false"
 	/>
 </entity>
@@ -215,7 +278,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera"
+	tags="guided_camera AI_guard"
 	/>
 <guided_camera
 	default_dirs="0"
@@ -255,6 +318,29 @@
 	smooth="0"
 	type_collision="trigger"
 	type_shape="sphere"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<name
+	name="CineEndHub"
+	/>
+<transform
+	pos="35.683800 66.605598 -57.440102"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="guided_camera circle_3"
+	/>
+<guided_camera
+	default_dirs="0"
+	lpt1="-1.603070 51.846199 -25.649700"
+	points_size="1"
+	velocity="0.5"
+	wpt1="-0.817787 53.354599 -25.649000"
 	/>
 </entity>
 </entities>

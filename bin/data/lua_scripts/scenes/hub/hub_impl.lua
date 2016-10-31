@@ -72,12 +72,12 @@ function OnLoad_hub()
 		end
 		if mole_done then
 			h:get_handle_by_id(idMoleSlept)
-			h:set_anim_loop("run")
+			--h:set_anim_loop("run")
 			p:complete_tasklist(TASK_HUB_MOLE)
 		end
 		if sci_done then
 			h:get_handle_by_id(idSciSlept)
-			h:set_anim_loop("run")
+			--h:set_anim_loop("run")
 			p:complete_tasklist(TASK_HUB_SCI)
 		end
 		
@@ -131,5 +131,13 @@ end
 
 function hub_end()
 	SaveLevel()
-	LoadLevel("level_4")
+	cam:run_cinematic("CineEndHub", 1.0)
+	p:exec_command("ui_cam:fade_out(0.2)", 2.8)
+	p:exec_command("EndHub();", 3.0)
+end
+
+function EndHub()
+	p:pause_game()
+	p:stop_music()
+	p:play_video_and_do("data\\videos\\ms3.avi", "LoadLevel(\"level_4\");")
 end
