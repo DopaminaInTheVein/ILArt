@@ -52,7 +52,7 @@
 	static="1"
 	/>
 <tags
-	tags="end_hub generator interactive"
+	tags="end_hub AI_guard"
 	/>
 <rigidbody
 	kinematic="0"
@@ -86,13 +86,8 @@
 	name="player_1"
 	/>
 <transform
-<<<<<<< HEAD
-	pos="-1.728088 50.661098 -21.170654"
-	quat="-0.000000 -0.566724 0.000000 0.823908"
-=======
-	pos="-0.756725 50.661098 -25.600651"
-	quat="-0.000000 -0.397872 0.000000 0.917441"
->>>>>>> art
+	pos="-0.221356 50.661098 -25.841099"
+	quat="-0.000000 -0.644437 0.000000 0.764658"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -100,11 +95,7 @@
 	static="0"
 	/>
 <life
-<<<<<<< HEAD
-	points="61.5636"
-=======
-	points="146.19"
->>>>>>> art
+	points="146.802"
 	/>
 <tags
 	tags="player raijin"
@@ -134,7 +125,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger AI_cientifico AI_poss"
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
@@ -165,7 +156,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger AI_cientifico AI_poss"
+	tags="trigger circle_3"
 	/>
 <rigidbody
 	kinematic="0"
@@ -204,7 +195,7 @@
 	static="0"
 	/>
 <tags
-	tags="gui interactive"
+	tags="gui circle_3"
 	/>
 </entity>
 <entity
@@ -235,7 +226,7 @@
 	static="0"
 	/>
 <tags
-	tags="gui raijin"
+	tags="gui"
 	/>
 </entity>
 <entity
@@ -287,7 +278,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera AI_guard"
+	tags="guided_camera"
 	/>
 <guided_camera
 	default_dirs="0"
@@ -342,7 +333,7 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="guided_camera circle_3"
+	tags="guided_camera"
 	/>
 <guided_camera
 	default_dirs="0"
