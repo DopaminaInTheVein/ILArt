@@ -3,7 +3,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni005"/>
@@ -17,7 +17,7 @@
 <tags/>
 <light_point
    color="0.713726 0.988235 1.0 0.9"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni013"/>
@@ -31,7 +31,7 @@
 <tags/>
 <light_point
    color="0.847059 0.639216 0.831373 0.9"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni016"/>
@@ -45,7 +45,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni020"/>
@@ -59,7 +59,7 @@
 <tags/>
 <light_point
    color="1.0 1.0 1.0 0.5"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni050"/>
@@ -73,7 +73,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni087"/>
@@ -87,7 +87,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni088"/>
@@ -101,7 +101,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni089"/>
@@ -115,7 +115,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni090"/>
@@ -129,7 +129,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni091"/>
@@ -143,7 +143,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni092"/>
@@ -157,7 +157,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni093"/>
@@ -171,7 +171,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni094"/>
@@ -185,7 +185,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni095"/>
@@ -199,7 +199,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni096"/>
@@ -213,7 +213,7 @@
 <tags/>
 <light_point
    color="0.560784 0.862745 0.960784 5.0"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="28.5"/>
 <name
    name="Omni097"/>
@@ -227,7 +227,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni098"/>
@@ -241,7 +241,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni099"/>
@@ -255,7 +255,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni100"/>
@@ -269,7 +269,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni101"/>
@@ -283,7 +283,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni102"/>
@@ -297,7 +297,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni103"/>
@@ -311,7 +311,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni104"/>
@@ -325,7 +325,7 @@
 <tags/>
 <light_point
    color="0.847059 0.639216 0.831373 0.9"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni105"/>
@@ -339,7 +339,7 @@
 <tags/>
 <light_point
    color="0.847059 0.639216 0.831373 0.9"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni106"/>
@@ -353,7 +353,7 @@
 <tags/>
 <light_point
    color="0.713726 0.988235 1.0 0.9"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni108"/>
@@ -367,7 +367,7 @@
 <tags/>
 <light_point
    color="0.713726 0.988235 1.0 0.9"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni109"/>
@@ -381,7 +381,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni110"/>
@@ -395,7 +395,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni111"/>
@@ -409,7 +409,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni112"/>
@@ -423,7 +423,7 @@
 <tags/>
 <light_point
    color="1.0 0.968628 0.635294 9.09"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="53.5"/>
 <name
    name="Omni113"/>
@@ -437,7 +437,7 @@
 <tags/>
 <light_point
    color="0.847059 0.639216 0.831373 0.9"
-   in_radius="0.0"
+   in_radius="1"
    out_radius="96.5"/>
 <name
    name="Omni107"/>
@@ -452,8 +452,8 @@
 <light_dir_shadows
    gen_shadow="yes"
    color="1.0 1.0 1.0 1.0"
-   znear="0.0"
-   zfar="200.0"
+   znear="1"
+   zfar="50"
    fov="24.9"/>
 <culling/>
 <name
