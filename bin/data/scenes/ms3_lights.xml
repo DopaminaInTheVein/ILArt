@@ -1008,4 +1008,31 @@
 	tags=""
 	/>
 </entity>
+<entity
+	permanent="0"
+	reload="0"
+>
+<culling
+	/>
+<light_dir_shadows_dynamic
+	color="1.000000 1.000000 1.000000 0.000000"
+	fov="45"
+	light_mask="textures/dir_shader_circular.dds"
+	resolution="512"
+	shadow_intensity="0.4"
+	zfar="100"
+	znear="5"
+	/>
+<name
+	name="light_dir_shadow_dyn0"
+	/>
+<room
+	name="1"
+	/>
+<transform
+	pos="-8.284556 -14.583923 -0.582518"
+	quat="0.706490 0.000000 0.000000 0.707723"
+	scale="1.000000 1.000000 1.000000"
+	/>
+</entity>
 </entities>
