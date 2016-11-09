@@ -1,69 +1,6 @@
 <entities
 >
 <entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<trigger_lua
-	action="leave"
-	actived="0"
-	/>
-<name
-	name="thub_end"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-1.946490 52.754700 -25.673500"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<tags
-	tags="end_hub end_hub trigger"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	size="2.459770 1.958455 1.345830"
-	smooth="0"
-	type_collision="trigger"
-	type_shape="box"
-	/>
-</entity>
-<entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<name
-	name="end_hub"
-	/>
-<transform
-	pos="0.000000 0.000000 0.000000"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/hub/end_hub.static_mesh"
-	static="1"
-	/>
-<tags
-	tags="end_hub AI_guard"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="2"
-	mesh_name="hub/end_hub"
-	smooth="0"
-	type_collision="static"
-	type_shape="mesh"
-	/>
-</entity>
-<entity
 	permanent="0"
 	reload="1"
 >
@@ -86,8 +23,8 @@
 	name="player_1"
 	/>
 <transform
-	pos="-0.221356 50.661098 -25.841099"
-	quat="-0.000000 -0.644437 0.000000 0.764658"
+	pos="-0.634922 50.661098 -20.428392"
+	quat="0.000000 0.060398 0.000000 0.998174"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -95,7 +32,7 @@
 	static="0"
 	/>
 <life
-	points="146.802"
+	points="117.992"
 	/>
 <tags
 	tags="player raijin"
@@ -130,7 +67,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.468511 0.245519 0.718510"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -156,12 +93,12 @@
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
-	tags="trigger circle_3"
+	tags="trigger"
 	/>
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.468511 0.245519 0.718510"
+	size="1.874045 0.982075 2.874040"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -195,7 +132,7 @@
 	static="0"
 	/>
 <tags
-	tags="gui circle_3"
+	tags=""
 	/>
 </entity>
 <entity
@@ -226,7 +163,7 @@
 	static="0"
 	/>
 <tags
-	tags="gui"
+	tags=""
 	/>
 </entity>
 <entity
@@ -240,7 +177,7 @@
 	name=""
 	/>
 <transform
-	pos="-1.946490 51.386902 -25.612900"
+	pos="-1.946490 51.386902 -20.087400"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -260,8 +197,8 @@
 	room0="-1"
 	room1="-1"
 	room2="-1"
-	visited0="true"
-	visited1="true"
+	visited0="false"
+	visited1="false"
 	visited2="false"
 	/>
 </entity>
