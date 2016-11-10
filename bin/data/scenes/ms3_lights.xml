@@ -1468,7 +1468,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="0.44"
+	shadow_intensity="0"
 	zfar="67.578"
 	znear="1"
 	/>
@@ -1476,7 +1476,7 @@
 	name="Omni001shadow_center_s1_004"
 	/>
 <transform
-	pos="-9.707870 -3.954290 4.964200"
+	pos="-9.707870 -3.954000 4.964200"
 	quat="0.000000 0.000000 -0.707107 0.707107"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1504,7 +1504,7 @@
 	name="Omni001shadow_center_s1_005"
 	/>
 <transform
-	pos="-9.707870 -3.954290 -6.137990"
+	pos="-9.707870 -3.954000 -6.137990"
 	quat="0.707107 0.707107 0.000000 0.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1552,7 +1552,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0.55"
 	zfar="5.178"
 	znear="0.4"
 	/>
