@@ -684,7 +684,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -712,7 +712,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -740,7 +740,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -768,7 +768,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -796,7 +796,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -824,7 +824,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="7.09262"
 	znear="1"
 	/>
@@ -852,7 +852,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -880,7 +880,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -908,7 +908,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -931,7 +931,7 @@
 <culling
 	/>
 <light_dir_shadows
-	color="0.913726 0.996079 0.823530 0.551000"
+	color="0.913726 0.996079 0.823530 0.361000"
 	fov="80.9"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
@@ -959,7 +959,7 @@
 <culling
 	/>
 <light_dir_shadows
-	color="0.913726 0.996079 0.823530 0.551000"
+	color="0.913726 0.996079 0.823530 0.361000"
 	fov="80.9"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
@@ -992,7 +992,7 @@
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
+	shadow_intensity="0"
 	zfar="8.978"
 	znear="1"
 	/>
@@ -1189,8 +1189,8 @@
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
 	shadow_intensity="0.05"
-	zfar="4.378"
-	znear="0.1"
+	zfar="8.078"
+	znear="0.3"
 	/>
 <name
 	name="Omni036pas_shadow"
@@ -1212,19 +1212,19 @@
 	/>
 <light_dir_shadows
 	color="0.913726 0.996079 0.823530 0.000000"
-	fov="77.5"
+	fov="80.4"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
-	zfar="8.978"
-	znear="1"
+	shadow_intensity="0"
+	zfar="6.378"
+	znear="1.7"
 	/>
 <name
 	name="Omni030shadow_lift"
 	/>
 <transform
-	pos="-65.405197 18.864799 20.950899"
+	pos="-65.405197 19.665001 20.950899"
 	quat="0.707102 0.000000 0.000000 0.707112"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1240,12 +1240,12 @@
 	/>
 <light_dir_shadows
 	color="0.913726 0.996079 0.823530 0.000000"
-	fov="77.5"
+	fov="104.1"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
 	shadow_intensity="1"
-	zfar="8.978"
+	zfar="122.478"
 	znear="1"
 	/>
 <name
@@ -1268,12 +1268,12 @@
 	/>
 <light_dir_shadows
 	color="0.913726 0.996079 0.823530 0.000000"
-	fov="77.5"
+	fov="104.1"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
 	shadow_intensity="1"
-	zfar="8.978"
+	zfar="122.478"
 	znear="1"
 	/>
 <name
@@ -1296,12 +1296,12 @@
 	/>
 <light_dir_shadows
 	color="0.913726 0.996079 0.823530 0.000000"
-	fov="77.5"
+	fov="104.1"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
 	shadow_intensity="1"
-	zfar="8.978"
+	zfar="122.478"
 	znear="1"
 	/>
 <name
@@ -1324,12 +1324,12 @@
 	/>
 <light_dir_shadows
 	color="0.913726 0.996079 0.823530 0.000000"
-	fov="77.5"
+	fov="105.4"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="1"
-	zfar="8.978"
+	shadow_intensity="0.59"
+	zfar="47.078"
 	znear="1"
 	/>
 <name
@@ -1609,7 +1609,7 @@
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
 	shadow_intensity="1"
-	zfar="4.178"
+	zfar="7.178"
 	znear="1"
 	/>
 <name
@@ -1622,6 +1622,27 @@
 	/>
 <tags
 	tags=""
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="0"
+>
+<name
+	name="ambient_sci_lab"
+	/>
+<transform
+	pos="-66.117676 17.060732 15.152653"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tags
+	tags="gui Text_Message_Letter_action_text gui"
+	/>
+<light_point
+	color="0.700000 0.700000 0.500000 0.840000"
+	in_radius="0.01"
+	out_radius="5.9"
 	/>
 </entity>
 </entities>
