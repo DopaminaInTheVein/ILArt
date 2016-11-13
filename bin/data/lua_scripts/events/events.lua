@@ -10,14 +10,7 @@ cam = Camera()
 ui_cam = UiCamera()
 
 function CallFunction(func)
-	--p:print("Call Function"..func)
-	--p:breakpoint(2)
-	--local called = pcall(func)
-	--if not called then
-	--	p:print("function "..func.." does not exist!\n")
-	--end
-	--return called
-	 called = true
+	called = true
 	if _G[func] then _G[func]()
 	else
 		p:print("function "..func.." does not exist!\n")
@@ -40,39 +33,21 @@ end
 function OnAction( param )
 	p:print( "OnAction: "..param.."\n" )
 	CallFunction("OnAction_"..param)
-	--specialActionSettings(0.7);
-	--setCameraRotationSensibility(60.5);
-	--setCameraSpeed(4.0);
-	--setCameraSpeedUnlocked(10.0);
-	--triggerScientistBusy();
 end
 
 function OnActionSci( param )
 	p:print( "OnActionSci: "..param.."\n" )
 	CallFunction("OnActionSci_"..param)
-	--specialActionSettings(0.7);
-	--setCameraRotationSensibility(60.5);
-	--setCameraSpeed(4.0);
-	--setCameraSpeedUnlocked(10.0);
 end
 
 function OnActionMole( param )
 	p:print( "OnActionMole: "..param.."\n" )
 	CallFunction("OnActionMole_"..param)
-	--specialActionSettings(0.7);
-	--setCameraRotationSensibility(60.5);
-	--setCameraSpeed(4.0);
-	--setCameraSpeedUnlocked(10.0);
 end
 
 function OnEnter( param )
 	p:print( "OnEnter: "..param.."\n" )
-	--p:breakpoint(1)
 	CallFunction("OnEnter_"..param)
-	--if _G["OnEnter_"..param] then _G["OnEnter_"..param](handle) 
-	--else
-	--	p:print("function OnEnter_"..param.." does not exist!\n")
-	--end
 end
 
 function OnLeave( param )
@@ -496,92 +471,6 @@ function OnCinematicEnd( param )
 	CallFunction("OnCinematicEnd_"..param)
 end
 
---Game Restart (creo no se usa)
----------------------------------------------------
-function OnRestartLevel( logic_level, real_level )
-	p:print( "OnRestartLevel\n")
-	LoadLevel(logic_level) -- Defined in functions.lua
-end
-
---Levels
----------------------------------------------------
-function OnLevelStart( logic_level, real_level )
-	p:print("OnLevelStart\n")
-	g_new_level = true
-	SceneLoaded(real_level)
-end
-
-function OnSavedLevel( logic_level, real_level )
-	p:print("OnSavedLevel")
-	CallFunction("OnSave_"..real_level)	
-end
-
-function OnLoadedLevel( logic_level, real_level )
-	p:print("OnLoadedLevel")
-	g_new_level = false
-	SceneLoaded(real_level)
-end
-
-function SceneLoaded(real_level)
-	if g_loading_screen then
-		--p:exit_game()
-		p:pause_game()
-		p:putTextUi("loading_skip", "::loading_skip", 0.475, 0.08, "#555599EE", 0.4)
-		local hloading_text = Handle()
-		hloading_text:get_handle_by_name_tag("loadingpalabra", "loading_text")
-		hloading_text:destroy()
-		p:wait_action("InitScene(\""..real_level.."\");");
-		--p:exec_command("InitScene()", 5.0)
-	else
-		InitScene(real_level)
-	end
-end
-
-loading_handles = HandleGroup()
-function InitScene(real_level)
-	g_restarting = false
-	g_dead = false
-	cam:reset_camera()
-	ui_cam:fade_out(0.5)
-	p:exec_command("PrepareScene(\""..real_level.."\");", 0.5)
-end
-
-function PrepareScene(real_level)
-	p:removeText("loading_skip")
-	p:exec_command("ui_cam:fade_in(1);", 0.5)
-	p:unforce_sense_vision()
-	if real_level ~= "hub" then
-		p:exec_command("p:setControlEnabled(1);", 1.5)
-	end
-	if not g_is_menu then
-		p:load_entities("player_hud")
-	end
-	loading_handles:get_handles_by_tag("loading")
-	loading_handles:destroy()
-	p:resume_game()
-	if g_new_level then
-		p:exec_command("CallFunction(\"OnStart_"..real_level.."\");", 1.1)
-	else
-		p:exec_command("CallFunction(\"OnLoad_"..real_level.."\");", 1.1)
-	end
-end
-
-function OnLoadingLevel(level)
-	p:print("OnLoadingLevel")
-	g_loading_screen = false
-	-- Capo no pasar por loading screen en el restart!
-	g_restarting = false
-	--
-	if not g_restarting  then
-		local ok = CallFunction("OnLoading_"..level)
-		if not ok then 
-			ui_cam:fade_in(0.1)
-			p:load_entities("loading")
-			g_loading_screen = true
-		end
-	end
-end
-
 --Game Ending
 ---------------------------------------------------
 function OnVictory( )
@@ -837,50 +726,6 @@ function OnGuardVoice4( )
 	p:print( "OnGuardVoice4\n" )
 	h:getHandleCaller()	
 	p:play_3d_sound("event:/OnGuardVoice4", h:get_x(), h:get_y(), h:get_z(), 1.0, false, 1)
-end
-
--- GUI
----------------------------------------------------
-function OnCreateGui( param )
-	p:print("OnCreateGui: "..param)
-	CallFunction("OnCreateGui_"..param)
-end
-function OnMouseOver( param )
-	p:print("OnMouseOver")
-	CallFunction("OnMouseOver_"..param)
-end
-
-function OnMouseUnover( param )
-	p:print("OnMouseUnover")
-	CallFunction("OnMouseUnover_"..param)
-end
-
-function OnPressed( param )
-	p:print("OnPressed")
-	p:print("OnPressed")
-	CallFunction("OnPressed_"..param)
-end
-
-function OnClicked( param )
-	p:print("OnClicked")
-	CallFunction("OnClicked_"..param)
-end
-
-function OnChoose( name, option )
-	p:print("OnChoose: "..name.." "..option)
-	CallFunctionParam("OnChoose_"..name, option)
-end
-
-function OnValueChanged( name, value )
-	p:print("OnChoose: "..name.." "..value)
-	CallFunctionParam("OnValueChanged_"..name, value)
-end
-
-function OnPause( )
-	p:print("OnPause")
-	if not g_dead then
-		p:load_entities("menu")
-	end
 end
 
 function OnTest( )
