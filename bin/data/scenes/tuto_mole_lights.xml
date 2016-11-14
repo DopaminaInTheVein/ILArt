@@ -617,12 +617,12 @@
 	/>
 <light_dir_shadows
 	color="1.000000 1.000000 1.000000 0.000000"
-	fov="109.7"
+	fov="120"
 	gen_shadow="1"
 	light_mask="textures/dir_shader_circular.dds"
 	resolution="256"
-	shadow_intensity="0"
-	zfar="18.4"
+	shadow_intensity="10"
+	zfar="10"
 	znear="2.24"
 	/>
 <name
