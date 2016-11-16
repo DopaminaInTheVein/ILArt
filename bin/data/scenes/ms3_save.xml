@@ -15,8 +15,8 @@
 	name="2"
 	/>
 <transform
-	pos="-121.516129 -0.085212 -5.270861"
-	quat="-0.206545 0.401353 -0.056852 0.890518"
+	pos="-121.537003 -0.242203 -5.416840"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -57,7 +57,7 @@
 	name="2"
 	/>
 <transform
-	pos="-65.349800 -1.306200 20.828899"
+	pos="-65.349800 15.808000 20.828899"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -71,7 +71,7 @@
 <elevator
 	speedDown="27"
 	speedUp="27"
-	state="2"
+	state="0"
 	target_down="-65.349800 -1.306200 20.828899"
 	target_up="-65.349800 15.808000 20.828899"
 	/>
@@ -191,6 +191,40 @@
 	/>
 </entity>
 <entity
+	id="302"
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<name
+	name="pared_rompible"
+	/>
+<room
+	name="2"
+	/>
+<transform
+	pos="-87.191101 0.893398 -7.839210"
+	quat="0.000000 0.000000 0.000000 1.000000"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<render_static_mesh
+	name="static_meshes/ms3/pared_rompible.static_mesh"
+	static="1"
+	/>
+<tags
+	tags="interactive"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	mesh_name="ms3/pared_rompible"
+	smooth="0"
+	type_collision="static"
+	type_shape="mesh"
+	/>
+</entity>
+<entity
 	id="306"
 	permanent="0"
 	reload="1"
@@ -206,7 +240,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.748001 -0.203600 19.675100"
+	pos="-66.010002 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -222,11 +256,11 @@
 	tags="door"
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.010002 -0.203600 19.675100"
+	target="-66.748001 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -252,7 +286,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.078224 16.879801 19.768299"
+	pos="-66.896797 16.879801 19.768299"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -268,11 +302,11 @@
 	tags="door"
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-66.896797 16.879801 19.768299"
+	target="-66.078102 16.879801 19.768299"
 	/>
 <rigidbody
 	kinematic="0"
@@ -298,7 +332,7 @@
 	name="2"
 	/>
 <transform
-	pos="-64.059502 -0.203600 19.675100"
+	pos="-64.710701 -0.203600 19.675100"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -314,11 +348,11 @@
 	tags="door"
 	/>
 <magnet_door
-	locked="0"
+	locked="1"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-64.710701 -0.203600 19.675100"
+	target="-64.059502 -0.203600 19.675100"
 	/>
 <rigidbody
 	kinematic="0"
@@ -344,7 +378,7 @@
 	name="2"
 	/>
 <transform
-	pos="-64.744102 16.879801 19.753300"
+	pos="-63.948799 16.879801 19.753300"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -360,11 +394,11 @@
 	tags="door"
 	/>
 <magnet_door
-	locked="1"
+	locked="0"
 	pol="neutral"
 	speedClosing="1"
 	speedOpening="1"
-	target="-63.948799 16.879801 19.753300"
+	target="-64.744102 16.879801 19.753300"
 	/>
 <rigidbody
 	kinematic="0"
@@ -372,118 +406,6 @@
 	smooth="0"
 	type_collision="dynamic"
 	type_shape="convex"
-	/>
-</entity>
-<entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="trozo_destruible_abajo"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-85.917206 -75.130989 -11.439158"
-	quat="0.169003 0.001465 0.813986 -0.555754"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/ms3/trozo_destruible_abajo.static_mesh"
-	static="1"
-	/>
-<tags
-	tags="fragment wall1_fragment"
-	/>
-</entity>
-<entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="trozo_destruible_arriba"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-83.394798 -54.233841 -7.700438"
-	quat="-0.138902 -0.038552 -0.797649 -0.585642"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/ms3/trozo_destruible_arriba.static_mesh"
-	static="1"
-	/>
-<tags
-	tags="fragment wall1_fragment"
-	/>
-</entity>
-<entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="trozo_destruible_derec"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-79.353897 -15.535977 20.670361"
-	quat="0.037401 0.967590 0.104587 -0.226788"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/ms3/trozo_destruible_derec.static_mesh"
-	static="1"
-	/>
-<tags
-	tags="fragment wall1_fragment"
-	/>
-</entity>
-<entity
-	id="0"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="trozo_destruible_iz"
-	/>
-<room
-	name="2"
-	/>
-<transform
-	pos="-80.829865 -37.172306 4.883403"
-	quat="0.851969 0.166076 0.140262 -0.476334"
-	scale="1.000000 1.000000 1.000000"
-	/>
-<render_static_mesh
-	name="static_meshes/ms3/trozo_destruible_iz.static_mesh"
-	static="1"
-	/>
-<tags
-	tags="fragment wall1_fragment"
 	/>
 </entity>
 <entity
@@ -509,11 +431,11 @@
 	name="__player_1"
 	/>
 <room
-	name="2"
+	name="1"
 	/>
 <transform
-	pos="0.000000 200.000000 0.000000"
-	quat="-0.000000 -0.336856 0.000000 0.941556"
+	pos="-43.939087 -1.303512 -1.782193"
+	quat="-0.000000 -0.758654 0.000000 0.651494"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -521,10 +443,10 @@
 	static="0"
 	/>
 <life
-	points="138.746"
+	points="146.729"
 	/>
 <tags
-	tags="raijin"
+	tags="player raijin"
 	/>
 <character_controller
 	height="0.7"
@@ -604,7 +526,6 @@
 <local_aabb
 	/>
 <player_mole
-	possessed="1"
 	/>
 <skeleton
 	model="skeletons/mole/mole.skeleton"
@@ -620,8 +541,8 @@
 	name="2"
 	/>
 <transform
-	pos="-121.429115 -1.303512 -6.298240"
-	quat="-0.000000 -0.069218 0.000000 0.997602"
+	pos="-122.075798 -1.303513 -10.583984"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -629,11 +550,10 @@
 	static="0"
 	/>
 <tags
-	tags="AI AI_mole AI_poss player"
+	tags="AI AI_mole AI_poss"
 	/>
 <bt_mole
-	possessed="1"
-	state="posessed"
+	state="seekwpt"
 	wpt0_pos="-122.107002 -1.285890 -10.332400"
 	wpts_size="1"
 	/>
@@ -700,8 +620,8 @@
 	name="1"
 	/>
 <transform
-	pos="1.993829 -23.260349 -16.202139"
-	quat="-0.005892 -0.062514 -0.006777 0.998004"
+	pos="27.404215 -23.269985 -14.433684"
+	quat="0.000010 0.000001 -0.000006 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -723,9 +643,10 @@
 <rigidbody
 	kinematic="0"
 	mass="5"
+	size="1.500000 0.750000 1.500000"
 	smooth="0"
 	type_collision="dynamic"
-	type_shape="convex"
+	type_shape="box"
 	/>
 </entity>
 <entity
@@ -752,8 +673,8 @@
 	name="1"
 	/>
 <transform
-	pos="32.498234 -24.020000 6.918063"
-	quat="0.000000 0.035496 0.000000 0.999370"
+	pos="31.897163 -24.020000 -0.031383"
+	quat="0.000000 0.045525 0.000000 0.998963"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -785,7 +706,7 @@
 <trigger_lua
 	action="examinate"
 	actionMole="destroy"
-	actived="0"
+	actived="1"
 	/>
 <name
 	name="tWall"
@@ -880,7 +801,7 @@
 >
 <trigger_lua
 	action="activate"
-	actived="1"
+	actived="0"
 	/>
 <name
 	name="tWireDown"
@@ -989,7 +910,6 @@
 <local_aabb
 	/>
 <player_cientifico
-	bombs="2"
 	/>
 <skeleton
 	model="skeletons/scientist/scientist.skeleton"
@@ -1005,8 +925,8 @@
 	name="2"
 	/>
 <transform
-	pos="-88.402145 -1.303511 15.046047"
-	quat="-0.000000 -0.591148 0.000000 0.806563"
+	pos="-66.218399 15.803701 12.551200"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1018,7 +938,6 @@
 	/>
 <bt_scientist
 	kpt_size="0"
-	state="gotoworkstation"
 	zmax="0.1"
 	zmin="100"
 	/>
@@ -1168,7 +1087,7 @@
 	name="1"
 	/>
 <transform
-	pos="-6.749730 -12.236300 -19.607100"
+	pos="-6.589480 -11.889900 -19.280001"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1180,7 +1099,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	radius="1.64"
+	radius="1.0168"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="sphere"
@@ -1667,7 +1586,7 @@
 	name=""
 	/>
 <transform
-	pos="-121.471001 -1.304540 -5.794450"
+	pos="27.754900 -23.840700 -14.772500"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1707,19 +1626,19 @@
 	room7="-1"
 	room8="-1"
 	room9="-1"
-	visited0="true"
-	visited1="true"
+	visited0="false"
+	visited1="false"
 	visited10="false"
-	visited11="true"
+	visited11="false"
 	visited12="false"
-	visited2="true"
-	visited3="true"
+	visited2="false"
+	visited3="false"
 	visited4="true"
-	visited5="true"
-	visited6="true"
-	visited7="true"
-	visited8="true"
-	visited9="true"
+	visited5="false"
+	visited6="false"
+	visited7="false"
+	visited8="false"
+	visited9="false"
 	/>
 </entity>
 <entity
@@ -1737,7 +1656,7 @@
 	name="1"
 	/>
 <transform
-	pos="11.227415 -11.999985 -1.551505"
+	pos="11.227871 -11.993731 -2.314756"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1784,7 +1703,7 @@
 	name="1"
 	/>
 <transform
-	pos="8.830367 -11.999987 8.790512"
+	pos="8.829011 -11.995001 -0.083494"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1831,7 +1750,7 @@
 	name="1"
 	/>
 <transform
-	pos="4.281868 -7.883841 21.372156"
+	pos="4.026185 -7.675653 21.370901"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1878,7 +1797,7 @@
 	name="1"
 	/>
 <transform
-	pos="-20.684313 0.441342 16.152935"
+	pos="-19.554686 0.330166 17.321619"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1934,8 +1853,8 @@
 	name="1"
 	/>
 <transform
-	pos="9.796739 -24.020000 -6.211811"
-	quat="0.000000 0.975033 0.000000 0.222061"
+	pos="13.421171 -24.020000 16.080008"
+	quat="-0.000000 -0.112848 0.000000 0.993612"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1963,7 +1882,7 @@
 	kpt3_type="seek"
 	kpt3_wait="2"
 	kpt_size="4"
-	state="seekwpt"
+	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -1994,8 +1913,8 @@
 	name="1"
 	/>
 <transform
-	pos="6.561327 -24.020000 -1.687649"
-	quat="0.000000 0.858258 0.000000 0.513219"
+	pos="3.066017 -24.020000 -1.380107"
+	quat="0.000000 0.643861 0.000000 0.765142"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -2061,7 +1980,7 @@
 	/>
 <transform
 	pos="-84.147125 -1.303514 -28.490765"
-	quat="-0.000000 -0.153432 0.000000 0.988159"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -2083,7 +2002,6 @@
 	kpt1_type="seek"
 	kpt1_wait="2"
 	kpt_size="2"
-	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -2137,7 +2055,6 @@
 	kpt1_type="seek"
 	kpt1_wait="2"
 	kpt_size="2"
-	state="waitwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -2168,8 +2085,8 @@
 	name="2"
 	/>
 <transform
-	pos="-70.776825 -1.303513 -14.365965"
-	quat="-0.000000 -0.684483 0.000000 0.729029"
+	pos="-96.784500 -1.303513 -10.605000"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -2206,7 +2123,6 @@
 	kpt6_type="seek"
 	kpt6_wait="2"
 	kpt_size="7"
-	state="seekwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -2237,8 +2153,8 @@
 	name="2"
 	/>
 <transform
-	pos="-69.610245 -1.303513 -9.686102"
-	quat="-0.000000 -0.291520 0.000000 0.956565"
+	pos="-66.913902 -1.303512 7.813280"
+	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -2272,7 +2188,6 @@
 	kpt5_type="look"
 	kpt5_wait="2"
 	kpt_size="6"
-	state="seekwpt"
 	/>
 <character_controller
 	height="1.8"
@@ -2326,7 +2241,7 @@
 	name="2"
 	/>
 <transform
-	pos="-2.584810 -18.892099 -18.710199"
+	pos="-2.764560 -17.546000 -18.710199"
 	quat="0.000000 0.043619 0.000000 0.999048"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -2336,7 +2251,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.819115 0.129300 1.996420"
+	size="1.425260 1.475370 1.996420"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2356,7 +2271,7 @@
 	name="2"
 	/>
 <transform
-	pos="-6.304170 -16.654699 -18.273399"
+	pos="-6.304170 -15.810200 -18.273399"
 	quat="0.000000 0.173648 0.000000 0.984808"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -2366,7 +2281,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.900250 0.374300 2.078160"
+	size="1.836510 1.218750 2.078160"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2386,8 +2301,8 @@
 	name="2"
 	/>
 <transform
-	pos="-2.237280 -14.963600 -18.710199"
-	quat="0.000000 -0.342020 0.000000 0.939693"
+	pos="-2.237280 -13.508300 -18.710199"
+	quat="0.000000 0.087156 0.000000 0.996195"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
@@ -2396,7 +2311,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.731355 0.129300 1.872215"
+	size="2.201625 1.584600 1.872215"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2416,8 +2331,8 @@
 	name="2"
 	/>
 <transform
-	pos="-6.372900 -12.828100 -18.298800"
-	quat="0.000000 0.130526 0.000000 0.991445"
+	pos="-6.859890 -10.147600 -18.269800"
+	quat="0.000000 0.108518 0.000000 0.994095"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
@@ -2426,7 +2341,7 @@
 <rigidbody
 	kinematic="0"
 	mass="2"
-	size="0.731355 0.129300 1.872215"
+	size="1.377240 2.766010 2.190495"
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
@@ -2446,8 +2361,8 @@
 	name="2"
 	/>
 <transform
-	pos="-4.340120 -10.756700 -18.609100"
-	quat="0.000000 -0.043619 0.000000 0.999048"
+	pos="-4.318990 -10.756700 -18.675301"
+	quat="0.000000 0.186813 0.000000 0.982395"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <tags
@@ -2509,10 +2424,10 @@
 	/>
 <guided_camera
 	default_dirs="0"
-	lpt1="-4.500000 -17.615400 -18.000000"
+	lpt1="-4.334510 -17.750799 -18.754299"
 	points_size="1"
 	velocity="2"
-	wpt1="-3.800000 -16.093800 -11.600000"
+	wpt1="-1.930580 -14.823800 -10.363900"
 	/>
 </entity>
 <entity
@@ -2736,6 +2651,38 @@
 	smooth="0"
 	type_collision="trigger"
 	type_shape="box"
+	/>
+</entity>
+<entity
+	permanent="0"
+	reload="1"
+>
+<abs_aabb
+	/>
+<name
+	name="flecha_carga"
+	/>
+<transform
+	pos="-90.830902 -0.023538 13.683700"
+	quat="0.000000 0.000000 0.585097 0.810963"
+	scale="1.000000 1.000000 1.000000"
+	/>
+<tmx_animator
+	/>
+<render_static_mesh
+	name="static_meshes/ms3/flecha_carga.static_mesh"
+	static="1"
+	/>
+<tags
+	tags="flecha_carga"
+	/>
+<rigidbody
+	kinematic="0"
+	mass="2"
+	mesh_name="ms3/flecha_carga"
+	smooth="0"
+	type_collision="static"
+	type_shape="mesh"
 	/>
 </entity>
 <entity

@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/ms3/bookshelf_w_doors001.mesh" material="materials/ms3/estanteria_baja_con_puertas.material"/>
+</static_mesh>

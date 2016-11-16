@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/ms3/trozo_plataforma_003.mesh" material="materials/ms3/trozo_suelo_2.material"/>
+</static_mesh>

@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/tuto_sci/pizarra.mesh" material="materials/tuto_sci/_pizarrapizarra.material"/>
+</static_mesh>

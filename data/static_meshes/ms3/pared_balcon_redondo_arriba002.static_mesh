@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/ms3/pared_balcon_redondo_arriba002.mesh" material="materials/ms3/paredes_cuadradas_pe.material"/>
+</static_mesh>

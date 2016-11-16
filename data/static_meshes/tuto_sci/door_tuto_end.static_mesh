@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/tuto_sci/door_tuto_end.mesh" material="materials/tuto_sci/puertas_gigantes.material"/>
+</static_mesh>

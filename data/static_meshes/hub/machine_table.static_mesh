@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/hub/machine_table.mesh" material="materials/hub/machine_table.material"/>
+</static_mesh>

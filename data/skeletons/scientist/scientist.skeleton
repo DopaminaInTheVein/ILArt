@@ -1,0 +1,14 @@
+<model>
+  <skeleton    src ="skeletons/scientist/scientist.csf"/>
+  <animations src ="skeletons/scientist/"/>
+  <mesh     src="skeletons/scientist/scientist.cmf"/>
+  <key_bones 
+    right_hand="scientist69"
+    LFoot="scientist06"
+    RFoot="scientist11"
+  />
+  <measures 
+    LFootHigh="0.141886"
+    RFootHigh="0.141886"
+  />
+</model>

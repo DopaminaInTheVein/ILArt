@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/hub/window_wall.mesh" material="materials/hub/window_wall.material"/>
+</static_mesh>

@@ -1,0 +1,218 @@
+<entities>
+<entity>
+<tags
+   tags="loading"/>
+<name
+   name="loading_background"/>
+<transform
+   pos="5.0 -95.0 8.91144"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/loading_background.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="loading"/>
+<name
+   name="loading_backgroundwhite"/>
+<transform
+   pos="5.0 -95.0 8.61583"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/loading_backgroundwhite.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="loading"/>
+<name
+   name="Plane001"/>
+<transform
+   pos="6.87576 -95.0969 9.45184"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/Plane001.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   only_pad="yes">
+<tags
+   tags="loading loading_pag2 gui"/>
+<gui
+   menu_name="loading"
+   width="5.08134"
+   height="5.08133"
+   lang="yes"/>
+<name
+   name="controlesmandospagina2"/>
+<transform
+   pos="2.31984 -95.0953 9.61758"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/controlesmandospagina2.static_mesh"
+   static="false"
+   hidden="yes"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="loading"/>
+<name
+   name="pila"/>
+<transform
+   pos="8.63346 -97.1112 9.69503"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/pila.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="loading"/>
+<name
+   name="piladelante"/>
+<transform
+   pos="8.63346 -97.1112 9.74056"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/piladelante.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="loading loading_text gui"/>
+<gui
+   menu_name="loading"
+   width="0.737976"
+   height="0.737976"
+   lang="yes"/>
+<name
+   name="loadingpalabra"/>
+<transform
+   pos="8.38044 -97.4308 9.84626"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/loadingpalabra.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="loading"/>
+<name
+   name="loadingfondo"/>
+<transform
+   pos="8.62052 -97.1427 9.57935"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/Plane002.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="loading loading_bar gui"/>
+<gui
+   menu_name="loading"
+   width="1.44594"
+   height="1.44594"/>
+<name
+   name="loading_bar"/>
+<transform
+   pos="8.63346 -97.1112 9.73881"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/loading_bar.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   only_pad="yes">
+<tags
+   tags="loading loading_pag1 gui"/>
+<gui
+   menu_name="loading"
+   width="5.08134"
+   height="5.08133"
+   lang="yes"/>
+<name
+   name="controlesmandospagina1"/>
+<transform
+   pos="2.31984 -95.0953 9.61911"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/controlesmandospagina1.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   only_keyboard="yes">
+<tags
+   tags="loading loading_pag1 gui"/>
+<gui
+   menu_name="loading"
+   width="5.08134"
+   height="5.08133"
+   lang="yes"/>
+<name
+   name="controlesteclado"/>
+<transform
+   pos="2.31984 -95.0953 9.54245"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/controlesteclado.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   only_keyboard="yes">
+<tags
+   tags="loading loading_pag2 gui"/>
+<gui
+   menu_name="loading"
+   width="5.08134"
+   height="5.08133"
+   lang="yes"/>
+<name
+   name="controlesteclado2"/>
+<transform
+   pos="2.31984 -95.0953 9.54092"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/loading/controlesteclado2.static_mesh"
+   static="false"
+   hidden="yes"/>
+<abs_aabb/>
+
+</entity>
+
+</entities>

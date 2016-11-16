@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/tuto_mole/puerta_izquierda.mesh" material="materials/tuto_mole/puerta_izquierda.material"/>
+</static_mesh>

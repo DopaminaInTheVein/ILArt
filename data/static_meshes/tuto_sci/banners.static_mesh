@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/tuto_sci/banners.mesh" material="materials/tuto_sci/banners.material"/>
+</static_mesh>

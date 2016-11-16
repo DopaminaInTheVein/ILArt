@@ -1,0 +1,155 @@
+<entities>
+<entity>
+<tags
+   tags="menu"/>
+<name
+   name="menu_background"/>
+<transform
+   pos="5.0 -95.0 5.0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/menu/menu_background.static_mesh"
+   static="true"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="menu gui gui_cursor"/>
+<gui
+   menu_name="menu"
+   width="0.2"
+   height="0.199997"/>
+<gui_cursor
+   menu_name="menu"/>
+<name
+   name="cursor_menu"/>
+<transform
+   pos="6.04624 -94.8127 5.26718"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/components_ui/cursor.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   permanent="yes">
+<tags
+   tags="menu gui gui_button clickable"/>
+<gui
+   menu_name="menu"
+   row="0"
+   col="0"
+   width="1.47957"
+   height="1.47957"
+   lang="yes"/>
+<gui_button/>
+<name
+   name="btn_resume"/>
+<transform
+   pos="6.22177 -92.8304 5.0393"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/menu/btn_resumir.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   permanent="yes">
+<tags
+   tags="menu gui gui_button clickable"/>
+<gui
+   menu_name="menu"
+   row="1"
+   col="0"
+   width="1.47957"
+   height="1.47957"
+   lang="yes"/>
+<gui_button/>
+<name
+   name="btn_restart"/>
+<transform
+   pos="6.22177 -94.3087 5.0393"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/menu/btn_reempezar.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   permanent="yes">
+<tags
+   tags="menu gui gui_button clickable"/>
+<gui
+   menu_name="menu"
+   row="2"
+   col="0"
+   width="1.47957"
+   height="1.47957"
+   lang="yes"/>
+<gui_button/>
+<name
+   name="btn_opt_menu"/>
+<transform
+   pos="6.22177 -95.7939 5.0393"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/menu/btn_opciones.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity
+   permanent="yes">
+<tags
+   tags="menu gui gui_button clickable"/>
+<gui
+   menu_name="menu"
+   row="3"
+   col="0"
+   width="1.33454"
+   height="1.33453"
+   lang="yes"/>
+<gui_button/>
+<name
+   name="btn_exit_pause"/>
+<transform
+   pos="6.22177 -97.1859 5.0393"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/menu/btn_salir.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+<entity>
+<tags
+   tags="menu gui"/>
+<gui
+   menu_name="menu"
+   width="2.0"
+   height="2.0"
+   lang="yes"/>
+<name
+   name="Plane001"/>
+<transform
+   pos="3.81656 -95.1414 5.03296"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/ui/menu/Plane001.static_mesh"
+   static="false"/>
+<abs_aabb/>
+
+</entity>
+
+</entities>

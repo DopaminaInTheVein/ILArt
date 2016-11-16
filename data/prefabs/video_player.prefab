@@ -1,0 +1,6 @@
+<entities>
+<entity temp="yes">
+	<name name="play_video"/>
+	<video_player file="" lua="nothing();"/>
+</entity>
+</entities>

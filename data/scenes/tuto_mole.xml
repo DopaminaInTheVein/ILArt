@@ -1,0 +1,429 @@
+<entities>
+<entity>
+<tags/>
+<name
+   name="farolillo001"/>
+<transform
+   pos="-1022.71 4.69838 22.3877"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/farolillo001.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/farolillo001"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="_end_portal"/>
+<transform
+   pos="5.73438 8.80119 -0.0696262"
+   quat="0 0.707107 0 0.707107"
+   scale="1.0"/>
+<tmx_animator
+   roll_speed="180"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/_end_portal.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/_end_portal"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="columna_rota001"/>
+<transform
+   pos="2.67896 0 -0.373325"
+   quat="0 0.300706 0 0.953717"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/columna_rota001.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   type_shape="box"
+   size="1.2024 7.716 1.54006"
+   mass="5"/>
+<local_aabb/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="barrotes_balcon_cuadrado_derecho"/>
+<transform
+   pos="-1023.43 -64.1878 24.9243"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/barrotes_balcon_cuadrado_derecho.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/barrotes_balcon_cuadrado_derecho"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="rodapies"/>
+<transform
+   pos="0 3.34825 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/rodapies.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/rodapies"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="jaula_mole"/>
+<transform
+   pos="13.6042 1.86192 -1.11206"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/jaula_mole.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/jaula_mole"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="baldosas_arriba"/>
+<transform
+   pos="0 6.00252 0.0133245"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/baldosas_arriba.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/baldosas_arriba"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="suelo_celda"/>
+<transform
+   pos="13.6042 0 -1.11206"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/suelo_celda.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/suelo_celda"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="farolillos_lampara_grande"/>
+<transform
+   pos="-0.0235596 7.93683 -0.0273479"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/farolillos_lampara_grande.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/farolillos_lampara_grande"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="hierro001"/>
+<transform
+   pos="-0.0107422 10.2328 -0.153729"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/hierro001.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/hierro001"/>
+
+</entity>
+<entity>
+<tags
+   tags="target"/>
+<name
+   name="_tWall_pAction"/>
+<transform
+   pos="10.8479 0.982788 -1.14104"
+   quat="0 -0.714153 0 0.69999"
+   scale="1.0"/>
+<room
+   name="2"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="suelo"/>
+<transform
+   pos="0 0 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/suelo.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/suelo"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="balconada"/>
+<transform
+   pos="0 5.93468 0.0133245"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/balconada.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/balconada"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="barrotes"/>
+<transform
+   pos="0.0667725 7.01917 0.13364"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/barrotes.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/barrotes"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="columna_rota"/>
+<transform
+   pos="0.491577 2.75328 -8.23698"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/columna_rota.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/columna_rota"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="columnas_abajo"/>
+<transform
+   pos="0 4.69133 0.113102"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/columnas_abajo.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/columnas_abajo"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="marco_puerta_abajo"/>
+<transform
+   pos="0.128174 4.49309 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/marco_puerta_abajo.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/marco_puerta_abajo"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="columna"/>
+<transform
+   pos="-2.74341 2.79982 3.47143"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/columna.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/columna"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="paredes"/>
+<transform
+   pos="0.010376 6.5036 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/paredes.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/paredes"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="paredes_balcon_cuadrado_derecha"/>
+<transform
+   pos="0.172363 4.25621 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/paredes_balcon_cuadrado_derecha.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/paredes_balcon_cuadrado_derecha"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="paredes_nivel_bajo002"/>
+<transform
+   pos="0 4.05516 0.0127485"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/paredes_nivel_bajo002.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/paredes_nivel_bajo002"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="pibotes_Esquineros"/>
+<transform
+   pos="0.0714111 6.97374 0.129978"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/pibotes_Esquineros.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/pibotes_Esquineros"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="puerta_izquierda"/>
+<transform
+   pos="0.145874 4.34451 0.0122946"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/puerta_izquierda.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/puerta_izquierda"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="puerta_principal"/>
+<transform
+   pos="0.14563 4.34077 0"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/puerta_principal.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/puerta_principal"/>
+
+</entity>
+<entity>
+<tags/>
+<name
+   name="techo"/>
+<transform
+   pos="0 12.8935 -0.0221754"
+   quat="0 0 0 1.0"
+   scale="1.0"/>
+<render_static_mesh
+   name="static_meshes/tuto_mole/techo.static_mesh"
+   static="true"/>
+<abs_aabb/>
+<rigidbody
+   type_collision="static"
+   mesh_name="tuto_mole/techo"/>
+
+</entity>
+
+</entities>

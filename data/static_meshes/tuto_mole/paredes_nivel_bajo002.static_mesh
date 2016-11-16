@@ -1,0 +1,3 @@
+<static_mesh>
+  <slot mesh="meshes/tuto_mole/paredes_nivel_bajo002.mesh" material="materials/tuto_mole/modulos_pared.material"/>
+</static_mesh>
