@@ -32,9 +32,12 @@ function Credits()
 	p:pause_game()
 	p:stop_music()
 	p:stop_sound("event:/OnFinalAlarm")
-	p:play_video_and_do("data\\videos\\end.avi", "LoadLevel(\"level_0\");")
+	p:exec_command("PlayVideoCredits();", 3)
 end
 
+function PlayVideoCredits()
+	p:play_video_and_do("data\\videos\\end.avi", "LoadLevel(\"level_0\");")
+end
 
 
 
