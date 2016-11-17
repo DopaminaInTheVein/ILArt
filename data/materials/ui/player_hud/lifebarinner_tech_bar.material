@@ -1,3 +1,0 @@
-<material tech="bar.tech">
-<texture slot="diffuse" name="textures/lifebar_charge.dds"/>
-</material>

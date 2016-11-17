@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/andamio_usable.mesh" material="materials/ms3/andamio.material"/>
-</static_mesh>

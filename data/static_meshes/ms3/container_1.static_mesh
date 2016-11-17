@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/container_1.mesh" material="materials/ms3/cinta_t_container_enlace_soportes.material"/>
-</static_mesh>

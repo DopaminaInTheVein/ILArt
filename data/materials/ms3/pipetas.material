@@ -1,4 +1,0 @@
-<material tech="deferred.tech">
-<texture slot="diffuse" name="textures/pipetas_difuso.dds"/>
-<texture slot="normalmap" name="textures/pipetas_normal.dds"/>
-</material>

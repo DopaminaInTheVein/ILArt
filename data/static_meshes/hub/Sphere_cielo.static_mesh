@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/hub/Sphere_cielo.mesh" material="materials/hub/cielo.material"/>
-</static_mesh>

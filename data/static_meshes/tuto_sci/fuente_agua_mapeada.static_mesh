@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/fuente_agua_mapeada.mesh" material="materials/tuto_sci/fuente.material"/>
-</static_mesh>

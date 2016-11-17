@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/hub/control_panel.mesh" material="materials/hub/control_panel_var_1.material"/>
-</static_mesh>

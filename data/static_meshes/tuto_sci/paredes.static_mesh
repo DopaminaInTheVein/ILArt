@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/paredes.mesh" material="materials/tuto_sci/sala_alta.material"/>
-</static_mesh>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_mole/baldosas_arriba.mesh" material="materials/tuto_mole/suelo.material"/>
-</static_mesh>

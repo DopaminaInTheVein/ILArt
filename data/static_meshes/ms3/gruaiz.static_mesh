@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/gruaiz.mesh" material="materials/ms3/grua.material"/>
-</static_mesh>

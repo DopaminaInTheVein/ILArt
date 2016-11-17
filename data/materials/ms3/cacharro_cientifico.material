@@ -1,4 +1,0 @@
-<material tech="deferred.tech">
-<texture slot="diffuse" name="textures/cacharro_cientifico_difuso.dds"/>
-<texture slot="normalmap" name="textures/cacharro_cientifico_normal.dds"/>
-</material>

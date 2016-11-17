@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/bandejas_mapeadas.mesh" material="materials/ms3/bandejas.material"/>
-</static_mesh>

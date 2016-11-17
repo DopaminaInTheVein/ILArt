@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/rodapies.mesh" material="materials/ms3/rodapie.material"/>
-</static_mesh>

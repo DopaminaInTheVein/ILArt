@@ -1,3 +1,0 @@
-<material tech="deferred.tech">
-<texture slot="diffuse" name="textures/machine_table_1_albedo_var_1.dds"/>
-</material>

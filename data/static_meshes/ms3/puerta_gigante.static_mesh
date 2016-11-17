@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/puerta_gigante.mesh" material="materials/ms3/puerta_gigante.material"/>
-</static_mesh>

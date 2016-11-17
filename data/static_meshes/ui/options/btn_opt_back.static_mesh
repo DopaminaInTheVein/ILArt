@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ui/options/btn_opt_back.mesh" material="materials/ui/options/volver_tech_ui_button.material"/>
-</static_mesh>

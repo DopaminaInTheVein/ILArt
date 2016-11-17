@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ui/options/optionsmaes.mesh" material="materials/ui/options/optionsnames_tech_ui_button.material"/>
-</static_mesh>

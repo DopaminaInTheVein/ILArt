@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/hub/ceiling.mesh" material="materials/hub/ceiling.material"/>
-</static_mesh>

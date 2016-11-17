@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/puerta_cerrada_mapeada.mesh" material="materials/tuto_sci/puertas_cerradas_tuto_mole.material"/>
-</static_mesh>

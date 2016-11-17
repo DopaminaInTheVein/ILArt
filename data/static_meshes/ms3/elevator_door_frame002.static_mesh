@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/elevator_door_frame002.mesh" material="materials/ms3/marco_ascensor.material"/>
-</static_mesh>

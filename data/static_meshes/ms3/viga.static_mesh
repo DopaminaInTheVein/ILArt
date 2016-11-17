@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/viga.mesh" material="materials/ms3/viga.material"/>
-</static_mesh>

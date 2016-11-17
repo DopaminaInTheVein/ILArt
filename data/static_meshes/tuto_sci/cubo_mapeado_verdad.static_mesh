@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/cubo_mapeado_verdad.mesh" material="materials/tuto_sci/_cubo_de_fregartest_red.material"/>
-</static_mesh>

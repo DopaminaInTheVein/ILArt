@@ -1,3 +1,0 @@
-<material tech="transparent.tech">
-<texture slot="diffuse" name="textures/contador_bombas_numero.dds"/>
-</material>

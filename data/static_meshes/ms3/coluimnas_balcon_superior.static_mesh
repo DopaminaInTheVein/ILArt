@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/coluimnas_balcon_superior.mesh" material="materials/ms3/columnas_basicas.material"/>
-</static_mesh>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/rayosentir/baliza.mesh" material="materials/rayosentir/baliza.material"/>
-</static_mesh>

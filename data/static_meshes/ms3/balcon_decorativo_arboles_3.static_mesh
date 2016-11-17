@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/balcon_decorativo_arboles_3.mesh" material="materials/ms3/arbol.material"/>
-</static_mesh>

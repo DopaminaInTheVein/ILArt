@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/plafoncitos.mesh" material="materials/ms3/plafoncito.material"/>
-</static_mesh>

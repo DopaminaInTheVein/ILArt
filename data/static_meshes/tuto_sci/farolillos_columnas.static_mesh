@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/farolillos_columnas.mesh" material="materials/tuto_sci/aplique.material"/>
-</static_mesh>

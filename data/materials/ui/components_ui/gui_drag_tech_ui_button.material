@@ -1,3 +1,0 @@
-<material tech="ui_button.tech">
-<texture slot="diffuse" name="textures/ui/drag_item.dds"/>
-</material>

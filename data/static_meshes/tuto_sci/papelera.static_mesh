@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/papelera.mesh" material="materials/tuto_sci/papelera.material"/>
-</static_mesh>

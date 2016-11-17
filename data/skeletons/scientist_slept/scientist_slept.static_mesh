@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="skeletons/scientist_slept/scientist_slept.mesh" material="materials/skin_cientifico_slept.material" />
-</static_mesh>

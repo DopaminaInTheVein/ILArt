@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/camara_derecha_mapeado002.mesh" material="materials/ms3/camara.material"/>
-</static_mesh>

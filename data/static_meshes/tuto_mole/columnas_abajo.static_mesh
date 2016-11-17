@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_mole/columnas_abajo.mesh" material="materials/tuto_mole/columnas.material"/>
-</static_mesh>

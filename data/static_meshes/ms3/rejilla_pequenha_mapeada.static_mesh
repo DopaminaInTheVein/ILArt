@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/rejilla_pequenha_mapeada.mesh" material="materials/ms3/rejilla_pequenha.material"/>
-</static_mesh>

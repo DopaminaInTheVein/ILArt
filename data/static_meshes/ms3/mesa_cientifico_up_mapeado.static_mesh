@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/mesa_cientifico_up_mapeado.mesh" material="materials/ms3/banco_cientifico.material"/>
-</static_mesh>

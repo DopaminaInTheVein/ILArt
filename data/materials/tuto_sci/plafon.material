@@ -1,4 +1,0 @@
-<material tech="deferred.tech">
-<texture slot="diffuse" name="textures/plafon_albedo.dds"/>
-<texture slot="selfilum" name="textures/plafon_selfilumination.dds"/>
-</material>

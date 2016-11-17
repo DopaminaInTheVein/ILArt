@@ -434,8 +434,8 @@
 	name="1"
 	/>
 <transform
-	pos="-43.939087 -1.303512 -1.782193"
-	quat="-0.000000 -0.758654 0.000000 0.651494"
+	pos="-43.888584 -1.303512 -0.058147"
+	quat="-0.000000 -0.674199 0.000000 0.738550"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -443,7 +443,7 @@
 	static="0"
 	/>
 <life
-	points="146.729"
+	points="125.12"
 	/>
 <tags
 	tags="player raijin"
@@ -673,8 +673,8 @@
 	name="1"
 	/>
 <transform
-	pos="31.897163 -24.020000 -0.031383"
-	quat="0.000000 0.045525 0.000000 0.998963"
+	pos="31.639702 -24.020000 -3.147747"
+	quat="0.000000 0.057350 0.000000 0.998354"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -925,7 +925,7 @@
 	name="2"
 	/>
 <transform
-	pos="-66.218399 15.803701 12.551200"
+	pos="-66.218399 15.803699 12.551200"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1519,33 +1519,46 @@
 	/>
 </entity>
 <entity
+	id="300"
 	permanent="0"
 	reload="1"
 >
-<trigger_lua
-	actived="0"
+<abs_aabb
+	/>
+<local_aabb
 	/>
 <name
-	name="tSave01"
-	/>
-<room
-	name="2"
+	name="puerta_final"
 	/>
 <transform
-	pos="10.310800 -10.844600 -22.102900"
+	pos="-82.841003 0.575238 -29.856600"
 	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.000000 1.000000 1.000000"
+	scale="1.106430 1.106430 1.106430"
+	/>
+<render_static_mesh
+	name="static_meshes/ms3/puerta_final.static_mesh"
+	static="0"
+	/>
+<polarized
+	offset="0.000000 0.500000 0.000000"
+	pol="neutral"
 	/>
 <tags
-	tags="trigger"
+	tags="doorExit door"
+	/>
+<magnet_door
+	locked="1"
+	pol="neutral"
+	speedClosing="1"
+	speedOpening="1"
+	target="-82.842796 4.281610 -29.951000"
 	/>
 <rigidbody
 	kinematic="0"
-	mass="2"
-	size="7.808500 0.982075 3.325280"
+	mass="5"
 	smooth="0"
-	type_collision="trigger"
-	type_shape="box"
+	type_collision="dynamic"
+	type_shape="convex"
 	/>
 </entity>
 <entity
@@ -1627,7 +1640,7 @@
 	room8="-1"
 	room9="-1"
 	visited0="false"
-	visited1="false"
+	visited1="true"
 	visited10="false"
 	visited11="false"
 	visited12="false"
@@ -1656,7 +1669,7 @@
 	name="1"
 	/>
 <transform
-	pos="11.227871 -11.993731 -2.314756"
+	pos="11.227412 -11.999988 -10.287345"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1703,7 +1716,7 @@
 	name="1"
 	/>
 <transform
-	pos="8.829011 -11.995001 -0.083494"
+	pos="8.830368 -11.999988 14.434107"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1750,7 +1763,7 @@
 	name="1"
 	/>
 <transform
-	pos="4.026185 -7.675653 21.370901"
+	pos="-2.956715 -2.051481 21.384083"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1797,7 +1810,7 @@
 	name="1"
 	/>
 <transform
-	pos="-19.554686 0.330166 17.321619"
+	pos="-27.632454 1.125841 8.885123"
 	quat="0.000000 0.000000 0.000000 1.000000"
 	scale="1.000000 1.000000 1.000000"
 	/>
@@ -1853,8 +1866,8 @@
 	name="1"
 	/>
 <transform
-	pos="13.421171 -24.020000 16.080008"
-	quat="-0.000000 -0.112848 0.000000 0.993612"
+	pos="14.239685 -24.020000 -5.629102"
+	quat="-0.000000 -0.723807 0.000000 0.690003"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -1882,7 +1895,7 @@
 	kpt3_type="seek"
 	kpt3_wait="2"
 	kpt_size="4"
-	state="waitwpt"
+	state="unstuckmove"
 	/>
 <character_controller
 	height="1.8"
@@ -1913,8 +1926,8 @@
 	name="1"
 	/>
 <transform
-	pos="3.066017 -24.020000 -1.380107"
-	quat="0.000000 0.643861 0.000000 0.765142"
+	pos="9.065214 -24.020000 -4.543375"
+	quat="0.000000 0.974264 0.000000 0.225409"
 	scale="1.000000 1.000000 1.000000"
 	/>
 <render_static_mesh
@@ -2683,49 +2696,6 @@
 	smooth="0"
 	type_collision="static"
 	type_shape="mesh"
-	/>
-</entity>
-<entity
-	id="300"
-	permanent="0"
-	reload="1"
->
-<abs_aabb
-	/>
-<local_aabb
-	/>
-<name
-	name="puerta_final"
-	/>
-<transform
-	pos="-82.841003 0.575238 -29.856600"
-	quat="0.000000 0.000000 0.000000 1.000000"
-	scale="1.106430 1.106430 1.106430"
-	/>
-<render_static_mesh
-	name="static_meshes/ms3/puerta_final.static_mesh"
-	static="0"
-	/>
-<polarized
-	offset="0.000000 0.500000 0.000000"
-	pol="neutral"
-	/>
-<tags
-	tags="doorExit door"
-	/>
-<magnet_door
-	locked="1"
-	pol="neutral"
-	speedClosing="1"
-	speedOpening="1"
-	target="-82.842796 4.281610 -29.951000"
-	/>
-<rigidbody
-	kinematic="0"
-	mass="5"
-	smooth="0"
-	type_collision="dynamic"
-	type_shape="convex"
 	/>
 </entity>
 </entities>

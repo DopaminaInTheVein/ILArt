@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ui/dead_menu/btn_back_title_dead.mesh" material="materials/ui/dead_menu/backtomaimenu_tech_ui_button.material"/>
-</static_mesh>

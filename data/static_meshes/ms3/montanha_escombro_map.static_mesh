@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/montanha_escombro_map.mesh" material="materials/ms3/arena.material"/>
-</static_mesh>

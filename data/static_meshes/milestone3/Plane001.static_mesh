@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/milestone3/Plane001.mesh" material="materials/suelos.material" mesh_idx="0"/>
-</static_mesh>

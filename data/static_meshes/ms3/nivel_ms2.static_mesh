@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/nivel_ms2.mesh" material="materials/ms3/milestone_2_paredes.material"/>
-</static_mesh>

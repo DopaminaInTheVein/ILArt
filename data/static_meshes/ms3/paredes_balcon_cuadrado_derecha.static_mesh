@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/paredes_balcon_cuadrado_derecha.mesh" material="materials/ms3/pared_balcon_cuadrado_izquirdo.material"/>
-</static_mesh>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/whitebox/elevator.mesh" material="materials/material_cosas.material" mesh_idx="0"/>
-</static_mesh>

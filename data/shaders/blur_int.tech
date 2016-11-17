@@ -1,5 +1,0 @@
-<tech>
-    <vs fx="blur_glow" main="VSBlur" decl="positions_uv"/>
-    <ps fx="blur_glow" main="PSBlur_int"/>
-</tech>
-

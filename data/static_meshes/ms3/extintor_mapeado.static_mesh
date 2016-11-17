@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/extintor_mapeado.mesh" material="materials/ms3/extintor.material"/>
-</static_mesh>

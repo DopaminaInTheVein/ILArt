@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/pibotes_balcon_cuadrado-izquierdo.mesh" material="materials/ms3/pibotes.material"/>
-</static_mesh>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/extintor_mapeado.mesh" material="materials/tuto_sci/_extintortest_red.material"/>
-</static_mesh>

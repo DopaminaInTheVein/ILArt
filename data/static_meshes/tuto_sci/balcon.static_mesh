@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/balcon.mesh" material="materials/tuto_sci/balcon_tuto_sci.material"/>
-</static_mesh>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/libro_modelo_3.mesh" material="materials/ms3/libro_modelo_3.material"/>
-</static_mesh>

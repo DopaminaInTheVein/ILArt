@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/escritorio.mesh" material="materials/tuto_sci/_mesadesk_1.material"/>
-</static_mesh>

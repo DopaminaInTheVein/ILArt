@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/biombo_mapeado_arriba.mesh" material="materials/ms3/biombo.material"/>
-</static_mesh>

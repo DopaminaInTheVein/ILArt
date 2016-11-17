@@ -1,3 +1,0 @@
-<material tech="ui_health.tech">
-<texture slot="diffuse" name="textures/life_bar_interior.dds"/>
-</material>

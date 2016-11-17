@@ -1,3 +1,0 @@
-<material tech="gui.tech">
-<texture slot="diffuse" name="textures/HUD_fondo.dds"/>
-</material>

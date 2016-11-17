@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/panel_mapeado.mesh" material="materials/ms3/pantalla.material"/>
-</static_mesh>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/taquilla_mapeado.mesh" material="materials/ms3/taquiolla.material"/>
-</static_mesh>

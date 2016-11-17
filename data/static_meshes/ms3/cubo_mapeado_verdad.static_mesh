@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/cubo_mapeado_verdad.mesh" material="materials/ms3/cubo_de_fregar.material"/>
-</static_mesh>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ui/components/right_arrow.mesh" material="materials/ui/components/gui_arrow_right_tech_ui_button.material"/>
-</static_mesh>

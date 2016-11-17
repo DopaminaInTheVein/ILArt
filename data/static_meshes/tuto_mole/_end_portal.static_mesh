@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_mole/_end_portal.mesh" material="materials/tuto_mole/mole_spiral.material"/>
-</static_mesh>

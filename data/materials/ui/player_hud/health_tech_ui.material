@@ -1,3 +1,0 @@
-<material tech="ui.tech">
-<texture slot="diffuse" name="textures/life_bar_background.dds"/>
-</material>

@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/mod_conduct.mesh" material="materials/ms3/mod_conduct.material"/>
-</static_mesh>

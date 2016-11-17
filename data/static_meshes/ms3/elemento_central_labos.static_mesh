@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/elemento_central_labos.mesh" material="materials/ms3/cacharro_centro_arriba.material"/>
-</static_mesh>

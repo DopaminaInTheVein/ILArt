@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/ms3/barandilla007.mesh" material="materials/ms3/test_gray.material"/>
-</static_mesh>

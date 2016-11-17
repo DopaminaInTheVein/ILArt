@@ -1,3 +1,0 @@
-<static_mesh>
-  <slot mesh="meshes/tuto_sci/panel_mapeado.mesh" material="materials/tuto_sci/panel.material"/>
-</static_mesh>
